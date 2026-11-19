@@ -22,7 +22,7 @@ jobs:
         env:
           BASE_SHA: ${{ github.event.pull_request.base.sha }}
         run: |
-          git show "\${BASE_SHA}:code.zip" > /tmp/code.zip
+          git show "${BASE_SHA}:code.zip" > /tmp/code.zip
           python - <<'PY'
           import pathlib, re, zipfile
           archive = pathlib.Path("/tmp/code.zip")
