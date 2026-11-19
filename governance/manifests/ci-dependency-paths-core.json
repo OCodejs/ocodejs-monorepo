@@ -1,0 +1,330 @@
+{
+  "snapshot": "2026-11-19",
+  "records": [
+    {
+      "repository": "OCodejs/ask-chatbot",
+      "path_count": 387,
+      "workflow_paths": [
+        ".github/workflows/anchore-syft.yml",
+        ".github/workflows/anchore.yml",
+        ".github/workflows/apisec-scan.yml",
+        ".github/workflows/build-and-deploy.yml",
+        ".github/workflows/ci.yml",
+        ".github/workflows/cmake-multi-platform.yml",
+        ".github/workflows/cmake-single-platform.yml",
+        ".github/workflows/codacy.yml",
+        ".github/workflows/codeql.yml",
+        ".github/workflows/codescan.yml",
+        ".github/workflows/dart.yml",
+        ".github/workflows/datadog-synthetics.yml",
+        ".github/workflows/defender-for-devops.yml",
+        ".github/workflows/deploy-pages-x-bo.yml",
+        ".github/workflows/fortify.yml",
+        ".github/workflows/generator-generic-ossf-slsa3-publish.yml",
+        ".github/workflows/go-ossf-slsa3-publish.yml",
+        ".github/workflows/huggingface-space-python.yml",
+        ".github/workflows/jekyll-gh-pages.yml",
+        ".github/workflows/jekyll.yml",
+        ".github/workflows/jscrambler-code-integrity.yml",
+        ".github/workflows/maven-publish.yml",
+        ".github/workflows/mayhem-for-api.yml",
+        ".github/workflows/mdbook.yml",
+        ".github/workflows/mobsf.yml",
+        ".github/workflows/neuralegion.yml",
+        ".github/workflows/nextjs.yml",
+        ".github/workflows/nowsecure-mobile-sbom.yml",
+        ".github/workflows/nowsecure.yml",
+        ".github/workflows/nuxtjs.yml",
+        ".github/workflows/ossar.yml",
+        ".github/workflows/osv-scanner.yml",
+        ".github/workflows/phpmd.yml",
+        ".github/workflows/policy-validator-tf.yml",
+        ".github/workflows/powershell.yml",
+        ".github/workflows/pyre.yml",
+        ".github/workflows/r.yml",
+        ".github/workflows/review.yml",
+        ".github/workflows/sonarcloud.yml",
+        ".github/workflows/sonarqube.yml",
+        ".github/workflows/trivy.yml",
+        ".github/workflows/veracode.yml",
+        ".github/workflows/webpack.yml"
+      ],
+      "dependency_deploy_paths": [
+        ".github/dependabot.yml",
+        "Dockerfile",
+        "package-lock.json",
+        "package.json",
+        "vercel.json"
+      ],
+      "truncated": false
+    },
+    {
+      "repository": "OCodejs/mcp.auth.ocodejs",
+      "path_count": 76,
+      "workflow_paths": [
+        ".github/workflows/ci.yml",
+        ".github/workflows/jekyll-gh-pages.yml",
+        ".github/workflows/jekyll.yml",
+        ".github/workflows/nextjs.yml",
+        ".github/workflows/static.yml"
+      ],
+      "dependency_deploy_paths": [
+        "_config.yml",
+        "package-lock.json",
+        "package.json",
+        "vercel.json",
+        "wrangler.jsonc"
+      ],
+      "truncated": false
+    },
+    {
+      "repository": "OCodejs/THU365",
+      "path_count": 157,
+      "workflow_paths": [
+        ".github/workflows/thu365-android-apk.yml",
+        ".github/workflows/thu365-ios-build.yml",
+        ".github/workflows/thu365-mobile-check.yml",
+        ".github/workflows/thu365-prototype-check.yml",
+        ".github/workflows/thu365-validation.yml"
+      ],
+      "dependency_deploy_paths": [
+        "package.json",
+        "pnpm-lock.yaml",
+        "pnpm-workspace.yaml",
+        "wrangler.jsonc"
+      ],
+      "truncated": false
+    },
+    {
+      "repository": "OCodejs/ocodejs.github.io",
+      "path_count": 98,
+      "workflow_paths": [
+        ".github/workflows/control-api-tests.yml",
+        ".github/workflows/create-upstash-redis.yml",
+        ".github/workflows/ecosystem-sync.yml",
+        ".github/workflows/mcp-server-tests.yml",
+        ".github/workflows/registry-validation.yml",
+        ".github/workflows/secret-file-guard.yml",
+        ".github/workflows/token-vault-validation.yml"
+      ],
+      "dependency_deploy_paths": [
+        "_config.yml"
+      ],
+      "truncated": false
+    },
+    {
+      "repository": "OCodejs/OCODEJS",
+      "path_count": 3537,
+      "workflow_paths": [
+        ".github/workflows/black-duck-security-scan-ci.yml",
+        ".github/workflows/checkmarx.yml",
+        ".github/workflows/ci.yml",
+        ".github/workflows/cloud-agent-ci.yml",
+        ".github/workflows/cloud-agent-mvp.yml",
+        ".github/workflows/cloudrail.yml",
+        ".github/workflows/codeql.yml",
+        ".github/workflows/crunch42.yml",
+        ".github/workflows/dependency-review.yml",
+        ".github/workflows/endform-e2e.yml",
+        ".github/workflows/endorlabs.yml",
+        ".github/workflows/gatsby.yml",
+        ".github/workflows/generator-generic-ossf-slsa3-publish.yml",
+        ".github/workflows/google.yml",
+        ".github/workflows/greetings.yml",
+        ".github/workflows/hadolint.yml",
+        ".github/workflows/install-skills-pack.yml",
+        ".github/workflows/jekyll-gh-pages.yml",
+        ".github/workflows/jekyll-preview.yml",
+        ".github/workflows/jekyll.yml",
+        ".github/workflows/jscrambler-code-integrity.yml",
+        ".github/workflows/label.yml",
+        ".github/workflows/main.yml",
+        ".github/workflows/manual.yml",
+        ".github/workflows/mayhem-for-api.yml",
+        ".github/workflows/mdbook.yml",
+        ".github/workflows/mobsf.yml",
+        ".github/workflows/msvc.yml",
+        ".github/workflows/nextjs.yml",
+        ".github/workflows/njsscan.yml",
+        ".github/workflows/node.js.yml",
+        ".github/workflows/npm-publish-github-packages.yml",
+        ".github/workflows/npm-release-preflight.yml",
+        ".github/workflows/ocode-maintenance.md",
+        ".github/workflows/ocode.yml",
+        ".github/workflows/ocodejs.yml",
+        ".github/workflows/ossar.yml",
+        ".github/workflows/osv-scanner.yml",
+        ".github/workflows/pages/jekyll-gh-pages.yml",
+        ".github/workflows/policy-validator-tf.yml",
+        ".github/workflows/powershell.yml",
+        ".github/workflows/publish.yml",
+        ".github/workflows/pyre.yml",
+        ".github/workflows/pysa.yml",
+        ".github/workflows/python-package-conda.yml",
+        ".github/workflows/release.yml",
+        ".github/workflows/rubyonrails.yml",
+        ".github/workflows/rust-clippy.yml",
+        ".github/workflows/snyk-security.yml",
+        ".github/workflows/sobelow.yml",
+        ".github/workflows/sonarqube.yml",
+        ".github/workflows/stackhawk.yml",
+        ".github/workflows/static.yml",
+        ".github/workflows/summary.yml",
+        ".github/workflows/super-linter.yml",
+        ".github/workflows/terminal-task.yml",
+        ".github/workflows/trivy.yml",
+        ".github/workflows/v1/jekyll.yml",
+        ".github/workflows/v1/nextjs.yml",
+        ".github/workflows/velclawhost-deploy.yml",
+        ".github/workflows/xanitizer.yml",
+        ".github/workflows/zscan.yml"
+      ],
+      "dependency_deploy_paths": [
+        ".github/dependabot.yml",
+        "_config.yml",
+        "netlify.toml",
+        "package-lock.json",
+        "package.json"
+      ],
+      "truncated": false
+    },
+    {
+      "repository": "OCodejs/cli-hub",
+      "path_count": 68,
+      "workflow_paths": [
+        ".github/workflows/codeql.yml",
+        ".github/workflows/config.yml",
+        ".github/workflows/jekyll-gh-pages.yml",
+        ".github/workflows/jekyll.yml",
+        ".github/workflows/main.yml",
+        ".github/workflows/nextjs.yml",
+        ".github/workflows/static.yml",
+        ".github/workflows/validate.yml"
+      ],
+      "dependency_deploy_paths": [
+        "package.json"
+      ],
+      "truncated": false
+    },
+    {
+      "repository": "OCodejs/docs-ocodejs",
+      "path_count": 89,
+      "workflow_paths": [
+        ".github/workflows/blank.yml",
+        ".github/workflows/daily-spending-forecast.lock.yml",
+        ".github/workflows/docs-validation.yml",
+        ".github/workflows/ecosystem-audit.yml",
+        ".github/workflows/ecosystem-validation.yml",
+        ".github/workflows/google.yml",
+        ".github/workflows/jekyll-gh-pages.yml",
+        ".github/workflows/jekyll-validation.yml",
+        ".github/workflows/nextjs.yml",
+        ".github/workflows/node.js.yml",
+        ".github/workflows/static.yml"
+      ],
+      "dependency_deploy_paths": [
+        "_config.yml",
+        "vercel.json"
+      ],
+      "truncated": false
+    },
+    {
+      "repository": "OCodejs/hello-working",
+      "path_count": 78,
+      "workflow_paths": [
+        ".github/workflows/blank.yml",
+        ".github/workflows/docs-validation.yml",
+        ".github/workflows/ecosystem-audit.yml",
+        ".github/workflows/ecosystem-validation.yml",
+        ".github/workflows/google.yml",
+        ".github/workflows/jekyll-gh-pages.yml",
+        ".github/workflows/jekyll-validation.yml",
+        ".github/workflows/nextjs.yml",
+        ".github/workflows/rubyonrails.yml",
+        ".github/workflows/static.yml"
+      ],
+      "dependency_deploy_paths": [
+        "_config.yml",
+        "vercel.json"
+      ],
+      "truncated": false
+    },
+    {
+      "repository": "OCodejs/skills",
+      "path_count": 76,
+      "workflow_paths": [
+        ".github/workflows/blank.yml",
+        ".github/workflows/docs-validation.yml",
+        ".github/workflows/ecosystem-audit.yml",
+        ".github/workflows/ecosystem-validation.yml",
+        ".github/workflows/google.yml",
+        ".github/workflows/jekyll-docker.yml",
+        ".github/workflows/jekyll-gh-pages.yml",
+        ".github/workflows/jekyll-validation.yml",
+        ".github/workflows/nextjs.yml",
+        ".github/workflows/python-package-conda.yml",
+        ".github/workflows/static.yml"
+      ],
+      "dependency_deploy_paths": [
+        "_config.yml",
+        "vercel.json"
+      ],
+      "truncated": false
+    },
+    {
+      "repository": "OCodejs/platform-ocodejs-dev",
+      "path_count": 379,
+      "workflow_paths": [
+        ".github/workflows/anchore-syft.yml",
+        ".github/workflows/anchore.yml",
+        ".github/workflows/apisec-scan.yml",
+        ".github/workflows/build-and-deploy.yml",
+        ".github/workflows/ci.yml",
+        ".github/workflows/cmake-multi-platform.yml",
+        ".github/workflows/cmake-single-platform.yml",
+        ".github/workflows/codacy.yml",
+        ".github/workflows/codeql.yml",
+        ".github/workflows/codescan.yml",
+        ".github/workflows/dart.yml",
+        ".github/workflows/datadog-synthetics.yml",
+        ".github/workflows/defender-for-devops.yml",
+        ".github/workflows/deploy-pages-x-bo.yml",
+        ".github/workflows/fortify.yml",
+        ".github/workflows/generator-generic-ossf-slsa3-publish.yml",
+        ".github/workflows/go-ossf-slsa3-publish.yml",
+        ".github/workflows/jekyll-gh-pages.yml",
+        ".github/workflows/jekyll.yml",
+        ".github/workflows/jscrambler-code-integrity.yml",
+        ".github/workflows/maven-publish.yml",
+        ".github/workflows/mayhem-for-api.yml",
+        ".github/workflows/mdbook.yml",
+        ".github/workflows/mobsf.yml",
+        ".github/workflows/neuralegion.yml",
+        ".github/workflows/nextjs.yml",
+        ".github/workflows/nowsecure-mobile-sbom.yml",
+        ".github/workflows/nowsecure.yml",
+        ".github/workflows/nuxtjs.yml",
+        ".github/workflows/ossar.yml",
+        ".github/workflows/osv-scanner.yml",
+        ".github/workflows/phpmd.yml",
+        ".github/workflows/policy-validator-tf.yml",
+        ".github/workflows/powershell.yml",
+        ".github/workflows/pyre.yml",
+        ".github/workflows/r.yml",
+        ".github/workflows/review.yml",
+        ".github/workflows/sonarcloud.yml",
+        ".github/workflows/sonarqube.yml",
+        ".github/workflows/trivy.yml",
+        ".github/workflows/veracode.yml",
+        ".github/workflows/webpack.yml"
+      ],
+      "dependency_deploy_paths": [
+        ".github/dependabot.yml",
+        "package-lock.json",
+        "package.json",
+        "vercel.json"
+      ],
+      "truncated": false
+    }
+  ]
+}

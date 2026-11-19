@@ -1,0 +1,327 @@
+{
+  "snapshot": "2026-11-19",
+  "records": [
+    {
+      "repository": "OCodejs/chatbot",
+      "metadata": {
+        "id": 1433877742,
+        "private": false,
+        "visibility": "public",
+        "fork": false,
+        "default_branch": "main",
+        "archived": false,
+        "pushed_at": "2026-10-26T04:17:30Z",
+        "updated_at": "2026-10-26T04:17:34Z"
+      },
+      "branches": [
+        {
+          "ref": "refs/heads/main",
+          "sha": "8e7fe7a3e7750975b9a204b9785c033e37d0ca2c",
+          "type": "commit"
+        },
+        {
+          "ref": "refs/heads/vercel/install-vercel-web-analytics-bjxhfm",
+          "sha": "fd9715773fde3b16d15955a18c18d8cebb72f63a",
+          "type": "commit"
+        }
+      ],
+      "tags": [],
+      "branch_error": null,
+      "tag_error": null
+    },
+    {
+      "repository": "OCodejs/nextjs-boilerplate",
+      "metadata": {
+        "id": 1446620600,
+        "private": true,
+        "visibility": "private",
+        "fork": false,
+        "default_branch": "main",
+        "archived": false,
+        "pushed_at": "2026-11-05T06:23:53Z",
+        "updated_at": "2026-11-05T06:24:16Z"
+      },
+      "branches": [
+        {
+          "ref": "refs/heads/main",
+          "sha": "0815a89e288515afe89241e81df97bf34f3a3a15",
+          "type": "commit"
+        }
+      ],
+      "tags": [],
+      "branch_error": null,
+      "tag_error": null
+    },
+    {
+      "repository": "OCodejs/gh-aw",
+      "metadata": {
+        "id": 1442082200,
+        "private": false,
+        "visibility": "public",
+        "fork": true,
+        "parent": "zskbot/gh-aw",
+        "source": "github/gh-aw",
+        "default_branch": "main",
+        "archived": false,
+        "pushed_at": "2026-09-05T10:27:10Z",
+        "updated_at": "2026-11-01T17:49:00Z"
+      },
+      "branches": [
+        {
+          "ref": "refs/heads/main",
+          "sha": "bdce14c9db7f2cf2530f90cbe16a8a3f10ef124b",
+          "type": "commit"
+        }
+      ],
+      "tags": [],
+      "branch_error": null,
+      "tag_error": null
+    },
+    {
+      "repository": "OCodejs/skills",
+      "metadata": {
+        "id": 1439009830,
+        "private": false,
+        "visibility": "public",
+        "fork": false,
+        "default_branch": "main",
+        "archived": false,
+        "pushed_at": "2026-10-29T22:14:06Z",
+        "updated_at": "2026-10-29T22:14:11Z"
+      },
+      "branches": [
+        {
+          "ref": "refs/heads/chore/ocodejs-ecosystem-sync",
+          "sha": "02474034704975e20df45489ed083d68185b4803",
+          "type": "commit"
+        },
+        {
+          "ref": "refs/heads/design/ocodejs-rebrand-documentation-site",
+          "sha": "f1d8cc46a3c18723724aa60cc5947324a46731e7",
+          "type": "commit"
+        },
+        {
+          "ref": "refs/heads/docs/accurate-library-positioning",
+          "sha": "126a8511a6636180005e99886a58d4bb56776036",
+          "type": "commit"
+        },
+        {
+          "ref": "refs/heads/docs/aggregate-velclaw-ecosystem",
+          "sha": "87052c258daf1c1135a9edf5a81dff49b7d27213",
+          "type": "commit"
+        },
+        {
+          "ref": "refs/heads/docs/align-ecosystem-contracts",
+          "sha": "718283a5d0c8fda825888f74f1aa7fd34a63686d",
+          "type": "commit"
+        },
+        {
+          "ref": "refs/heads/docs/audit-on-current-main",
+          "sha": "abadd709b944d21a9b0f90c490a89a068a5f1db1",
+          "type": "commit"
+        },
+        {
+          "ref": "refs/heads/docs/content-level-review",
+          "sha": "e066aa12a537d312b18e812988b1f4ac84c42bee",
+          "type": "commit"
+        },
+        {
+          "ref": "refs/heads/docs/ecosystem-operations-release-gates",
+          "sha": "2efe1c83b2d9353a532a0ede266fcab503764b8a",
+          "type": "commit"
+        },
+        {
+          "ref": "refs/heads/docs/ecosystem-roadmap-2026-10",
+          "sha": "5f17a37a608be300c09f27663484b9dfbda4bb11",
+          "type": "commit"
+        },
+        {
+          "ref": "refs/heads/docs/focus-docs-hub-disable-sync",
+          "sha": "f35b050a8fe1b2fd6b75322ace66111fa80e4717",
+          "type": "commit"
+        },
+        {
+          "ref": "refs/heads/docs/rebase-safe-ecosystem-audit",
+          "sha": "7ed0ce593bf38eca36627d4097a20d1bc372ce68",
+          "type": "commit"
+        },
+        {
+          "ref": "refs/heads/docs/sync-permission-troubleshooting",
+          "sha": "4bdf33099c6514c4b8b615cee2fb632e4aa3f38e",
+          "type": "commit"
+        },
+        {
+          "ref": "refs/heads/feat/add-ocodejs-org-sync-target",
+          "sha": "f881fb34301bdd34db2185b441aaa8147c0f3559",
+          "type": "commit"
+        },
+        {
+          "ref": "refs/heads/feat/agent-skills-directory",
+          "sha": "ae438659b773599c68780068f8e33d1f39cb4bd1",
+          "type": "commit"
+        },
+        {
+          "ref": "refs/heads/feat/docs-left-sidebar-navigation",
+          "sha": "a2d3edaa7a17f4c0236985999d5e610c858ef80f",
+          "type": "commit"
+        },
+        {
+          "ref": "refs/heads/feat/expand-ecosystem-sync-targets",
+          "sha": "6a182880d123b84d7719917d3bac9948a2851d33",
+          "type": "commit"
+        },
+        {
+          "ref": "refs/heads/feat/ocodejs-chatbot-integration",
+          "sha": "2a9dea5f76b8546184957883bacb3bab4cf45a7a",
+          "type": "commit"
+        },
+        {
+          "ref": "refs/heads/feat/ocodejs-docs-mcp",
+          "sha": "537d15adc774acff25df3c111407915059fd1131",
+          "type": "commit"
+        },
+        {
+          "ref": "refs/heads/feat/openai-plugin-development-guide",
+          "sha": "b333a77ed8c3a7aabf76dadd0abdcbac292ab80d",
+          "type": "commit"
+        },
+        {
+          "ref": "refs/heads/feat/transparent-ocode-logo",
+          "sha": "8c31fa155d807ec79351ed049c29d97feabad42e",
+          "type": "commit"
+        },
+        {
+          "ref": "refs/heads/feat/x-bo-by-ocodejs-blueprint",
+          "sha": "5a3089ba49e5fe399315d0044e2a1dde1f76d296",
+          "type": "commit"
+        },
+        {
+          "ref": "refs/heads/fix/avoid-competing-pages-deploy",
+          "sha": "a61722cbdefc3bcc29b890926802d14ea3a14dc9",
+          "type": "commit"
+        },
+        {
+          "ref": "refs/heads/fix/ecosystem-sync-heredoc",
+          "sha": "475aeee6aa8cab163bdf29a907443e2b7397ae37",
+          "type": "commit"
+        },
+        {
+          "ref": "refs/heads/fix/sync-continue-on-target-errors",
+          "sha": "30686d6ee80e7bfc3d4c9aaa6d12fc771848e9ee",
+          "type": "commit"
+        },
+        {
+          "ref": "refs/heads/fix/sync-git-push-auth",
+          "sha": "6f941c0928454cdc4a7a86e889fb83439f9db20f",
+          "type": "commit"
+        },
+        {
+          "ref": "refs/heads/fix/sync-pr-body-and-target-errors",
+          "sha": "77d62a5e2494f15c1837e71c125260294aa046e0",
+          "type": "commit"
+        },
+        {
+          "ref": "refs/heads/fix/sync-preflight-and-exclude-artifact",
+          "sha": "9d6e2a568b0813b0d706d2bcad440c2672c68fc8",
+          "type": "commit"
+        },
+        {
+          "ref": "refs/heads/fix/sync-stop-on-target-errors",
+          "sha": "0b4d8587eeb5701b8fc68c967b7de01ce2a78e92",
+          "type": "commit"
+        },
+        {
+          "ref": "refs/heads/fix/sync-token-diagnostics-and-pages-workflows",
+          "sha": "9acdf18904b88cfced67d7baa462043c12f5fa2b",
+          "type": "commit"
+        },
+        {
+          "ref": "refs/heads/fix/sync-token-header",
+          "sha": "330a5a757ea9d2ae23e68592dd0b7ad1c9fca5ab",
+          "type": "commit"
+        },
+        {
+          "ref": "refs/heads/fix/sync-token-preflight",
+          "sha": "bffd7d999fcf9ef7636287d01a62c272eb30c6c9",
+          "type": "commit"
+        },
+        {
+          "ref": "refs/heads/infra/ecosystem-validation",
+          "sha": "0a9cd5bf132db41e160b40a4be9b7b7a3677cc62",
+          "type": "commit"
+        },
+        {
+          "ref": "refs/heads/main",
+          "sha": "f45956b24cb92de032fd1dab74d264651da70e49",
+          "type": "commit"
+        },
+        {
+          "ref": "refs/heads/ops/run-safe-ecosystem-audit",
+          "sha": "97b118f7591815298aa8206c9d68f689d0bc1180",
+          "type": "commit"
+        },
+        {
+          "ref": "refs/heads/security/pin-pages-actions-sha",
+          "sha": "2f1c9bead2c78ff97e5ab5459b1fcf438397a9b3",
+          "type": "commit"
+        },
+        {
+          "ref": "refs/heads/test/mobile-navigation-quality-gates",
+          "sha": "1e57c3234ad2951afe85b94efee549faaf0f21af",
+          "type": "commit"
+        },
+        {
+          "ref": "refs/heads/ui/align-sidebar-menu-with-pages-logo",
+          "sha": "ada3e576de7b9a7ae18e8b9c2f99d23d98799845",
+          "type": "commit"
+        },
+        {
+          "ref": "refs/heads/ui/mobile-hero-reference-design",
+          "sha": "0bf6023bbca224ec3d766f0ec58dc40ecdc26dcb",
+          "type": "commit"
+        },
+        {
+          "ref": "refs/heads/ui/polished-professional-sidebar-icons",
+          "sha": "4922a111e2449a212f7438f73315d6dee5859b77",
+          "type": "commit"
+        },
+        {
+          "ref": "refs/heads/ui/refresh-ocode-branding-from-reference",
+          "sha": "1dcd3f0f3f644f07e72a8b817f40c9d9ca85181c",
+          "type": "commit"
+        },
+        {
+          "ref": "refs/heads/ui/svg-icons-match-pages-logo",
+          "sha": "b6b2ffcba3e84d4303eaa6dab7767c5979b3ea77",
+          "type": "commit"
+        }
+      ],
+      "tags": [],
+      "branch_error": null,
+      "tag_error": null
+    },
+    {
+      "repository": "OCodejs/ocodejs-legal",
+      "metadata": {
+        "id": 1441971885,
+        "private": false,
+        "visibility": "public",
+        "fork": false,
+        "default_branch": "main",
+        "archived": false,
+        "pushed_at": "2026-11-01T15:44:32Z",
+        "updated_at": "2026-11-10T03:54:59Z"
+      },
+      "branches": [
+        {
+          "ref": "refs/heads/main",
+          "sha": "1392aaabe2b5ee2d648e7e839d15bf237a086b40",
+          "type": "commit"
+        }
+      ],
+      "tags": [],
+      "branch_error": null,
+      "tag_error": null
+    }
+  ]
+}

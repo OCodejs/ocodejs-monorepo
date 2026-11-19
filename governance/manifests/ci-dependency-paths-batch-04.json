@@ -1,0 +1,282 @@
+{
+  "snapshot": "2026-11-19",
+  "records": [
+    {
+      "repository": "zskbot/ocodejs-api",
+      "path_count": 45,
+      "workflow_paths": [
+        ".github/workflows/deno.yml",
+        ".github/workflows/deploy-val-town.yml",
+        ".github/workflows/extract-velclaw-identity.yml",
+        ".github/workflows/jekyll-gh-pages.yml",
+        ".github/workflows/static.yml",
+        ".github/workflows/velclaw-identity-checks.yml"
+      ],
+      "dependency_deploy_paths": [],
+      "truncated": false
+    },
+    {
+      "repository": "Velclaw/OCodejs-VelClaw",
+      "path_count": 3432,
+      "workflow_paths": [
+        ".github/workflows/black-duck-security-scan-ci.yml",
+        ".github/workflows/checkmarx.yml",
+        ".github/workflows/ci.yml",
+        ".github/workflows/cloud-agent-ci.yml",
+        ".github/workflows/cloud-agent-mvp.yml",
+        ".github/workflows/cloudrail.yml",
+        ".github/workflows/codeql.yml",
+        ".github/workflows/crda.yml",
+        ".github/workflows/crunch42.yml",
+        ".github/workflows/dependency-review.yml",
+        ".github/workflows/endorlabs.yml",
+        ".github/workflows/gatsby.yml",
+        ".github/workflows/generator-generic-ossf-slsa3-publish.yml",
+        ".github/workflows/google.yml",
+        ".github/workflows/greetings.yml",
+        ".github/workflows/hadolint.yml",
+        ".github/workflows/install-skills-pack.yml",
+        ".github/workflows/jekyll-gh-pages.yml",
+        ".github/workflows/jekyll.yml",
+        ".github/workflows/jscrambler-code-integrity.yml",
+        ".github/workflows/label.yml",
+        ".github/workflows/main.yml",
+        ".github/workflows/manual.yml",
+        ".github/workflows/mayhem-for-api.yml",
+        ".github/workflows/mdbook.yml",
+        ".github/workflows/mobsf.yml",
+        ".github/workflows/msvc.yml",
+        ".github/workflows/nextjs.yml",
+        ".github/workflows/njsscan.yml",
+        ".github/workflows/npm-publish-github-packages.yml",
+        ".github/workflows/ocode-maintenance.md",
+        ".github/workflows/ocode.yml",
+        ".github/workflows/ocodejs.yml",
+        ".github/workflows/ossar.yml",
+        ".github/workflows/osv-scanner.yml",
+        ".github/workflows/policy-validator-tf.yml",
+        ".github/workflows/powershell.yml",
+        ".github/workflows/publish.yml",
+        ".github/workflows/pyre.yml",
+        ".github/workflows/pysa.yml",
+        ".github/workflows/python-package-conda.yml",
+        ".github/workflows/release.yml",
+        ".github/workflows/rubyonrails.yml",
+        ".github/workflows/rust-clippy.yml",
+        ".github/workflows/snyk-security.yml",
+        ".github/workflows/sobelow.yml",
+        ".github/workflows/sonarqube.yml",
+        ".github/workflows/stackhawk.yml",
+        ".github/workflows/static.yml",
+        ".github/workflows/summary.yml",
+        ".github/workflows/trivy.yml",
+        ".github/workflows/xanitizer.yml",
+        ".github/workflows/zscan.yml"
+      ],
+      "dependency_deploy_paths": [
+        ".github/dependabot.yml",
+        "_config.yml",
+        "package.json"
+      ],
+      "truncated": false
+    },
+    {
+      "repository": "zskbot/ocodejs-web4s-bridge",
+      "path_count": 15,
+      "workflow_paths": [
+        ".github/workflows/ci.yml"
+      ],
+      "dependency_deploy_paths": [
+        "package.json"
+      ],
+      "truncated": false
+    },
+    {
+      "repository": "zskbot/docs-ocodejs",
+      "path_count": 110,
+      "workflow_paths": [
+        ".github/workflows/blank.yml",
+        ".github/workflows/crystal.yml",
+        ".github/workflows/daily-health-monitor.yml",
+        ".github/workflows/docs-validation.yml",
+        ".github/workflows/ecosystem-audit.yml",
+        ".github/workflows/ecosystem-validation.yml",
+        ".github/workflows/google.yml",
+        ".github/workflows/infrastructure-validation.yml",
+        ".github/workflows/jekyll-gh-pages.yml",
+        ".github/workflows/jekyll-validation.yml",
+        ".github/workflows/mcp-smoke-test.yml",
+        ".github/workflows/nextjs.yml",
+        ".github/workflows/rubyonrails.yml",
+        ".github/workflows/service-inventory-validation.yml",
+        ".github/workflows/static.yml"
+      ],
+      "dependency_deploy_paths": [
+        "_config.yml",
+        "vercel.json"
+      ],
+      "truncated": false
+    },
+    {
+      "repository": "zskbot/OCodeJS",
+      "path_count": 3534,
+      "workflow_paths": [
+        ".github/workflows/black-duck-security-scan-ci.yml",
+        ".github/workflows/checkmarx.yml",
+        ".github/workflows/ci.yml",
+        ".github/workflows/cloud-agent-ci.yml",
+        ".github/workflows/cloud-agent-mvp.yml",
+        ".github/workflows/cloudrail.yml",
+        ".github/workflows/codeql.yml",
+        ".github/workflows/crunch42.yml",
+        ".github/workflows/dependency-review.yml",
+        ".github/workflows/endform-e2e.yml",
+        ".github/workflows/endorlabs.yml",
+        ".github/workflows/gatsby.yml",
+        ".github/workflows/generator-generic-ossf-slsa3-publish.yml",
+        ".github/workflows/google.yml",
+        ".github/workflows/greetings.yml",
+        ".github/workflows/hadolint.yml",
+        ".github/workflows/install-skills-pack.yml",
+        ".github/workflows/jekyll-gh-pages.yml",
+        ".github/workflows/jekyll.yml",
+        ".github/workflows/jscrambler-code-integrity.yml",
+        ".github/workflows/label.yml",
+        ".github/workflows/main.yml",
+        ".github/workflows/manual.yml",
+        ".github/workflows/mayhem-for-api.yml",
+        ".github/workflows/mdbook.yml",
+        ".github/workflows/mobsf.yml",
+        ".github/workflows/msvc.yml",
+        ".github/workflows/nextjs.yml",
+        ".github/workflows/njsscan.yml",
+        ".github/workflows/node.js.yml",
+        ".github/workflows/npm-publish-github-packages.yml",
+        ".github/workflows/npm-release-preflight.yml",
+        ".github/workflows/ocode-maintenance.md",
+        ".github/workflows/ocode.yml",
+        ".github/workflows/ocodejs.yml",
+        ".github/workflows/ossar.yml",
+        ".github/workflows/osv-scanner.yml",
+        ".github/workflows/pages/jekyll-gh-pages.yml",
+        ".github/workflows/policy-validator-tf.yml",
+        ".github/workflows/powershell.yml",
+        ".github/workflows/publish.yml",
+        ".github/workflows/pyre.yml",
+        ".github/workflows/pysa.yml",
+        ".github/workflows/python-package-conda.yml",
+        ".github/workflows/release.yml",
+        ".github/workflows/rubyonrails.yml",
+        ".github/workflows/rust-clippy.yml",
+        ".github/workflows/snyk-security.yml",
+        ".github/workflows/sobelow.yml",
+        ".github/workflows/sonarqube.yml",
+        ".github/workflows/stackhawk.yml",
+        ".github/workflows/static.yml",
+        ".github/workflows/summary.yml",
+        ".github/workflows/super-linter.yml",
+        ".github/workflows/terminal-task.yml",
+        ".github/workflows/trivy.yml",
+        ".github/workflows/v1/jekyll.yml",
+        ".github/workflows/v1/nextjs.yml",
+        ".github/workflows/xanitizer.yml",
+        ".github/workflows/zscan.yml"
+      ],
+      "dependency_deploy_paths": [
+        ".github/dependabot.yml",
+        "_config.yml",
+        "netlify.toml",
+        "package-lock.json",
+        "package.json"
+      ],
+      "truncated": false
+    },
+    {
+      "repository": "zskbot/feat-ocodejs-chatbot-integration",
+      "path_count": 82,
+      "workflow_paths": [
+        ".github/workflows/blank.yml",
+        ".github/workflows/docs-validation.yml",
+        ".github/workflows/ecosystem-audit.yml",
+        ".github/workflows/ecosystem-validation.yml",
+        ".github/workflows/google.yml",
+        ".github/workflows/jekyll-gh-pages.yml",
+        ".github/workflows/jekyll-validation.yml",
+        ".github/workflows/nextjs.yml",
+        ".github/workflows/python-app.yml",
+        ".github/workflows/python-package-conda.yml",
+        ".github/workflows/static.yml"
+      ],
+      "dependency_deploy_paths": [
+        "_config.yml",
+        "vercel.json"
+      ],
+      "truncated": false
+    },
+    {
+      "repository": "Velclaw/ocode.js",
+      "path_count": 26,
+      "workflow_paths": [],
+      "dependency_deploy_paths": [
+        "package.json",
+        "pnpm-lock.yaml",
+        "pnpm-workspace.yaml"
+      ],
+      "truncated": false
+    },
+    {
+      "repository": "zskbot/ocode.js",
+      "path_count": 46,
+      "workflow_paths": [
+        ".github/workflows/codeql.yml",
+        ".github/workflows/jekyll-gh-pages.yml",
+        ".github/workflows/jekyll.yml",
+        ".github/workflows/main.yml",
+        ".github/workflows/nextjs.yml",
+        ".github/workflows/static.yml",
+        ".github/workflows/validate.yml"
+      ],
+      "dependency_deploy_paths": [
+        "package.json"
+      ],
+      "truncated": false
+    },
+    {
+      "repository": "zskbot/cli-ocode.js",
+      "path_count": 50,
+      "workflow_paths": [
+        ".github/workflows/codeql.yml",
+        ".github/workflows/config.yml",
+        ".github/workflows/jekyll-gh-pages.yml",
+        ".github/workflows/jekyll.yml",
+        ".github/workflows/main.yml",
+        ".github/workflows/nextjs.yml",
+        ".github/workflows/static.yml",
+        ".github/workflows/validate.yml"
+      ],
+      "dependency_deploy_paths": [
+        "_config.yml",
+        "package.json"
+      ],
+      "truncated": false
+    },
+    {
+      "repository": "zskbot/www.ocode.js",
+      "path_count": 46,
+      "workflow_paths": [
+        ".github/workflows/codeql.yml",
+        ".github/workflows/jekyll-gh-pages.yml",
+        ".github/workflows/jekyll.yml",
+        ".github/workflows/main.yml",
+        ".github/workflows/nextjs.yml",
+        ".github/workflows/static.yml",
+        ".github/workflows/validate.yml"
+      ],
+      "dependency_deploy_paths": [
+        "_config.yml",
+        "package.json"
+      ],
+      "truncated": false
+    }
+  ]
+}

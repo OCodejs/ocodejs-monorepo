@@ -1,0 +1,419 @@
+{
+  "snapshot": "2026-11-19",
+  "records": [
+    {
+      "repository": "OCodejs/.github",
+      "path_count": 3458,
+      "workflow_paths": [
+        ".github/workflows/black-duck-security-scan-ci.yml",
+        ".github/workflows/checkmarx.yml",
+        ".github/workflows/ci.yml",
+        ".github/workflows/cloud-agent-ci.yml",
+        ".github/workflows/cloud-agent-mvp.yml",
+        ".github/workflows/cloudrail.yml",
+        ".github/workflows/codeql.yml",
+        ".github/workflows/crda.yml",
+        ".github/workflows/crunch42.yml",
+        ".github/workflows/dependency-review.yml",
+        ".github/workflows/endform-e2e.yml",
+        ".github/workflows/endorlabs.yml",
+        ".github/workflows/gatsby.yml",
+        ".github/workflows/generator-generic-ossf-slsa3-publish.yml",
+        ".github/workflows/google.yml",
+        ".github/workflows/greetings.yml",
+        ".github/workflows/hadolint.yml",
+        ".github/workflows/install-skills-pack.yml",
+        ".github/workflows/jekyll-gh-pages.yml",
+        ".github/workflows/jekyll.yml",
+        ".github/workflows/jscrambler-code-integrity.yml",
+        ".github/workflows/label.yml",
+        ".github/workflows/main.yml",
+        ".github/workflows/manual.yml",
+        ".github/workflows/mayhem-for-api.yml",
+        ".github/workflows/mdbook.yml",
+        ".github/workflows/mobsf.yml",
+        ".github/workflows/msvc.yml",
+        ".github/workflows/nextjs.yml",
+        ".github/workflows/njsscan.yml",
+        ".github/workflows/npm-publish-github-packages.yml",
+        ".github/workflows/ocode-maintenance.md",
+        ".github/workflows/ocode.yml",
+        ".github/workflows/ocodejs.yml",
+        ".github/workflows/ossar.yml",
+        ".github/workflows/osv-scanner.yml",
+        ".github/workflows/policy-validator-tf.yml",
+        ".github/workflows/powershell.yml",
+        ".github/workflows/publish.yml",
+        ".github/workflows/pyre.yml",
+        ".github/workflows/pysa.yml",
+        ".github/workflows/python-package-conda.yml",
+        ".github/workflows/release.yml",
+        ".github/workflows/rubyonrails.yml",
+        ".github/workflows/rust-clippy.yml",
+        ".github/workflows/snyk-security.yml",
+        ".github/workflows/sobelow.yml",
+        ".github/workflows/sonarqube.yml",
+        ".github/workflows/stackhawk.yml",
+        ".github/workflows/static.yml",
+        ".github/workflows/summary.yml",
+        ".github/workflows/trivy.yml",
+        ".github/workflows/xanitizer.yml",
+        ".github/workflows/zscan.yml"
+      ],
+      "dependency_deploy_paths": [
+        ".github/dependabot.yml",
+        "_config.yml",
+        "netlify.toml",
+        "package-lock.json",
+        "package.json"
+      ],
+      "truncated": false
+    },
+    {
+      "repository": "OCodejs/aitools-agent",
+      "path_count": 54,
+      "workflow_paths": [],
+      "dependency_deploy_paths": [
+        "package.json",
+        "pnpm-lock.yaml",
+        "pnpm-workspace.yaml",
+        "vercel.json"
+      ],
+      "truncated": false
+    },
+    {
+      "repository": "OCodejs/qstash-js",
+      "path_count": 405,
+      "workflow_paths": [
+        ".github/workflows/ci.yml",
+        ".github/workflows/release.yml",
+        ".github/workflows/test.yaml"
+      ],
+      "dependency_deploy_paths": [
+        "package.json"
+      ],
+      "truncated": false
+    },
+    {
+      "repository": "OCodejs/Spoon-Knife",
+      "path_count": 3,
+      "workflow_paths": [],
+      "dependency_deploy_paths": [],
+      "truncated": false
+    },
+    {
+      "repository": "OCodejs/pnpm",
+      "path_count": 10012,
+      "workflow_paths": [
+        ".github/workflows/audit.yml",
+        ".github/workflows/benchmark.yml",
+        ".github/workflows/build-pnpr.yml",
+        ".github/workflows/cancel-unapproved-workflows.yml",
+        ".github/workflows/cargo-equivalence.yml",
+        ".github/workflows/ci-performance-bencher-upload.yml",
+        ".github/workflows/ci.yml",
+        ".github/workflows/codeql-analysis.yml",
+        ".github/workflows/create-release-pr.yml",
+        ".github/workflows/docker.yml",
+        ".github/workflows/docs.yml",
+        ".github/workflows/ecosystem-e2e.yml",
+        ".github/workflows/notify-regression.yml",
+        ".github/workflows/pacquet-cargo-unused.yml",
+        ".github/workflows/pacquet-ci.yml",
+        ".github/workflows/pacquet-codecov.yml",
+        ".github/workflows/pacquet-integrated-benchmark-comment.yml",
+        ".github/workflows/pacquet-integrated-benchmark.yml",
+        ".github/workflows/pacquet-micro-benchmark.yml",
+        ".github/workflows/pnpm-wasm.yml",
+        ".github/workflows/pr-review-automation-privileged.yml",
+        ".github/workflows/pr-review-automation.yml",
+        ".github/workflows/prose.yml",
+        ".github/workflows/release.yml",
+        ".github/workflows/sync-docs.yml",
+        ".github/workflows/test.yml",
+        ".github/workflows/triage-issues.yml",
+        ".github/workflows/update-latest.yml",
+        ".github/workflows/update-lockfile.yml",
+        ".github/workflows/version-switch-matrix.yml",
+        ".github/workflows/zizmor.yml"
+      ],
+      "dependency_deploy_paths": [
+        ".github/dependabot.yml",
+        "Cargo.toml",
+        "package.json",
+        "pnpm-lock.yaml",
+        "pnpm-workspace.yaml"
+      ],
+      "truncated": false
+    },
+    {
+      "repository": "OCodejs/documentation",
+      "path_count": 1028,
+      "workflow_paths": [
+        ".github/workflows/audit.yml",
+        ".github/workflows/ci-cli.yml",
+        ".github/workflows/ci.yml",
+        ".github/workflows/codeql-analysis.yml",
+        ".github/workflows/post-dependabot.yml",
+        ".github/workflows/publish.yml",
+        ".github/workflows/update-cli.yml"
+      ],
+      "dependency_deploy_paths": [
+        ".github/dependabot.yml",
+        ".nvmrc",
+        "package-lock.json",
+        "package.json"
+      ],
+      "truncated": false
+    },
+    {
+      "repository": "OCodejs/auth-gateway-phase-1-2",
+      "path_count": 32,
+      "workflow_paths": [
+        ".github/workflows/ci.yml",
+        ".github/workflows/codeql.yml",
+        ".github/workflows/fortify.yml",
+        ".github/workflows/google-cloudrun-docker.yml",
+        ".github/workflows/jekyll-docker.yml",
+        ".github/workflows/jekyll-gh-pages.yml",
+        ".github/workflows/static.yml"
+      ],
+      "dependency_deploy_paths": [
+        ".github/dependabot.yml",
+        "_config.yml",
+        "package.json"
+      ],
+      "truncated": false
+    },
+    {
+      "repository": "OCodejs/github-mcp-server",
+      "path_count": 580,
+      "workflow_paths": [
+        ".github/workflows/ai-issue-assessment.yml",
+        ".github/workflows/close-inactive-issues.yml",
+        ".github/workflows/code-scanning.yml",
+        ".github/workflows/docker-publish.yml",
+        ".github/workflows/docs-check.yml",
+        ".github/workflows/go.yml",
+        ".github/workflows/goreleaser.yml",
+        ".github/workflows/issue-labeler.yml",
+        ".github/workflows/license-check.yml",
+        ".github/workflows/lint.yml",
+        ".github/workflows/mcp-diff.yml",
+        ".github/workflows/moderator.yml",
+        ".github/workflows/registry-releaser.yml"
+      ],
+      "dependency_deploy_paths": [
+        ".github/dependabot.yml",
+        "Dockerfile",
+        "go.mod"
+      ],
+      "truncated": false
+    },
+    {
+      "repository": "OCodejs/host",
+      "path_count": 127,
+      "workflow_paths": [
+        ".github/workflows/ci.yml",
+        ".github/workflows/deploy-edge-worker.yml",
+        ".github/workflows/fix-cloudflare-access.yml",
+        ".github/workflows/jekyll-gh-pages.yml",
+        ".github/workflows/nextjs.yml",
+        ".github/workflows/ruby.yml",
+        ".github/workflows/static.yml"
+      ],
+      "dependency_deploy_paths": [
+        "Dockerfile",
+        "_config.yml",
+        "package.json",
+        "pnpm-lock.yaml",
+        "wrangler.toml"
+      ],
+      "truncated": false
+    },
+    {
+      "repository": "zskbot/ask-ocodejs",
+      "path_count": 380,
+      "workflow_paths": [
+        ".github/workflows/apisec-scan.yml",
+        ".github/workflows/ci.yml",
+        ".github/workflows/cmake-multi-platform.yml",
+        ".github/workflows/cmake-single-platform.yml",
+        ".github/workflows/codacy.yml",
+        ".github/workflows/codeql.yml",
+        ".github/workflows/codescan.yml",
+        ".github/workflows/dart.yml",
+        ".github/workflows/datadog-synthetics.yml",
+        ".github/workflows/defender-for-devops.yml",
+        ".github/workflows/deploy-pages-x-bo.yml",
+        ".github/workflows/fortify.yml",
+        ".github/workflows/generator-generic-ossf-slsa3-publish.yml",
+        ".github/workflows/go-ossf-slsa3-publish.yml",
+        ".github/workflows/jekyll-gh-pages.yml",
+        ".github/workflows/jscrambler-code-integrity.yml",
+        ".github/workflows/maven-publish.yml",
+        ".github/workflows/mayhem-for-api.yml",
+        ".github/workflows/mobsf.yml",
+        ".github/workflows/neuralegion.yml",
+        ".github/workflows/nuxtjs.yml",
+        ".github/workflows/ossar.yml",
+        ".github/workflows/osv-scanner.yml",
+        ".github/workflows/phpmd.yml",
+        ".github/workflows/policy-validator-tf.yml",
+        ".github/workflows/powershell.yml",
+        ".github/workflows/pyre.yml",
+        ".github/workflows/r.yml",
+        ".github/workflows/review.yml",
+        ".github/workflows/runner-diagnostic.yml",
+        ".github/workflows/sonarcloud.yml",
+        ".github/workflows/sonarqube.yml",
+        ".github/workflows/trivy.yml",
+        ".github/workflows/veracode.yml",
+        ".github/workflows/webpack.yml"
+      ],
+      "dependency_deploy_paths": [
+        ".github/dependabot.yml",
+        "package-lock.json",
+        "package.json",
+        "vercel.json"
+      ],
+      "truncated": false
+    },
+    {
+      "repository": "Velclaw/.ocodejs",
+      "path_count": 77,
+      "workflow_paths": [
+        ".github/workflows/blank.yml",
+        ".github/workflows/docs-validation.yml",
+        ".github/workflows/ecosystem-audit.yml",
+        ".github/workflows/ecosystem-validation.yml",
+        ".github/workflows/google.yml",
+        ".github/workflows/jekyll-gh-pages.yml",
+        ".github/workflows/jekyll-validation.yml",
+        ".github/workflows/nextjs.yml",
+        ".github/workflows/static.yml"
+      ],
+      "dependency_deploy_paths": [
+        "_config.yml",
+        "vercel.json"
+      ],
+      "truncated": false
+    },
+    {
+      "repository": "Velclaw/OCodejs",
+      "path_count": 26,
+      "workflow_paths": [],
+      "dependency_deploy_paths": [
+        "package.json",
+        "pnpm-lock.yaml",
+        "pnpm-workspace.yaml"
+      ],
+      "truncated": false
+    },
+    {
+      "repository": "Velclaw/Velclaw-OCodejs",
+      "path_count": 1992,
+      "workflow_paths": [
+        ".github/workflows/Ocodejs.yml",
+        ".github/workflows/autoship-ci.yml",
+        ".github/workflows/autoship-production.yml",
+        ".github/workflows/ci-heal.yml",
+        ".github/workflows/ci-release.yml",
+        ".github/workflows/codejs.yml",
+        ".github/workflows/deno.yml",
+        ".github/workflows/deploy-autoship-cloudflare.yml",
+        ".github/workflows/django.yml",
+        ".github/workflows/generator-generic-ossf-slsa3-publish.yml",
+        ".github/workflows/grok-review.yml",
+        ".github/workflows/kubeops-bootstrap-secrets.yml",
+        ".github/workflows/kubeops-deploy.yml",
+        ".github/workflows/mcp-runtime-validation.yml",
+        ".github/workflows/nextjs.yml",
+        ".github/workflows/node.js.yml",
+        ".github/workflows/npm-publish-github-packages.yml",
+        ".github/workflows/ocodejs.yml",
+        ".github/workflows/ops-control-plane.yml",
+        ".github/workflows/python-package.yml",
+        ".github/workflows/repository-consolidation.yml",
+        ".github/workflows/runner-smoke.yml",
+        ".github/workflows/security-baseline.yml",
+        ".github/workflows/velclaw-ai-review-autofix.yml",
+        ".github/workflows/velclaw-autofix.yml",
+        ".github/workflows/velclaw-builder-validation.yml",
+        ".github/workflows/velclaw-ci-recovery-v2.yml",
+        ".github/workflows/velclaw-ci-recovery.yml",
+        ".github/workflows/velclaw-control-plane.yml",
+        ".github/workflows/velclaw-docs.yml",
+        ".github/workflows/velclaw-mcp-worker.yml",
+        ".github/workflows/velclaw-platform-gates.yml",
+        ".github/workflows/velclaw-review.yml",
+        ".github/workflows/webpack.yml"
+      ],
+      "dependency_deploy_paths": [
+        ".github/dependabot.yml",
+        "Dockerfile",
+        "package-lock.json",
+        "package.json",
+        "pnpm-lock.yaml",
+        "pnpm-workspace.yaml",
+        "vercel.json"
+      ],
+      "truncated": false
+    },
+    {
+      "repository": "zskbot/OCodejs-Profile",
+      "path_count": 3,
+      "workflow_paths": [],
+      "dependency_deploy_paths": [],
+      "truncated": false
+    },
+    {
+      "repository": "Velclaw/OCodejs-docs",
+      "path_count": 187,
+      "workflow_paths": [
+        ".github/workflows/black-duck-security-scan-ci.yml",
+        ".github/workflows/checkmarx.yml",
+        ".github/workflows/ci.yml",
+        ".github/workflows/cloud-agent-ci.yml",
+        ".github/workflows/cloud-agent-mvp.yml",
+        ".github/workflows/cloudrail.yml",
+        ".github/workflows/codeql.yml",
+        ".github/workflows/crda.yml",
+        ".github/workflows/crunch42.yml",
+        ".github/workflows/endorlabs.yml",
+        ".github/workflows/hadolint.yml",
+        ".github/workflows/install-skills-pack.yml",
+        ".github/workflows/jscrambler-code-integrity.yml",
+        ".github/workflows/main.yml",
+        ".github/workflows/mayhem-for-api.yml",
+        ".github/workflows/mobsf.yml",
+        ".github/workflows/msvc.yml",
+        ".github/workflows/njsscan.yml",
+        ".github/workflows/ocode-maintenance.md",
+        ".github/workflows/ocodejs.yml",
+        ".github/workflows/ossar.yml",
+        ".github/workflows/osv-scanner.yml",
+        ".github/workflows/policy-validator-tf.yml",
+        ".github/workflows/powershell.yml",
+        ".github/workflows/publish.yml",
+        ".github/workflows/pyre.yml",
+        ".github/workflows/pysa.yml",
+        ".github/workflows/release.yml",
+        ".github/workflows/rust-clippy.yml",
+        ".github/workflows/snyk-security.yml",
+        ".github/workflows/sobelow.yml",
+        ".github/workflows/sonarqube.yml",
+        ".github/workflows/stackhawk.yml",
+        ".github/workflows/static.yml",
+        ".github/workflows/trivy.yml",
+        ".github/workflows/xanitizer.yml",
+        ".github/workflows/zscan.yml"
+      ],
+      "dependency_deploy_paths": [
+        ".github/dependabot.yml",
+        "package.json"
+      ],
+      "truncated": false
+    }
+  ]
+}

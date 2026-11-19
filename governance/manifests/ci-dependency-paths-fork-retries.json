@@ -1,0 +1,101 @@
+{
+  "snapshot": "2026-11-19",
+  "records": [
+    {
+      "repository": "OCodejs/proof-html",
+      "default_branch": "master",
+      "path_count": 9,
+      "workflow_paths": [
+        ".github/workflows/ci.yml",
+        ".github/workflows/docker.yml"
+      ],
+      "dependency_deploy_paths": [
+        "Dockerfile"
+      ],
+      "truncated": false
+    },
+    {
+      "repository": "OCodejs/octocat.github.io",
+      "default_branch": "master",
+      "path_count": 11,
+      "workflow_paths": [],
+      "dependency_deploy_paths": [],
+      "truncated": false
+    },
+    {
+      "repository": "OCodejs/opencode",
+      "default_branch": "dev",
+      "path_count": 9223,
+      "workflow_paths": [
+        ".github/workflows/bot-docs-locale.yml",
+        ".github/workflows/bot-nix-hashes.yml",
+        ".github/workflows/check-bot-scope.yml",
+        ".github/workflows/check-nix.yml",
+        ".github/workflows/check-process-daemon.yml",
+        ".github/workflows/check-test.yml",
+        ".github/workflows/check.yml",
+        ".github/workflows/deploy-changelog.yml",
+        ".github/workflows/deploy-files.yml",
+        ".github/workflows/deploy-posts.yml",
+        ".github/workflows/deploy-update.yml",
+        ".github/workflows/deploy-www.yml",
+        ".github/workflows/deploy.yml",
+        ".github/workflows/nightly-beta.yml",
+        ".github/workflows/release-dry-run.yml",
+        ".github/workflows/release-process-daemon.yml",
+        ".github/workflows/release.yml",
+        ".github/workflows/triage-close-issues.yml",
+        ".github/workflows/triage-close-prs.yml",
+        ".github/workflows/triage-compliance-close.yml",
+        ".github/workflows/triage-contributor.yml",
+        ".github/workflows/triage-pr-standards.yml"
+      ],
+      "dependency_deploy_paths": [
+        "package.json"
+      ],
+      "truncated": false
+    },
+    {
+      "repository": "OCodejs/dotfiles.github.com",
+      "default_branch": "master",
+      "path_count": 45,
+      "workflow_paths": [
+        ".github/workflows/build.yml",
+        ".github/workflows/django.yml",
+        ".github/workflows/update-star-counts.yml"
+      ],
+      "dependency_deploy_paths": [
+        ".github/dependabot.yml",
+        "_config.yml"
+      ],
+      "truncated": false
+    },
+    {
+      "repository": "OCodejs/probot",
+      "default_branch": "master",
+      "path_count": 185,
+      "workflow_paths": [
+        ".github/workflows/codeql.yml",
+        ".github/workflows/docs.yml",
+        ".github/workflows/release.yml",
+        ".github/workflows/test.yml"
+      ],
+      "dependency_deploy_paths": [
+        "package-lock.json",
+        "package.json"
+      ],
+      "truncated": false
+    },
+    {
+      "repository": "OCodejs/surge",
+      "default_branch": "master",
+      "path_count": 100,
+      "workflow_paths": [],
+      "dependency_deploy_paths": [
+        "package-lock.json",
+        "package.json"
+      ],
+      "truncated": false
+    }
+  ]
+}
