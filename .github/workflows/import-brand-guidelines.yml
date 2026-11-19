@@ -132,4 +132,4 @@ The app uses relative Vite paths for repository-subpath hosting. Brand images re
             exit 0
           fi
           git commit -m "feat(apps): import OCodejs brand guidelines"
-          git push origin "HEAD:\${PR_BRANCH}"
+          git push origin "HEAD:${PR_BRANCH}"
