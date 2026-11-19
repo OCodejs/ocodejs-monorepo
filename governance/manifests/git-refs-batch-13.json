@@ -1,0 +1,762 @@
+{
+  "snapshot": "2026-11-19",
+  "records": [
+    {
+      "repository": "zskbot/OCodeJS",
+      "metadata": {
+        "id": 1452327760,
+        "private": false,
+        "visibility": "public",
+        "fork": true,
+        "parent": "OCodejs/OCODEJS",
+        "source": "OCodejs/OCODEJS",
+        "default_branch": "main",
+        "archived": false,
+        "pushed_at": "2026-11-17T00:24:37Z",
+        "updated_at": "2026-11-11T13:10:14Z"
+      },
+      "branches": [
+        {
+          "ref": "refs/heads/main",
+          "sha": "17b591f94aba6d607efd2c5a6c889aa154596f0e",
+          "type": "commit"
+        }
+      ],
+      "tags": [],
+      "branch_error": null,
+      "tag_error": null
+    },
+    {
+      "repository": "zskbot/feat-ocodejs-chatbot-integration",
+      "metadata": {
+        "id": 1433979766,
+        "private": false,
+        "visibility": "public",
+        "fork": true,
+        "parent": "OCodejs/docs",
+        "source": "OCodejs/docs",
+        "default_branch": "main",
+        "archived": false,
+        "pushed_at": "2026-11-17T13:31:24Z",
+        "updated_at": "2026-11-11T13:53:15Z"
+      },
+      "branches": [
+        {
+          "ref": "refs/heads/main",
+          "sha": "6700a1e9e986d4526637ebadc56d75cde240d91f",
+          "type": "commit"
+        }
+      ],
+      "tags": [],
+      "branch_error": null,
+      "tag_error": null
+    },
+    {
+      "repository": "Velclaw/ocode.js",
+      "metadata": {
+        "id": 1446929583,
+        "private": false,
+        "visibility": "public",
+        "fork": false,
+        "default_branch": "main",
+        "archived": false,
+        "pushed_at": "2026-11-05T11:51:06Z",
+        "updated_at": "2026-11-05T11:51:10Z"
+      },
+      "branches": [
+        {
+          "ref": "refs/heads/chore/align-dependabot-ci",
+          "sha": "52306c9a32f1653c2cf5dccccb602e13e31795ce",
+          "type": "commit"
+        },
+        {
+          "ref": "refs/heads/chore/ci-doc-link-check",
+          "sha": "413bb1d8a7e8f0b417618a6d198f1e34d355d3bf",
+          "type": "commit"
+        },
+        {
+          "ref": "refs/heads/chore/install-skills-sh-pack",
+          "sha": "5bba2640255c2e86109aff2ffd52a4f7b20cf16b",
+          "type": "commit"
+        },
+        {
+          "ref": "refs/heads/chore/source-protection-guardrails",
+          "sha": "8fe0020279457de4a70e1a967ab6940b50c85b0d",
+          "type": "commit"
+        },
+        {
+          "ref": "refs/heads/coderabbit/add-pull-request-tests/024ae1a4",
+          "sha": "d4690e027dc2db4e2a60cf7cd699128b312c0c38",
+          "type": "commit"
+        },
+        {
+          "ref": "refs/heads/coderabbit/add-pull-request-tests/12a860be",
+          "sha": "af7340d5f4ad7ff3d13fd42263aac3ba5f40ce55",
+          "type": "commit"
+        },
+        {
+          "ref": "refs/heads/coderabbit/add-pull-request-tests/1e8b4cc7",
+          "sha": "657aab9ad188ace3e395548f2b0c0915ea49c534",
+          "type": "commit"
+        },
+        {
+          "ref": "refs/heads/coderabbit/add-pull-request-tests/8dc3c4a2",
+          "sha": "fca275429b86660a5c76913208d8d1b5f6fe9c69",
+          "type": "commit"
+        },
+        {
+          "ref": "refs/heads/coderabbit/add-pull-request-tests/e2dc4035",
+          "sha": "d7e428fa5280376ac199f8b751cc2e2e4b3b347e",
+          "type": "commit"
+        },
+        {
+          "ref": "refs/heads/coderabbit/add-pull-request-tests/e9696076",
+          "sha": "13bdc37087a2ba5106bac4d6f61729c61762ba45",
+          "type": "commit"
+        },
+        {
+          "ref": "refs/heads/coderabbit/document-changed-functions/82f96f6d",
+          "sha": "09c705d541e35a159b40b56ac47d952332eb2427",
+          "type": "commit"
+        },
+        {
+          "ref": "refs/heads/coderabbit/pull-request-tests/3ab9b397",
+          "sha": "23e485488e60eeceecf578ac6a2b74c93de35339",
+          "type": "commit"
+        },
+        {
+          "ref": "refs/heads/codex/ocodejs-framework-v0.2.0",
+          "sha": "b2b6378a4584931f26a2d69793c5d17c1929fb3d",
+          "type": "commit"
+        },
+        {
+          "ref": "refs/heads/docs/cloud-agent-deployment-runbook",
+          "sha": "f952a3be621a7fa99a864aad3ccc4c8215e32b82",
+          "type": "commit"
+        },
+        {
+          "ref": "refs/heads/docs/redesign-readme",
+          "sha": "2819dfab02b20e6ba638b158ace6a4bdc0d1a32e",
+          "type": "commit"
+        },
+        {
+          "ref": "refs/heads/docs/refresh-staging-gates",
+          "sha": "0da6b4e772b6d15ae21c8313810d0f5b4f403dc1",
+          "type": "commit"
+        },
+        {
+          "ref": "refs/heads/feat/cloud-agent-ai-provider-runtime",
+          "sha": "7aeb33b92fd33eeb0c4d672819acabab4a999381",
+          "type": "commit"
+        },
+        {
+          "ref": "refs/heads/feat/cloud-agent-mobile-mvp",
+          "sha": "1df81cbb01b6135e26e47dce5aa2e49aab329244",
+          "type": "commit"
+        },
+        {
+          "ref": "refs/heads/feat/cloud-agent-public-github-login",
+          "sha": "bb595b9b10595ce7172ff2ae8601c6857e7fc854",
+          "type": "commit"
+        },
+        {
+          "ref": "refs/heads/feat/deep-black-homepage",
+          "sha": "422351097c6d2992d9d96df4fd50fc39a014a01d",
+          "type": "commit"
+        },
+        {
+          "ref": "refs/heads/feat/http-timeout",
+          "sha": "8c75a438f39f17e3f7bccd254d12814fa83278f9",
+          "type": "commit"
+        },
+        {
+          "ref": "refs/heads/feat/ocode-cloud-agent-ui-refresh",
+          "sha": "b36c40d819a983d5b4db667caccb27af5db621a2",
+          "type": "commit"
+        },
+        {
+          "ref": "refs/heads/feat/ocodejs-v0-builder-prototype",
+          "sha": "3a6ca25135d6b5ef5244b1ad4920286b2333f7ab",
+          "type": "commit"
+        },
+        {
+          "ref": "refs/heads/fix/actions-sha-pinning-followup",
+          "sha": "a122b1d2e02cfdfd26dc179fc258ba9d2dff1d7c",
+          "type": "commit"
+        },
+        {
+          "ref": "refs/heads/fix/bound-login-rate-limit-memory",
+          "sha": "9cca58d7b835db11a2b7c1919042270c46fda41d",
+          "type": "commit"
+        },
+        {
+          "ref": "refs/heads/fix/ci-startup-failures-2026-10-27",
+          "sha": "d7b42d0ebc5c11abb16f5176d11856887abd71f9",
+          "type": "commit"
+        },
+        {
+          "ref": "refs/heads/fix/ci-workflow-failures",
+          "sha": "548aaba000f7946505bc8aeb0aa1853d4780656e",
+          "type": "commit"
+        },
+        {
+          "ref": "refs/heads/fix/cloud-agent-ci-pinned-actions",
+          "sha": "bca38159a352873ecadd77d65367c1b002d0926d",
+          "type": "commit"
+        },
+        {
+          "ref": "refs/heads/fix/cloud-agent-origin-security",
+          "sha": "fde8e8804076c630bcd26f9bd252eae1dcf61332",
+          "type": "commit"
+        },
+        {
+          "ref": "refs/heads/fix/cloud-agent-remove-admin-login",
+          "sha": "4a7abc29b019fab9cb3ac6a663d45cd074fe1dc3",
+          "type": "commit"
+        },
+        {
+          "ref": "refs/heads/fix/cloudrail-workflow-guards",
+          "sha": "ef48e80c3ad613df3f30136812155223b5ae0ae6",
+          "type": "commit"
+        },
+        {
+          "ref": "refs/heads/fix/core-index-newlines",
+          "sha": "d9c294e71ff68ff096df76aad5cef808576e7ba9",
+          "type": "commit"
+        },
+        {
+          "ref": "refs/heads/fix/docs-homepage-ci-contracts",
+          "sha": "8793e74518562ab2cc82d1473822ea546babe052",
+          "type": "commit"
+        },
+        {
+          "ref": "refs/heads/fix/framework-router-index-newlines",
+          "sha": "48b098a9349c2d849f733fbcf62a2cb83d921528",
+          "type": "commit"
+        },
+        {
+          "ref": "refs/heads/fix/login-origin-and-runbook",
+          "sha": "afc58f37bdac497bfcbe95f48df4b6042cd2dc68",
+          "type": "commit"
+        },
+        {
+          "ref": "refs/heads/fix/npm-release-workflow",
+          "sha": "9ddfea6dc4e896f4210bdc0b468a2cc355aec2ad",
+          "type": "commit"
+        },
+        {
+          "ref": "refs/heads/fix/ocode-cloud-agent-brand-github-auth",
+          "sha": "777c6047512fe160cf9b8b36747cf28440afab77",
+          "type": "commit"
+        },
+        {
+          "ref": "refs/heads/fix/ocode-cloud-agent-brand-github-auth-v2",
+          "sha": "d6d8514c981a261016124fcab643918d2e4565c0",
+          "type": "commit"
+        },
+        {
+          "ref": "refs/heads/fix/rate-limit-cleanup-amortized",
+          "sha": "de47a9d8b26bcd2cba3351c73f7f465b7a6fcb02",
+          "type": "commit"
+        },
+        {
+          "ref": "refs/heads/fix/root-ci-pinned-actions",
+          "sha": "cb3d8a19800ad249f7edaed0704eb0fdef07a21a",
+          "type": "commit"
+        },
+        {
+          "ref": "refs/heads/fix/router-param-prototype-safety",
+          "sha": "9e9cc84a10560da29a9ae8a7bd3c764c840c5975",
+          "type": "commit"
+        },
+        {
+          "ref": "refs/heads/fix/test-html-regex-security",
+          "sha": "bfd62f0e343d9d3e1816c89df9e081866d0cceb9",
+          "type": "commit"
+        },
+        {
+          "ref": "refs/heads/main",
+          "sha": "3c525c08bc390460efd8622455132028e0c2cd70",
+          "type": "commit"
+        },
+        {
+          "ref": "refs/heads/release/0.1.0-api-coverage",
+          "sha": "65bfd05b98c79dbc97dec41c31d4bce9077f0236",
+          "type": "commit"
+        },
+        {
+          "ref": "refs/heads/test/cloud-agent-auth-store",
+          "sha": "6a4a1f7bef691cf8fc230babc6557fee21583c87",
+          "type": "commit"
+        },
+        {
+          "ref": "refs/heads/test/router-entrypoint-regression",
+          "sha": "069cade023a398107c73ee3e83be616d66ed065f",
+          "type": "commit"
+        },
+        {
+          "ref": "refs/heads/v0/create-sandbox-x-api-repository-9503a7aa",
+          "sha": "5b8f1ef74f7fc7209d20054965cd9e222292684d",
+          "type": "commit"
+        },
+        {
+          "ref": "refs/heads/vercel/install-and-configure-vercel-w-bg758x",
+          "sha": "a7213607c9e4a00cf41b80332d59a3ed022bd763",
+          "type": "commit"
+        },
+        {
+          "ref": "refs/heads/vercel/install-vercel-speed-insights-woedgp",
+          "sha": "2aac909df75ff549bd349f541f22a5ba85ac19ec",
+          "type": "commit"
+        },
+        {
+          "ref": "refs/heads/vercel/install-vercel-web-analytics-368600",
+          "sha": "4847a343cc2f35a883a78277106b37758b037bc4",
+          "type": "commit"
+        },
+        {
+          "ref": "refs/heads/vercel/install-vercel-web-analytics-ddcmj5",
+          "sha": "50f7ea4fe2b14707be28cf34dd9f35ab2da49168",
+          "type": "commit"
+        },
+        {
+          "ref": "refs/heads/vercel/install-vercel-web-analytics-levhtu",
+          "sha": "00d0138ee923e18436d62d9f4b092410fd128921",
+          "type": "commit"
+        },
+        {
+          "ref": "refs/heads/vercel/install-vercel-web-analytics-ydjuk3",
+          "sha": "6774f95edede39683539193eebb4de994510d5d5",
+          "type": "commit"
+        },
+        {
+          "ref": "refs/heads/vercel/vercel-web-analytics-integrati-jim4bj",
+          "sha": "4ae1edf431f6fd1a3696dd8b0fa6432f0fe9db7d",
+          "type": "commit"
+        }
+      ],
+      "tags": [],
+      "branch_error": null,
+      "tag_error": null
+    },
+    {
+      "repository": "zskbot/ocode.js",
+      "metadata": {
+        "id": 1447791583,
+        "private": false,
+        "visibility": "public",
+        "fork": false,
+        "default_branch": "main",
+        "archived": false,
+        "pushed_at": "2026-11-06T04:35:16Z",
+        "updated_at": "2026-11-06T04:35:20Z"
+      },
+      "branches": [
+        {
+          "ref": "refs/heads/feat/cli-hub-angular-mono-ui",
+          "sha": "c92696b1851067e00d2a8abd902d0a14afac61af",
+          "type": "commit"
+        },
+        {
+          "ref": "refs/heads/feat/cli-hub-mobile-search-catalog",
+          "sha": "74238abb91561b2ce2390a61aa033796ee9190c6",
+          "type": "commit"
+        },
+        {
+          "ref": "refs/heads/feat/compatibility-flags-settings",
+          "sha": "a989278fddfb7202350f35a6da0ede039d9ca53d",
+          "type": "commit"
+        },
+        {
+          "ref": "refs/heads/feat/local-workspace-projects",
+          "sha": "c4907c07b60cfecbec638dd1bbcae15f415b5d29",
+          "type": "commit"
+        },
+        {
+          "ref": "refs/heads/feat/minimal-monochrome-white-outline",
+          "sha": "195901eb9f8f9cd90ae15d2e76d17f0fffa1c923",
+          "type": "commit"
+        },
+        {
+          "ref": "refs/heads/feat/mobile-app-viewport-lock",
+          "sha": "33d22d514750a18d1c1148d5637918971698ca00",
+          "type": "commit"
+        },
+        {
+          "ref": "refs/heads/feat/mobile-drawer-search-cards",
+          "sha": "52362adf352dcc824cabf442410c80fd3f91bfad",
+          "type": "commit"
+        },
+        {
+          "ref": "refs/heads/feat/ocodejs-navigation-home",
+          "sha": "c540632a9e73d03417b4e2e7b96bba5e4ec3cec2",
+          "type": "commit"
+        },
+        {
+          "ref": "refs/heads/feat/portrait-mobile-landscape-pages",
+          "sha": "c114a0cf0667d9ade8caed2691acffc5a90e25d7",
+          "type": "commit"
+        },
+        {
+          "ref": "refs/heads/feat/tools-catalog-navigation",
+          "sha": "e694c7c2aa65d793ef8e4b917ca452e5efa4895f",
+          "type": "commit"
+        },
+        {
+          "ref": "refs/heads/feat/ui-ux-8pt-design-system",
+          "sha": "5ea2f8fef0634dd3b282db1386523ef771dd62e9",
+          "type": "commit"
+        },
+        {
+          "ref": "refs/heads/feat/vercel-mobile-compact-ui",
+          "sha": "abdaf79e0f454c0c1948bb358d2cda666498af80",
+          "type": "commit"
+        },
+        {
+          "ref": "refs/heads/fix/catalog-loading-js-syntax",
+          "sha": "38f6b7b20da66f85b7891c90b3e44c0815289cb7",
+          "type": "commit"
+        },
+        {
+          "ref": "refs/heads/fix/cli-hub-390x844-layout",
+          "sha": "15492fe8e5970dba7e517c85ee98e3ba76c3b1b6",
+          "type": "commit"
+        },
+        {
+          "ref": "refs/heads/fix/cli-hub-ci-validation",
+          "sha": "c522453cf36de21c177454ca01136c47b4fe6ac6",
+          "type": "commit"
+        },
+        {
+          "ref": "refs/heads/fix/cli-hub-mobile-viewport",
+          "sha": "027bfebc5057786deff74229220431633eaf97e0",
+          "type": "commit"
+        },
+        {
+          "ref": "refs/heads/fix/cli-hub-route-validation",
+          "sha": "97b6d72d08c44bd9aa634eb3a3f206bcd1c54e93",
+          "type": "commit"
+        },
+        {
+          "ref": "refs/heads/fix/cli-hub-submission-and-ui-smoke-tests",
+          "sha": "110c054da647b169579ca852a1ac4d2338b72397",
+          "type": "commit"
+        },
+        {
+          "ref": "refs/heads/fix/mobile-native-viewport-layout",
+          "sha": "985eaf8fbf0f2082d252884ec2d0b25c2718c670",
+          "type": "commit"
+        },
+        {
+          "ref": "refs/heads/fix/mobile-responsive-cleanup",
+          "sha": "1e90302ac721c3fb6745f033859388bfdc5f9666",
+          "type": "commit"
+        },
+        {
+          "ref": "refs/heads/fix/mobile-viewport-fit",
+          "sha": "f218cd0729793d415915ec55232ee1be3e2a46e2",
+          "type": "commit"
+        },
+        {
+          "ref": "refs/heads/main",
+          "sha": "deda53dfaa24bbd982c47c4dee99897c91cc3da0",
+          "type": "commit"
+        },
+        {
+          "ref": "refs/heads/test/validate-inline-javascript",
+          "sha": "137d7562db6fcdc56ba4e84cc334a1cb86a2cef2",
+          "type": "commit"
+        }
+      ],
+      "tags": [],
+      "branch_error": null,
+      "tag_error": null
+    },
+    {
+      "repository": "zskbot/cli-ocode.js",
+      "metadata": {
+        "id": 1447859213,
+        "private": false,
+        "visibility": "public",
+        "fork": false,
+        "default_branch": "main",
+        "archived": false,
+        "pushed_at": "2026-11-06T05:30:44Z",
+        "updated_at": "2026-11-06T05:30:47Z"
+      },
+      "branches": [
+        {
+          "ref": "refs/heads/feat/agent-workspace-qa",
+          "sha": "2a958b317cebc5490f963dd4639a343c3d1d56b0",
+          "type": "commit"
+        },
+        {
+          "ref": "refs/heads/feat/catalog-loading-reliability",
+          "sha": "eb4b8eb5ce116fdcc7a853d30fcd8139b7c88dfc",
+          "type": "commit"
+        },
+        {
+          "ref": "refs/heads/feat/cli-hub-angular-mono-ui",
+          "sha": "f8f5b59b32b5b87090652921340eb7c3bf9c0339",
+          "type": "commit"
+        },
+        {
+          "ref": "refs/heads/feat/cli-hub-mobile-search-catalog",
+          "sha": "606e78fdfd11a1ce074ef31ddecca5afd662a902",
+          "type": "commit"
+        },
+        {
+          "ref": "refs/heads/feat/compatibility-flags-settings",
+          "sha": "096e63ec32c921567eee0d3dc72c37a964d3dceb",
+          "type": "commit"
+        },
+        {
+          "ref": "refs/heads/feat/local-workspace-projects",
+          "sha": "fb07b2aec179b08acd180c059e0f3ef414246433",
+          "type": "commit"
+        },
+        {
+          "ref": "refs/heads/feat/minimal-monochrome-white-outline",
+          "sha": "d5a9b830940ce17005891dcc74bfc15af9d5a421",
+          "type": "commit"
+        },
+        {
+          "ref": "refs/heads/feat/mobile-app-viewport-lock",
+          "sha": "a72e179629a52a0d51b341fbb764607895cbb579",
+          "type": "commit"
+        },
+        {
+          "ref": "refs/heads/feat/mobile-drawer-search-cards",
+          "sha": "e88e5633b37aa443d524d88a4137d074771f771e",
+          "type": "commit"
+        },
+        {
+          "ref": "refs/heads/feat/ocodejs-navigation-home",
+          "sha": "46d0824920297bfe468bdf5bd446aa46efb9e50d",
+          "type": "commit"
+        },
+        {
+          "ref": "refs/heads/feat/portrait-mobile-landscape-pages",
+          "sha": "bbfd9ad360c96db72d020abf29a31a2b9272de7c",
+          "type": "commit"
+        },
+        {
+          "ref": "refs/heads/feat/tools-catalog-navigation",
+          "sha": "c5dad7135b38e8c24c056f973a6d50adc7e0d8e5",
+          "type": "commit"
+        },
+        {
+          "ref": "refs/heads/feat/ui-ux-8pt-design-system",
+          "sha": "b42ffa42fa13ae3d82bee3205532c29fe78a29e7",
+          "type": "commit"
+        },
+        {
+          "ref": "refs/heads/feat/vercel-mobile-compact-ui",
+          "sha": "e2d490d890f79f67849ab61518899971c5d3f8e9",
+          "type": "commit"
+        },
+        {
+          "ref": "refs/heads/fix/catalog-loading-js-syntax",
+          "sha": "9ca9f6277b277435fc20f2f5b4d2ae8fd820c9bf",
+          "type": "commit"
+        },
+        {
+          "ref": "refs/heads/fix/catalog-loading-safari",
+          "sha": "0258a0757418d6f3d36402c87f1451459a07e3c8",
+          "type": "commit"
+        },
+        {
+          "ref": "refs/heads/fix/cli-hub-390x844-layout",
+          "sha": "f246955b39e4e766983da847a51d53a881c83b7a",
+          "type": "commit"
+        },
+        {
+          "ref": "refs/heads/fix/cli-hub-ci-validation",
+          "sha": "0749d2a15f5ac16dd633defdc42bdf0b04718249",
+          "type": "commit"
+        },
+        {
+          "ref": "refs/heads/fix/cli-hub-mobile-viewport",
+          "sha": "e2ce9ee0b552a0ed97e759a297d19f0a6e3cc7d8",
+          "type": "commit"
+        },
+        {
+          "ref": "refs/heads/fix/cli-hub-route-validation",
+          "sha": "9c9149a3960d694e7e6cfc1ff8512e39ad978bec",
+          "type": "commit"
+        },
+        {
+          "ref": "refs/heads/fix/cli-hub-submission-and-ui-smoke-tests",
+          "sha": "112664bb6c6eba385ed3769e7d5c6f32e9b1dda6",
+          "type": "commit"
+        },
+        {
+          "ref": "refs/heads/fix/mobile-native-viewport-layout",
+          "sha": "2f5d97d10dbad3419e75c8855c13ca172595a826",
+          "type": "commit"
+        },
+        {
+          "ref": "refs/heads/fix/mobile-responsive-cleanup",
+          "sha": "020264c265e58472b6dd1b706899312374c26e5b",
+          "type": "commit"
+        },
+        {
+          "ref": "refs/heads/fix/mobile-viewport-fit",
+          "sha": "8cd3d02c8f16856df51ee6231e0af550859727bf",
+          "type": "commit"
+        },
+        {
+          "ref": "refs/heads/fix/route-count-assertion",
+          "sha": "cd53f1c68b872355583322cb7ba1811303c234a4",
+          "type": "commit"
+        },
+        {
+          "ref": "refs/heads/main",
+          "sha": "f8dfba38336093e71f8e4579bffee1b0e996db18",
+          "type": "commit"
+        },
+        {
+          "ref": "refs/heads/test/validate-inline-javascript",
+          "sha": "6a90b3954aa550bb84bcab6e14b1d34f4e53f558",
+          "type": "commit"
+        }
+      ],
+      "tags": [],
+      "branch_error": null,
+      "tag_error": null
+    },
+    {
+      "repository": "zskbot/www.ocode.js",
+      "metadata": {
+        "id": 1447792333,
+        "private": false,
+        "visibility": "public",
+        "fork": false,
+        "default_branch": "main",
+        "archived": false,
+        "pushed_at": "2026-11-06T05:35:20Z",
+        "updated_at": "2026-11-06T05:35:24Z"
+      },
+      "branches": [
+        {
+          "ref": "refs/heads/feat/cli-hub-angular-mono-ui",
+          "sha": "b18c054c511b14bbb287f0aea447cbab397b47e9",
+          "type": "commit"
+        },
+        {
+          "ref": "refs/heads/feat/cli-hub-mobile-search-catalog",
+          "sha": "45b7d3c124d575be827e02fe8bb10347f3acd784",
+          "type": "commit"
+        },
+        {
+          "ref": "refs/heads/feat/compatibility-flags-settings",
+          "sha": "a42a8d4cd6707340dec3d7dc0feadfe4e68be88e",
+          "type": "commit"
+        },
+        {
+          "ref": "refs/heads/feat/local-workspace-projects",
+          "sha": "5afc797b0d7c5463752198cf9f67aa50a1c5555e",
+          "type": "commit"
+        },
+        {
+          "ref": "refs/heads/feat/minimal-monochrome-white-outline",
+          "sha": "1fe72e85b01b5ec54e0340a67d1a5051cdd0d871",
+          "type": "commit"
+        },
+        {
+          "ref": "refs/heads/feat/mobile-app-viewport-lock",
+          "sha": "e9a843543a450bf83182e8ae2ea2cbcbaf46a24b",
+          "type": "commit"
+        },
+        {
+          "ref": "refs/heads/feat/mobile-drawer-search-cards",
+          "sha": "d717ef0b045fe00ca5d410620afba22ec9450fb7",
+          "type": "commit"
+        },
+        {
+          "ref": "refs/heads/feat/ocodejs-navigation-home",
+          "sha": "981283c442cb85a590be0e6011f59bcb719e58dd",
+          "type": "commit"
+        },
+        {
+          "ref": "refs/heads/feat/portrait-mobile-landscape-pages",
+          "sha": "1ff43d190b2734ec94ecd30967ffeca1d11dc9ae",
+          "type": "commit"
+        },
+        {
+          "ref": "refs/heads/feat/tools-catalog-navigation",
+          "sha": "dc8219ad66991b27b43eaad1cd6029453d80f9cf",
+          "type": "commit"
+        },
+        {
+          "ref": "refs/heads/feat/ui-ux-8pt-design-system",
+          "sha": "9cf0924e2890f1c6e13bf40bd8d9052da31670cc",
+          "type": "commit"
+        },
+        {
+          "ref": "refs/heads/feat/vercel-mobile-compact-ui",
+          "sha": "6b59faf2adf2f0382b6f9e965b241afacaf3d3fe",
+          "type": "commit"
+        },
+        {
+          "ref": "refs/heads/fix/catalog-loading-js-syntax",
+          "sha": "ecbabf20154df2e3a13bb89a1d916fc993fc7350",
+          "type": "commit"
+        },
+        {
+          "ref": "refs/heads/fix/cli-hub-390x844-layout",
+          "sha": "f4fc8d7384ead3904b46d6c9470fb49c2b6c39f7",
+          "type": "commit"
+        },
+        {
+          "ref": "refs/heads/fix/cli-hub-ci-validation",
+          "sha": "479594fa6d91296ddc2bf6d2566703186c6e4c67",
+          "type": "commit"
+        },
+        {
+          "ref": "refs/heads/fix/cli-hub-mobile-viewport",
+          "sha": "3a087f3fce207adf86bd1c95babe9c9c93c9bc67",
+          "type": "commit"
+        },
+        {
+          "ref": "refs/heads/fix/cli-hub-route-validation",
+          "sha": "5eb3aec53823e73af7e4773dfd6f97b78946bdb1",
+          "type": "commit"
+        },
+        {
+          "ref": "refs/heads/fix/cli-hub-submission-and-ui-smoke-tests",
+          "sha": "2e50d3b91c47b157251f7506f0ab47bc7fd0cb44",
+          "type": "commit"
+        },
+        {
+          "ref": "refs/heads/fix/mobile-native-viewport-layout",
+          "sha": "201dcd62da762d2cd9de6fecc1d3067f4ea571a8",
+          "type": "commit"
+        },
+        {
+          "ref": "refs/heads/fix/mobile-responsive-cleanup",
+          "sha": "dee241c36925aff916fddc881a9cf1e4d35b3077",
+          "type": "commit"
+        },
+        {
+          "ref": "refs/heads/fix/mobile-viewport-fit",
+          "sha": "828bd1f75376f3d791f82f547fbe08f88348d961",
+          "type": "commit"
+        },
+        {
+          "ref": "refs/heads/main",
+          "sha": "4ec9e6d970f8af0e2a4e04d5e806fb49c0779ee6",
+          "type": "commit"
+        },
+        {
+          "ref": "refs/heads/test/validate-inline-javascript",
+          "sha": "33e0760bac18f8dab9c99576011c7695f76786d6",
+          "type": "commit"
+        }
+      ],
+      "tags": [],
+      "branch_error": null,
+      "tag_error": null
+    }
+  ]
+}
