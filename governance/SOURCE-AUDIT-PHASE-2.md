@@ -43,7 +43,8 @@ Tree scans completed without GitHub's recursive-tree truncation for these ten de
 - 349 common paths have identical blob SHAs; 29 common paths differ.
 - ask-chatbot has 9 files not present in platform-ocodejs-dev; platform-ocodejs-dev has 1 file not present in ask-chatbot.
 - CI workflows are substantially similar, but install behavior differs: ask-chatbot uses `npm ci`, while platform-ocodejs-dev uses `npm install`.
-- Conclusion: these are highly overlapping code lines, but not identical snapshots and not proven Git forks. **Do not import both as independent apps.** Quarantine platform-ocodejs-dev pending owner confirmation and commit-history analysis; nominate ask-chatbot as the provisional canonical app only, not an approved migration decision.
+- A comparison of the latest 100 commits from each repository found no shared commit SHA. This does not prove that no older shared ancestor exists.
+- Conclusion: these are highly overlapping code lines, but not identical snapshots and not proven Git forks. **Do not import both as independent apps.** Quarantine platform-ocodejs-dev pending owner confirmation and full ancestry analysis; nominate ask-chatbot as the provisional canonical app only, not an approved migration decision.
 
 ### docs-ocodejs, hello-working, skills
 
@@ -52,6 +53,7 @@ Tree scans completed without GitHub's recursive-tree truncation for these ten de
 - docs-ocodejs vs skills: 72 common paths, 68 identical blobs, 4 differing blobs; 17 files only in docs-ocodejs and 4 only in skills.
 - hello-working vs skills: 74 common paths, 72 identical blobs, 2 differing blobs; 4 files only in hello-working and 2 only in skills.
 - README, homepage HTML, and configuration files differ. Their workflow families overlap strongly.
+- The latest 100 commits from each repository pair contain no shared commit SHA; older ancestry remains unverified.
 - Conclusion: these are closely related copies/templates with distinct content, not exact duplicates. Keep separate until purpose and canonical ownership are confirmed; do not collapse them based on branch names.
 
 ## 4. CI snapshot — latest five workflow runs per priority repository
