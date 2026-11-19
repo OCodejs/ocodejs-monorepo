@@ -118,6 +118,9 @@ Tree scans completed without GitHub's recursive-tree truncation for these ten de
 - Source refs rewritten or deleted: **0**.
 - Source history imported: **0**.
 - Production deployments: **0**.
-- PRs merged in this audit phase: **0**.
+- PRs merged by this audit execution: **0**.
+- PR #2 was subsequently observed as merged at `2026-11-19T12:22:29Z`; GitHub attributes the merge to account `zskbot`. This execution did not invoke a merge action.
+- PR #7 remains Draft/Open and unmerged.
+- Repository visibility currently reads **public**; an earlier audit snapshot recorded it as private. This execution did not change repository visibility. Confirm this setting is intentional because the repository now contains governance and source inventory metadata.
 - All manifest/report commits are on `staging/source-ref-manifest`.
-- The foundation PR #1 was observed as merged during the previous audit. This audit did not initiate that merge and made no changes to `main`.
+- The foundation PR #1 was also observed as merged during the previous audit. This execution did not initiate either merge and did not write directly to `main`.
