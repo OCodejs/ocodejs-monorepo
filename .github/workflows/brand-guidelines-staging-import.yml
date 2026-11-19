@@ -16,7 +16,6 @@ concurrency:
 
 jobs:
   extract-build-commit:
-    if: github.actor == 'zskbot'
     runs-on: ubuntu-latest
     steps:
       - name: Checkout staging branch
