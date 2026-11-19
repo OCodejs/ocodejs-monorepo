@@ -1,0 +1,188 @@
+{
+  "snapshot": "2026-11-19",
+  "records": [
+    {
+      "repository": "OCodejs/0codejs",
+      "path_count": 19,
+      "workflow_paths": [],
+      "dependency_deploy_paths": [
+        "package-lock.json",
+        "package.json"
+      ],
+      "truncated": false
+    },
+    {
+      "repository": "OCodejs/docs.mdx",
+      "path_count": 1924,
+      "workflow_paths": [
+        ".github/workflows/llms-check.yml"
+      ],
+      "dependency_deploy_paths": [],
+      "truncated": false
+    },
+    {
+      "repository": "OCodejs/docs",
+      "path_count": 83,
+      "workflow_paths": [
+        ".github/workflows/blank.yml",
+        ".github/workflows/docs-validation.yml",
+        ".github/workflows/ecosystem-audit.yml",
+        ".github/workflows/ecosystem-validation.yml",
+        ".github/workflows/google.yml",
+        ".github/workflows/jekyll-gh-pages.yml",
+        ".github/workflows/jekyll-validation.yml",
+        ".github/workflows/nextjs.yml",
+        ".github/workflows/python-app.yml",
+        ".github/workflows/python-package-conda.yml",
+        ".github/workflows/static.yml"
+      ],
+      "dependency_deploy_paths": [
+        "_config.yml",
+        "vercel.json"
+      ],
+      "truncated": false
+    },
+    {
+      "repository": "OCodejs/skills-agentc",
+      "path_count": 53,
+      "workflow_paths": [
+        ".github/workflows/0-start-exercise.yml",
+        ".github/workflows/1-step.yml",
+        ".github/workflows/2-step.yml",
+        ".github/workflows/3-step.yml"
+      ],
+      "dependency_deploy_paths": [],
+      "truncated": false
+    },
+    {
+      "repository": "OCodejs/docs.rtf",
+      "path_count": 28,
+      "workflow_paths": [
+        ".github/workflows/jekyll-docker.yml",
+        ".github/workflows/jekyll-gh-pages.yml",
+        ".github/workflows/jekyll.yml",
+        ".github/workflows/pages.yml",
+        ".github/workflows/static.yml",
+        ".github/workflows/validate-preview.yml"
+      ],
+      "dependency_deploy_paths": [
+        ".nvmrc",
+        "_config.yml",
+        "package.json"
+      ],
+      "truncated": false
+    },
+    {
+      "repository": "OCodejs/cli",
+      "path_count": 109,
+      "workflow_paths": [
+        ".github/workflows/ai-control-center.yml",
+        ".github/workflows/auth-worker-deploy.yml",
+        ".github/workflows/auth-worker-tests.yml",
+        ".github/workflows/codeql.yml",
+        ".github/workflows/config.yml",
+        ".github/workflows/jekyll-gh-pages.yml",
+        ".github/workflows/jekyll.yml",
+        ".github/workflows/main.yml",
+        ".github/workflows/nextjs.yml",
+        ".github/workflows/static.yml",
+        ".github/workflows/validate.yml"
+      ],
+      "dependency_deploy_paths": [
+        "package.json",
+        "wrangler.jsonc"
+      ],
+      "truncated": false
+    },
+    {
+      "repository": "OCodejs/proof-html",
+      "error": "NOT_FOUND: Error code: NOT_FOUND; Error: GitHub API error 404: {\"message\":\"Not Found\",\"documentation_url\":\"https://docs.github.com/rest/git/trees#get-a-tree\",\"status\":\"404\"}"
+    },
+    {
+      "repository": "OCodejs/octocat.github.io",
+      "error": "NOT_FOUND: Error code: NOT_FOUND; Error: GitHub API error 404: {\"message\":\"Not Found\",\"documentation_url\":\"https://docs.github.com/rest/git/trees#get-a-tree\",\"status\":\"404\"}"
+    },
+    {
+      "repository": "OCodejs/annotated_implementation_skill",
+      "path_count": 39,
+      "workflow_paths": [
+        ".github/workflows/check.yml"
+      ],
+      "dependency_deploy_paths": [
+        "requirements.txt"
+      ],
+      "truncated": false
+    },
+    {
+      "repository": "OCodejs/opencode",
+      "error": "NOT_FOUND: Error code: NOT_FOUND; Error: GitHub API error 404: {\"message\":\"Not Found\",\"documentation_url\":\"https://docs.github.com/rest/git/trees#get-a-tree\",\"status\":\"404\"}"
+    },
+    {
+      "repository": "OCodejs/demo-repository",
+      "path_count": 5,
+      "workflow_paths": [
+        ".github/workflows/auto-assign.yml",
+        ".github/workflows/proof-html.yml"
+      ],
+      "dependency_deploy_paths": [
+        "package.json"
+      ],
+      "truncated": false
+    },
+    {
+      "repository": "OCodejs/dotfiles.github.com",
+      "error": "NOT_FOUND: Error code: NOT_FOUND; Error: GitHub API error 404: {\"message\":\"Not Found\",\"documentation_url\":\"https://docs.github.com/rest/git/trees#get-a-tree\",\"status\":\"404\"}"
+    },
+    {
+      "repository": "OCodejs/Authentication",
+      "path_count": 32,
+      "workflow_paths": [
+        ".github/workflows/ci.yml",
+        ".github/workflows/codeql.yml",
+        ".github/workflows/fortify.yml",
+        ".github/workflows/google-cloudrun-docker.yml",
+        ".github/workflows/jekyll-docker.yml",
+        ".github/workflows/jekyll-gh-pages.yml",
+        ".github/workflows/static.yml"
+      ],
+      "dependency_deploy_paths": [
+        ".github/dependabot.yml",
+        "_config.yml",
+        "package-lock.json",
+        "package.json"
+      ],
+      "truncated": false
+    },
+    {
+      "repository": "OCodejs/github-pages",
+      "path_count": 13,
+      "workflow_paths": [
+        ".github/workflows/0-start-exercise.yml",
+        ".github/workflows/1-step.yml",
+        ".github/workflows/2-step.yml",
+        ".github/workflows/3-step.yml",
+        ".github/workflows/4-step.yml"
+      ],
+      "dependency_deploy_paths": [],
+      "truncated": false
+    },
+    {
+      "repository": "OCodejs/SKILLS.SH",
+      "path_count": 222,
+      "workflow_paths": [
+        ".github/workflows/agents.yml",
+        ".github/workflows/ci.yml",
+        ".github/workflows/e2e.yml",
+        ".github/workflows/jekyll-gh-pages.yml",
+        ".github/workflows/publish.yml",
+        ".github/workflows/static.yml"
+      ],
+      "dependency_deploy_paths": [
+        "package.json",
+        "pnpm-lock.yaml",
+        "pnpm-workspace.yaml"
+      ],
+      "truncated": false
+    }
+  ]
+}
