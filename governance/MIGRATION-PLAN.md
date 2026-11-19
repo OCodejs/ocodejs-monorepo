@@ -2,7 +2,7 @@
 
 ## Phase 0 — foundation (this PR)
 - Bootstrap the empty repository once on `main`.
-- Create the protected working line `staging/monorepo-foundation`.
+- Create the working line `staging/monorepo-foundation` (branch protection is a separate repository-settings task).
 - Add governance, inventory snapshot, architecture map, and empty target layout.
 
 ## Phase 1 — read-only source audit
