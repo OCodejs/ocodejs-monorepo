@@ -90,3 +90,11 @@ The workflow will remain dormant until the app source is imported. Its checks ha
 - Source repository: unchanged.
 - Production: untouched.
 - PR merge: not performed by this operation.
+
+## 7. Full-history scan execution
+
+- A dedicated staging branch was created from the current monorepo `main`.
+- This PR intentionally changes only this gate document to trigger the existing redacted Gitleaks workflow.
+- The scanner clones the source repository as a mirror, fetches all branches and tags, then scans all refs with redaction enabled.
+- This scan-only PR does not import application files or rewrite source history.
+- Subtree import remains blocked until the exposed credential has been revoked and the scan result has been reviewed.
