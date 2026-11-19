@@ -1,0 +1,135 @@
+name: Import Brand Guidelines from ZIP
+
+on:
+  pull_request:
+    branches: [main]
+    types: [opened, synchronize, reopened]
+    paths:
+      - 'code.zip'
+      - '.github/workflows/import-brand-guidelines.yml'
+
+permissions:
+  contents: write
+
+concurrency:
+  group: import-brand-guidelines-${{ github.event.pull_request.number }}
+  cancel-in-progress: true
+
+jobs:
+  extract-and-verify:
+    if: github.event.pull_request.head.repo.full_name == github.repository
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout PR branch
+        uses: actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683 # v4.2.2
+        with:
+          ref: ${{ github.event.pull_request.head.ref }}
+          persist-credentials: true
+      - name: Scan archive and extract
+        env:
+          PR_BRANCH: ${{ github.event.pull_request.head.ref }}
+        run: |
+          python - <<'PY'
+          import pathlib, re, zipfile
+          archive = pathlib.Path("code.zip")
+          if not archive.is_file():
+              raise SystemExit("code.zip is missing")
+          patterns = {
+              "Google API key": re.compile(r"\\bAIza[0-9A-Za-z_-]{30,}\\b"),
+              "GitHub token": re.compile(r"\\b(?:gh[pousr]_[A-Za-z0-9]{20,}|github_pat_[A-Za-z0-9_]{30,})\\b"),
+              "AWS access key": re.compile(r"\\bAKIA[0-9A-Z]{16}\\b"),
+              "private key": re.compile(r"-----BEGIN (?:RSA |EC |OPENSSH )?PRIVATE KEY-----"),
+          }
+          with zipfile.ZipFile(archive) as z:
+              for info in z.infolist():
+                  p = pathlib.PurePosixPath(info.filename)
+                  if p.is_absolute() or ".." in p.parts or "\\\\" in info.filename:
+                      raise SystemExit("Unsafe archive path detected")
+              for name in z.namelist():
+                  try:
+                      content = z.read(name).decode("utf-8")
+                  except (UnicodeDecodeError, IsADirectoryError):
+                      continue
+                  for label, pattern in patterns.items():
+                      if pattern.search(content):
+                          raise SystemExit(f"Credential pattern detected in {name}: {label}")
+              target = pathlib.Path("apps/brand-guidelines")
+              target.mkdir(parents=True, exist_ok=True)
+              z.extractall(target)
+          PY
+      - name: Repair repository asset paths and add app metadata
+        run: |
+          python - <<'PY'
+          from pathlib import Path
+          import re
+          root = Path("apps/brand-guidelines")
+          main = root / "src/main.js"
+          source = main.read_text()
+          base = "https://raw.githubusercontent.com/OCodejs/ocodejs-monorepo/main/assets/"
+          assets = f"""const assets = {{
+            lockup: '{base}OCODEJS_logo_O_round.png',
+            icon: '{base}OCODEJS_app_icon.png',
+            uniform: '{base}OCODEJS_design_01.png',
+            card: '{base}OCODEJS_design_02_fixed.png',
+            app: '{base}OCODEJS_design_04.png',
+          }};"""
+          source = re.sub(r"const assets = \\{.*?\\n\\};", assets, source, count=1, flags=re.S)
+          source = source.replace('alt="Mockup áo đồng phục OCodejs"', 'alt="Bản thiết kế nhận diện OCodejs 01"')
+          source = source.replace('alt="Mockup danh thiếp OCodejs"', 'alt="Bản thiết kế nhận diện OCodejs 02"')
+          source = source.replace('alt="Mockup giao diện app OCodejs"', 'alt="Bản thiết kế nhận diện OCodejs 04"')
+          source = source.replace('<span>01 / UNIFORM</span><strong>Wear the system.</strong><small>Black fabric / silver mark / blue seam</small>', '<span>01 / BRAND STUDY</span><strong>Identity in focus.</strong><small>Primary mark / visual language</small>')
+          source = source.replace('<span>02 / BUSINESS CARD</span><strong>Quietly confident.</strong><small>Matte stock / foil finish / clear space</small>', '<span>02 / VISUAL SYSTEM</span><strong>Built with precision.</strong><small>Geometry / contrast / consistency</small>')
+          source = source.replace('<span>03 / PRODUCT UI</span><strong>Clarity in motion.</strong><small>Dark canvas / electric blue focus</small>', '<span>03 / PRODUCT DIRECTION</span><strong>Designed to scale.</strong><small>Digital identity / product surfaces</small>')
+          if "manus-storage" in source:
+              raise SystemExit("Unresolved Manus storage asset reference")
+          main.write_text(source)
+          html = root / "index.html"
+          page = html.read_text()
+          page = page.replace('href="/manus-storage/OCODEJS_app_icon_6f40a6de.png"', f'href="{base}OCODEJS_app_icon.png"')
+          page = page.replace('src="/src/main.js"', 'src="./src/main.js"')
+          html.write_text(page)
+          (root / "app.config.ts").write_text(f'export default {{\\n  logoUrl: "{base}OCODEJS_logo_O_round.png"\\n}};\\n')
+          css = root / "src/styles.css"
+          styles = css.read_text()
+          styles = styles.replace("border-radius:50%; background:none; cursor:pointer;", "border-radius:0; background:none; cursor:pointer;")
+          styles = styles.replace("border-radius:999px; font:500 11px 'IBM Plex Mono'", "border-radius:0; font:500 11px 'IBM Plex Mono'")
+          styles = styles.replace("border-radius:999px; padding:10px 15px;", "border-radius:0; padding:10px 15px;")
+          css.write_text(styles)
+          (root / "vite.config.js").write_text("import { defineConfig } from 'vite';\\n\\nexport default defineConfig({ base: './' });\\n")
+          (root / "README.md").write_text("""# OCodejs Brand Guidelines
+
+Standalone Vite app extracted from the repository's code.zip.
+
+## Development
+\x60\x60\x60bash
+npm ci
+npm run dev
+\x60\x60\x60
+
+## Build
+\x60\x60\x60bash
+npm run build
+npm run preview
+\x60\x60\x60
+
+The app uses relative Vite paths for repository-subpath hosting. Brand images reuse the existing monorepo assets.
+""")
+          PY
+      - name: Install and build
+        working-directory: apps/brand-guidelines
+        run: |
+          npm ci --no-audit --no-fund
+          npm run build
+      - name: Commit extracted application to PR branch
+        env:
+          PR_BRANCH: ${{ github.event.pull_request.head.ref }}
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add apps/brand-guidelines
+          if git diff --cached --quiet; then
+            echo "Extracted app is already up to date."
+            exit 0
+          fi
+          git commit -m "feat(apps): import OCodejs brand guidelines"
+          git push origin "HEAD:${PR_BRANCH}"
