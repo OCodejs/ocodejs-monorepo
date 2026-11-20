@@ -1,0 +1,75 @@
+name: pages-build-deployment
+
+on:
+  pull_request:
+    branches: [main]
+    paths:
+      - 'index.html'
+      - '.github/workflows/pages-build-deployment.yml'
+  push:
+    branches:
+      - feature/github-pages-review-index
+    paths:
+      - 'index.html'
+      - '.github/workflows/pages-build-deployment.yml'
+  workflow_dispatch:
+    inputs:
+      deploy_to_pages:
+        description: 'Explicitly deploy to GitHub Pages (main branch only)'
+        required: true
+        type: boolean
+        default: false
+
+permissions:
+  contents: read
+
+concurrency:
+  group: pages-build-deployment-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  build:
+    name: Build and validate static Pages artifact
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout source
+        uses: actions/checkout@v4
+
+      - name: Validate root entry point
+        run: |
+          test -s index.html
+          grep -qi '<!doctype html>' index.html
+          grep -q 'name="viewport"' index.html
+          grep -q 'OCode.js Monorepo' index.html
+
+      - name: Assemble Pages artifact
+        run: |
+          mkdir -p _site
+          cp index.html _site/index.html
+          touch _site/.nojekyll
+          test -s _site/index.html
+
+      - name: Upload Pages artifact
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: _site
+          retention-days: 7
+
+  deploy:
+    name: Deploy GitHub Pages (explicit opt-in only)
+    if: github.event_name == 'workflow_dispatch' && github.ref == 'refs/heads/main' && inputs.deploy_to_pages == true
+    needs: build
+    runs-on: ubuntu-latest
+    permissions:
+      pages: write
+      id-token: write
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - name: Configure GitHub Pages
+        uses: actions/configure-pages@v5
+
+      - name: Deploy Pages artifact
+        id: deployment
+        uses: actions/deploy-pages@v4

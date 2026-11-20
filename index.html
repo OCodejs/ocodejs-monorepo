@@ -1,0 +1,112 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+  <meta name="theme-color" content="#05070f">
+  <meta name="description" content="OCode.js Monorepo — ecosystem architecture, repository status and GitHub Pages review dashboard.">
+  <title>OCode.js Monorepo — Project Review</title>
+  <style>
+    :root{color-scheme:dark;--bg:#05070f;--panel:#0a0d1a;--panel2:#0d1222;--fg:#f3f5fb;--muted:#929bb0;--line:#252c40;--blue:#6d91ff;--green:#55d6a0;--amber:#f3bd61;--red:#ff7777;--mono:ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,"Liberation Mono",monospace}
+    *{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;background:var(--bg);color:var(--fg);font-family:var(--mono);font-size:14px;line-height:1.65}a{color:inherit;text-decoration:none}a:hover{color:var(--blue)}button,.button{display:inline-flex;align-items:center;justify-content:center;min-height:42px;padding:0 14px;border:1px solid var(--line);border-radius:0;background:transparent;color:var(--fg);font:inherit;cursor:pointer}button:hover,.button:hover{border-color:var(--blue);color:var(--blue)}.primary{background:var(--fg);border-color:var(--fg);color:#05070f}.primary:hover{background:var(--blue);border-color:var(--blue);color:#05070f}.wrap{width:min(1120px,calc(100% - 36px));margin:auto}.top{border-bottom:1px solid var(--line);position:sticky;top:0;background:#05070feF;backdrop-filter:blur(12px);z-index:5}.nav{min-height:62px;display:flex;align-items:center;justify-content:space-between;gap:16px}.brand{font-weight:800;letter-spacing:-.06em;font-size:17px}.brand span{color:var(--blue)}.navlinks{display:flex;gap:20px;color:var(--muted);font-size:12px}.hero{padding:74px 0 54px;border-bottom:1px solid var(--line)}.eyebrow{color:var(--blue);font-size:11px;letter-spacing:.16em;text-transform:uppercase}.hero h1{font-size:clamp(34px,7vw,68px);line-height:1.04;letter-spacing:-.075em;max-width:820px;margin:18px 0}.hero p{max-width:680px;color:var(--muted);font-size:14px}.actions{display:flex;gap:10px;flex-wrap:wrap;margin-top:26px}.meta{display:flex;gap:10px;flex-wrap:wrap;margin-top:32px}.chip{border:1px solid var(--line);padding:5px 9px;color:var(--muted);font-size:11px}.section{padding:42px 0;border-bottom:1px solid var(--line)}.section-head{display:flex;align-items:end;justify-content:space-between;gap:18px;margin-bottom:20px}.section h2{font-size:19px;letter-spacing:-.04em;margin:0}.sub{color:var(--muted);font-size:12px;margin:5px 0 0}.grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:10px}.card{background:var(--panel);border:1px solid var(--line);padding:18px;min-width:0}.card h3{font-size:14px;margin:0 0 8px}.card p{color:var(--muted);font-size:12px;margin:0}.path{color:var(--blue);font-size:11px;display:block;margin-bottom:10px}.statuslist{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:10px}.status{display:flex;align-items:center;justify-content:space-between;gap:12px;padding:14px 16px;background:var(--panel);border:1px solid var(--line)}.status small{display:block;color:var(--muted);font-size:11px}.value{font-size:12px;text-align:right}.dot{display:inline-block;width:7px;height:7px;border-radius:50%;background:var(--amber);margin-right:7px}.dot.ok{background:var(--green)}.dot.bad{background:var(--red)}.checklist{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:8px}.check{display:flex;gap:12px;padding:12px;border:1px solid var(--line);background:var(--panel)}.check b{color:var(--blue);font-weight:500}.check span{color:var(--muted);font-size:12px}.note{border-left:2px solid var(--amber);padding:12px 16px;background:var(--panel);color:var(--muted);font-size:12px}.footer{padding:24px 0 40px;color:var(--muted);font-size:11px;display:flex;justify-content:space-between;gap:15px;flex-wrap:wrap}code{color:var(--blue);font-family:var(--mono)}@media(max-width:720px){.navlinks{display:none}.hero{padding:54px 0 38px}.grid{grid-template-columns:1fr 1fr}.statuslist,.checklist{grid-template-columns:1fr}.section{padding:32px 0}.wrap{width:min(100% - 28px,1120px)}}@media(max-width:420px){.grid{grid-template-columns:1fr}.actions .button{width:100%}.status{align-items:flex-start}}
+  </style>
+</head>
+<body>
+<header class="top"><div class="wrap nav">
+  <a class="brand" href="#top">OCode<span>.js</span> / MONOREPO</a>
+  <nav class="navlinks" aria-label="Primary"><a href="#architecture">Architecture</a><a href="#status">Live status</a><a href="#review">Review</a></nav>
+  <a class="button" href="https://github.com/OCodejs/ocodejs-monorepo">GitHub ↗</a>
+</div></header>
+<main id="top">
+  <section class="hero"><div class="wrap">
+    <div class="eyebrow">OCode.js ecosystem · central workspace</div>
+    <h1>One workspace.<br>Independent projects.</h1>
+    <p>A review dashboard for the OCode.js monorepo. Source repositories remain authoritative until each migration is audited, validated and approved. This page reports repository and Pages reachability; it does not imply that proposed modules have already been migrated.</p>
+    <div class="actions">
+      <a class="button primary" href="https://github.com/OCodejs/ocodejs-monorepo">Open repository ↗</a>
+      <a class="button" href="https://github.com/OCodejs/ocodejs-monorepo/actions">GitHub Actions ↗</a>
+      <a class="button" href="https://github.com/OCodejs/ocodejs-monorepo/tree/main">Browse source ↗</a>
+    </div>
+    <div class="meta"><span class="chip">DEFAULT BRANCH: main</span><span class="chip">VISIBILITY: PUBLIC</span><span class="chip">PAGES: ENABLED IN REPO METADATA</span><span class="chip">REVIEW: STAGING FIRST</span></div>
+  </div></section>
+
+  <section class="section" id="status"><div class="wrap">
+    <div class="section-head"><div><h2>Live repository checks</h2><p class="sub">Fetched from public endpoints when this page loads.</p></div><button id="refresh" type="button">↻ Refresh checks</button></div>
+    <div class="statuslist">
+      <div class="status"><div><strong>GitHub repository</strong><small>api.github.com/repos/OCodejs/ocodejs-monorepo</small></div><div class="value" id="repo-status"><span class="dot"></span>Checking</div></div>
+      <div class="status"><div><strong>GitHub Pages URL</strong><small><a href="https://ocodejs.co/ocodejs-monorepo/" target="_blank" rel="noopener">Open ocodejs.co/ocodejs-monorepo/ ↗</a></small></div><div class="value" id="pages-status"><span class="dot"></span>Checking</div></div>
+      <div class="status"><div><strong>Latest commit</strong><small id="commit-detail">Waiting for GitHub API</small></div><div class="value" id="commit-status">—</div></div>
+      <div class="status"><div><strong>Repository Pages flag</strong><small>Repository metadata</small></div><div class="value" id="flag-status">—</div></div>
+    </div>
+  </div></section>
+
+  <section class="section" id="architecture"><div class="wrap">
+    <div class="section-head"><div><h2>Monorepo architecture</h2><p class="sub">Target structure from ARCHITECTURE.md — proposed, not a migration-completion report.</p></div><a class="button" href="https://github.com/OCodejs/ocodejs-monorepo/blob/main/ARCHITECTURE.md">Read architecture ↗</a></div>
+    <div class="grid">
+      <article class="card"><span class="path">/apps</span><h3>Applications</h3><p>Homepage, Ask Chatbot, CLI Hub, THU365 and account experiences. Preserve each app's runtime and build until independently validated.</p></article>
+      <article class="card"><span class="path">/packages</span><h3>Shared packages</h3><p>Core, SDK, CLI, UI and framework-neutral utilities, introduced only after dependency-boundary review.</p></article>
+      <article class="card"><span class="path">/services</span><h3>Platform services</h3><p>Central API, authentication, MCP adapters and isolated preview runtime.</p></article>
+      <article class="card"><span class="path">/integrations</span><h3>Provider integrations</h3><p>GitHub, Vercel and AI-provider adapters behind explicit interfaces.</p></article>
+      <article class="card"><span class="path">/infrastructure</span><h3>Infrastructure</h3><p>Deployment and runtime foundations with project-level isolation and bounded resources.</p></article>
+      <article class="card"><span class="path">/governance · /docs</span><h3>Governance & docs</h3><p>Migration records, technical decisions, review policy and contributor documentation.</p></article>
+    </div>
+  </div></section>
+
+  <section class="section" id="review"><div class="wrap">
+    <div class="section-head"><div><h2>GitHub Pages review checklist</h2><p class="sub">Use this list to verify the deployment before treating the page as production-ready.</p></div></div>
+    <div class="checklist">
+      <div class="check"><b>01</b><div><strong>Entry point</strong><br><span>Confirm root <code>index.html</code> is included in the published Pages source.</span></div></div>
+      <div class="check"><b>02</b><div><strong>Pages source</strong><br><span>In Settings → Pages, verify the selected branch and folder match the intended publish root.</span></div></div>
+      <div class="check"><b>03</b><div><strong>Custom domain</strong><br><span>Verify the custom domain and HTTPS certificate in Pages settings; do not infer DNS health from this page.</span></div></div>
+      <div class="check"><b>04</b><div><strong>Actions result</strong><br><span>Review the latest Pages build/deployment run and confirm its actual status and logs.</span></div></div>
+      <div class="check"><b>05</b><div><strong>Mobile rendering</strong><br><span>Test the published URL in iPhone Safari at narrow viewport widths.</span></div></div>
+      <div class="check"><b>06</b><div><strong>Migration safety</strong><br><span>Keep source repositories intact; review every migration in a separate branch and pull request.</span></div></div>
+    </div>
+    <p class="note" style="margin-top:16px">Important: a successful HTTP response only proves that the URL responds. It does not prove the latest Git commit has been deployed, the custom domain is configured correctly, or all links and assets work.</p>
+    <div class="actions">
+      <a class="button" href="https://github.com/OCodejs/ocodejs-monorepo/settings/pages">Pages settings ↗</a>
+      <a class="button" href="https://github.com/OCodejs/ocodejs-monorepo/actions">Workflow runs ↗</a>
+      <a class="button" href="https://github.com/OCodejs/ocodejs-monorepo/commits/main">Commit history ↗</a>
+    </div>
+  </div></section>
+</main>
+<footer class="wrap footer"><span>© OCode.js · Monorepo review dashboard</span><span>Static HTML · No secrets · No external JS dependencies</span></footer>
+<script>
+(() => {
+  const repoApi = 'https://api.github.com/repos/OCodejs/ocodejs-monorepo';
+  const set = (id, text, state) => {
+    const el = document.getElementById(id);
+    el.innerHTML = '<span class="dot ' + (state || '') + '"></span>' + text;
+  };
+  async function check() {
+    const refresh = document.getElementById('refresh');
+    refresh.disabled = true; refresh.textContent = 'Checking…';
+    set('repo-status','Checking','');
+    set('pages-status','Manual verification required','');
+    try {
+      const response = await fetch(repoApi, {headers:{'Accept':'application/vnd.github+json'}});
+      if (!response.ok) throw new Error('GitHub API HTTP ' + response.status);
+      const repo = await response.json();
+      set('repo-status','Reachable','ok');
+      document.getElementById('flag-status').textContent = repo.has_pages ? 'Enabled' : 'Not enabled';
+      document.getElementById('commit-status').textContent = repo.default_branch || '—';
+      const commitResponse = await fetch(repoApi + '/commits/' + encodeURIComponent(repo.default_branch || 'main'), {headers:{'Accept':'application/vnd.github+json'}});
+      if (commitResponse.ok) {
+        const commit = await commitResponse.json();
+        document.getElementById('commit-detail').textContent = (commit.sha || '').slice(0,7) + ' · ' + (commit.commit?.message || '').split('\n')[0].slice(0,70);
+      } else document.getElementById('commit-detail').textContent = 'Commit endpoint unavailable';
+    } catch (error) {
+      set('repo-status','Unavailable','bad');
+      document.getElementById('commit-detail').textContent = error.message;
+    }
+    // Cross-origin Pages responses cannot be reliably verified from this static page.
+    // Never label an opaque no-cors response as a successful deployment.
+    set('pages-status','Open URL to verify','');
+    refresh.disabled = false; refresh.textContent = '↻ Refresh checks';
+  }
+  document.getElementById('refresh').addEventListener('click',check);
+  check();
+})();
+</script>
+</body>
+</html>
