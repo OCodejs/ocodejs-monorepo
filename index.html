@@ -34,7 +34,7 @@
     <div class="section-head"><div><h2>Live repository checks</h2><p class="sub">Fetched from public endpoints when this page loads.</p></div><button id="refresh" type="button">↻ Refresh checks</button></div>
     <div class="statuslist">
       <div class="status"><div><strong>GitHub repository</strong><small>api.github.com/repos/OCodejs/ocodejs-monorepo</small></div><div class="value" id="repo-status"><span class="dot"></span>Checking</div></div>
-      <div class="status"><div><strong>GitHub Pages URL</strong><small>ocodejs.co/ocodejs-monorepo/</small></div><div class="value" id="pages-status"><span class="dot"></span>Checking</div></div>
+      <div class="status"><div><strong>GitHub Pages URL</strong><small><a href="https://ocodejs.co/ocodejs-monorepo/" target="_blank" rel="noopener">Open ocodejs.co/ocodejs-monorepo/ ↗</a></small></div><div class="value" id="pages-status"><span class="dot"></span>Checking</div></div>
       <div class="status"><div><strong>Latest commit</strong><small id="commit-detail">Waiting for GitHub API</small></div><div class="value" id="commit-status">—</div></div>
       <div class="status"><div><strong>Repository Pages flag</strong><small>Repository metadata</small></div><div class="value" id="flag-status">—</div></div>
     </div>
@@ -74,7 +74,6 @@
 <script>
 (() => {
   const repoApi = 'https://api.github.com/repos/OCodejs/ocodejs-monorepo';
-  const pagesUrl = 'https://ocodejs.co/ocodejs-monorepo/';
   const set = (id, text, state) => {
     const el = document.getElementById(id);
     el.innerHTML = '<span class="dot ' + (state || '') + '"></span>' + text;
@@ -83,7 +82,7 @@
     const refresh = document.getElementById('refresh');
     refresh.disabled = true; refresh.textContent = 'Checking…';
     set('repo-status','Checking','');
-    set('pages-status','Checking','');
+    set('pages-status','Manual verification required','');
     try {
       const response = await fetch(repoApi, {headers:{'Accept':'application/vnd.github+json'}});
       if (!response.ok) throw new Error('GitHub API HTTP ' + response.status);
@@ -100,12 +99,9 @@
       set('repo-status','Unavailable','bad');
       document.getElementById('commit-detail').textContent = error.message;
     }
-    try {
-      const response = await fetch(pagesUrl, {method:'HEAD',mode:'no-cors',cache:'no-store'});
-      set('pages-status','Request sent · opaque response','');
-    } catch {
-      set('pages-status','Could not request URL','bad');
-    }
+    // Cross-origin Pages responses cannot be reliably verified from this static page.
+    // Never label an opaque no-cors response as a successful deployment.
+    set('pages-status','Open URL to verify','');
     refresh.disabled = false; refresh.textContent = '↻ Refresh checks';
   }
   document.getElementById('refresh').addEventListener('click',check);
