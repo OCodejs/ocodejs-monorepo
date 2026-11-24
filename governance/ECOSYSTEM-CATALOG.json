@@ -1,0 +1,255 @@
+{
+  "schema_version": "1.0.0",
+  "generated_from": "governance/MIGRATION-DECISIONS-2026-11-19.md",
+  "as_of": "2026-11-19",
+  "note": "Snapshot only. Revalidate ownership, permissions, refs, and commit SHAs before importing.",
+  "organization": "OCodejs",
+  "totals": {
+    "repositories": 65,
+    "organization_repositories": 49,
+    "related_repositories": 16,
+    "branch_refs": 1262,
+    "tag_refs": 3,
+    "candidate_imports": 10,
+    "upstream_references": 25,
+    "quarantine_or_review": 27,
+    "legacy_candidates": 9
+  },
+  "first_party_candidates": [
+    {
+      "id": "core-utils",
+      "source": "OCodejs/OCODEJS",
+      "target": "packages/ocode-js",
+      "priority": "P0",
+      "status": "candidate-import",
+      "depends_on": [],
+      "checks": [
+        "license",
+        "package scripts",
+        "tests",
+        "release metadata"
+      ]
+    },
+    {
+      "id": "identity",
+      "source": "OCodejs/mcp.auth.ocodejs",
+      "target": "services/auth",
+      "priority": "P0",
+      "status": "hold-identity-integration-design",
+      "depends_on": [],
+      "checks": [
+        "compare Authentication",
+        "database migrations",
+        "cookie/CSRF config",
+        "SMTP delivery tests",
+        "map against OCodejs/Authentication before canonical authority decision"
+      ]
+    },
+    {
+      "id": "ask-chatbot",
+      "source": "OCodejs/ask-chatbot",
+      "target": "apps/ask-chatbot",
+      "priority": "P0",
+      "status": "candidate-import",
+      "depends_on": [
+        "identity",
+        "central-api"
+      ],
+      "checks": [
+        "compare zskbot/ask-ocodejs",
+        "provider adapters",
+        "streaming tests",
+        "secrets scan"
+      ]
+    },
+    {
+      "id": "cli-hub",
+      "source": "OCodejs/cli-hub",
+      "target": "apps/cli-hub",
+      "priority": "P0",
+      "status": "candidate-import",
+      "depends_on": [
+        "identity"
+      ],
+      "checks": [
+        "localStorage boundary",
+        "OAuth worker deployment",
+        "static build"
+      ]
+    },
+    {
+      "id": "thu365",
+      "source": "OCodejs/THU365",
+      "target": [
+        "apps/thu365-web",
+        "apps/thu365-mobile"
+      ],
+      "priority": "P0",
+      "status": "candidate-import",
+      "depends_on": [],
+      "checks": [
+        "web build",
+        "Expo build",
+        "mobile permission tests",
+        "model licensing"
+      ]
+    },
+    {
+      "id": "central-web",
+      "source": "OCodejs/ocodejs.github.io",
+      "target": [
+        "apps/homepage",
+        "docs/central"
+      ],
+      "priority": "P0",
+      "status": "candidate-import",
+      "depends_on": [
+        "identity"
+      ],
+      "checks": [
+        "static build",
+        "routes and redirects",
+        "content license"
+      ]
+    },
+    {
+      "id": "skills-agent",
+      "source": "OCodejs/skills-agentc",
+      "target": "integrations/skills",
+      "priority": "P1",
+      "status": "candidate-import",
+      "depends_on": [
+        "central-api"
+      ],
+      "checks": [
+        "code execution sandbox",
+        "manifest schema",
+        "license"
+      ]
+    },
+    {
+      "id": "central-api",
+      "source": "zskbot/ocodejs-api",
+      "target": "services/central-api",
+      "priority": "P0",
+      "status": "candidate-import",
+      "depends_on": [
+        "identity"
+      ],
+      "checks": [
+        "owner access",
+        "OpenAPI review",
+        "auth boundary",
+        "database"
+      ]
+    },
+    {
+      "id": "profile",
+      "source": "zskbot/OCodejs-Profile",
+      "target": "apps/account-profile",
+      "priority": "P1",
+      "status": "candidate-import",
+      "depends_on": [
+        "identity"
+      ],
+      "checks": [
+        "owner access",
+        "profile data model",
+        "privacy"
+      ]
+    },
+    {
+      "id": "web4s-bridge",
+      "source": "zskbot/ocodejs-web4s-bridge",
+      "target": "integrations/web4s-bridge",
+      "priority": "P1",
+      "status": "candidate-import",
+      "depends_on": [
+        "central-api"
+      ],
+      "checks": [
+        "owner access",
+        "protocol review",
+        "sandbox"
+      ]
+    },
+    {
+      "id": "ask-ocodejs",
+      "source": "zskbot/ask-ocodejs",
+      "target": "apps/ask-ocodejs",
+      "priority": "P0",
+      "status": "candidate-import-compare-first",
+      "depends_on": [
+        "identity",
+        "central-api"
+      ],
+      "checks": [
+        "diff with OCodejs/ask-chatbot",
+        "canonical app decision",
+        "provider and preview claims"
+      ]
+    }
+  ],
+  "compare_or_hold": [
+    {
+      "source": "OCodejs/docs",
+      "reason": "Compare complete refs/tree with docs-ocodejs, hello-working, skills, and related docs mirrors."
+    },
+    {
+      "source": "OCodejs/docs-ocodejs",
+      "reason": "Compare complete refs/tree and history before selecting canonical docs."
+    },
+    {
+      "source": "OCodejs/hello-working",
+      "reason": "Docs/skills overlap; quarantine until ancestry/path diff."
+    },
+    {
+      "source": "OCodejs/skills",
+      "reason": "Compare with skills-agentc and docs-derived skills catalog."
+    },
+    {
+      "source": "OCodejs/platform-ocodejs-dev",
+      "reason": "Quarantine pending ownership, tree diff, and workflow/security audit."
+    },
+    {
+      "source": "OCodejs/host",
+      "reason": "Keep separate from OCodeJS core until Velclaw boundary and ownership are approved."
+    },
+    {
+      "source": "OCodejs/.github",
+      "reason": "Review organization-level automation and workflow trust before import."
+    },
+    {
+      "source": "OCodejs/Authentication",
+      "reason": "Separate Fastify/PostgreSQL identity gateway; map against Auth.js/Prisma account app before deciding whether it is a distinct API layer or competing authority."
+    }
+  ],
+  "external_or_upstream": [
+    "OCodejs/proof-html",
+    "OCodejs/octocat.github.io",
+    "OCodejs/annotated_implementation_skill",
+    "OCodejs/opencode",
+    "OCodejs/dotfiles.github.com",
+    "OCodejs/github-pages",
+    "OCodejs/SKILLS.SH",
+    "OCodejs/v0-chat",
+    "OCodejs/spec",
+    "OCodejs/Cloudxx",
+    "OCodejs/probot",
+    "OCodejs/surge",
+    "OCodejs/gh-aw",
+    "OCodejs/vscode-codeql-starter",
+    "OCodejs/qstash-js",
+    "OCodejs/Spoon-Knife",
+    "OCodejs/pnpm",
+    "OCodejs/documentation",
+    "OCodejs/github-mcp-server"
+  ],
+  "deployment_gates": {
+    "preview_required": true,
+    "production_requires_explicit_approval": true,
+    "auto_merge": false,
+    "source_repo_mutations": false,
+    "history_preservation_required": true
+  }
+}
