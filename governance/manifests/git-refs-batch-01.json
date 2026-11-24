@@ -1,0 +1,1461 @@
+{
+  "snapshot": "2026-11-19",
+  "records": [
+    {
+      "repository": "OCodejs/ask-chatbot",
+      "metadata": {
+        "id": 1446250896,
+        "full_name": "OCodejs/ask-chatbot",
+        "private": false,
+        "visibility": "public",
+        "archived": false,
+        "fork": false,
+        "default_branch": "main",
+        "pushed_at": "2026-11-17T15:48:33Z",
+        "updated_at": "2026-11-05T15:40:23Z",
+        "size": 6623,
+        "language": "TypeScript"
+      },
+      "branches": [
+        {
+          "ref": "refs/heads/clauderiks-patch-1",
+          "sha": "5d2df8ef460960c2d1f63e5289f7514ce861693e",
+          "type": "commit"
+        },
+        {
+          "ref": "refs/heads/clauderiks-patch-2",
+          "sha": "815bd370709fb69d08e2e3eb0a616a06cb154040",
+          "type": "commit"
+        },
+        {
+          "ref": "refs/heads/clauderiks-patch-3",
+          "sha": "ab26c7b8116fedc95c073ec584994d0093592b7e",
+          "type": "commit"
+        },
+        {
+          "ref": "refs/heads/clauderiks-patch-4",
+          "sha": "b0658cfda9f1a06e1506285c4c1b1f76ca68315e",
+          "type": "commit"
+        },
+        {
+          "ref": "refs/heads/clauderiks-patch-5",
+          "sha": "290c5fad615589e2bf2eb532965096519c727233",
+          "type": "commit"
+        },
+        {
+          "ref": "refs/heads/dependabot/npm_and_yarn/npm_and_yarn-7d4dc93388",
+          "sha": "af0efe61d1df5ad0bf217a5153af633fea738415",
+          "type": "commit"
+        },
+        {
+          "ref": "refs/heads/dependabot/npm_and_yarn/npm_and_yarn-fe16598d9c",
+          "sha": "a23c91edb548e75a4eca83d8b332c959b7a72046",
+          "type": "commit"
+        },
+        {
+          "ref": "refs/heads/design/actual-v0-app-shell",
+          "sha": "00b12a672dd2c9d589744b2e24e47e5b3aa4d4ef",
+          "type": "commit"
+        },
+        {
+          "ref": "refs/heads/design/compact-mobile-navigation",
+          "sha": "e473aa577b8f7fea1ae4c6e6a65de3c43e08beb0",
+          "type": "commit"
+        },
+        {
+          "ref": "refs/heads/design/hide-chat-brand-model-bar",
+          "sha": "b15e3e29f08f536b5732cbc2a6ded80e94346c80",
+          "type": "commit"
+        },
+        {
+          "ref": "refs/heads/design/mobile-hamburger-navigation",
+          "sha": "a00a9f91acd789559d6f7552b57a675cb2f59ead",
+          "type": "commit"
+        },
+        {
+          "ref": "refs/heads/design/ocodejs-pure-black-v0-home",
+          "sha": "82184c27d74402f01f4aa297c7a4c5e15035a61f",
+          "type": "commit"
+        },
+        {
+          "ref": "refs/heads/design/update-xbo-app-logo",
+          "sha": "58144ed5a373d9d24b7ffc51fd4d4a61b1eef18c",
+          "type": "commit"
+        },
+        {
+          "ref": "refs/heads/design/v0-inspired-workspace",
+          "sha": "ff2367377aadf2dba73c09aa7de6b39e1fd30250",
+          "type": "commit"
+        },
+        {
+          "ref": "refs/heads/design/vercel-style-nested-infrastructure-menu",
+          "sha": "684e84fec35aa388f772a2febacd8396ec4bc3ff",
+          "type": "commit"
+        },
+        {
+          "ref": "refs/heads/docs/ask-ocodejs-readme-branding",
+          "sha": "80538fed9039b3443602248662203ef0d72a3c49",
+          "type": "commit"
+        },
+        {
+          "ref": "refs/heads/docs/clean-xbo-readme-header",
+          "sha": "9f9cb119ed23e814dd885d66684e067a9ce44fa7",
+          "type": "commit"
+        },
+        {
+          "ref": "refs/heads/docs/normalize-xbo-readme",
+          "sha": "2ce38cb30f1176ccd95d2a58454b48386ba4334c",
+          "type": "commit"
+        },
+        {
+          "ref": "refs/heads/docs/normalize-xbo-readme-final",
+          "sha": "67fc89ac66c91a29c949160932b021be8df3735d",
+          "type": "commit"
+        },
+        {
+          "ref": "refs/heads/docs/redesign-x-bo-readme",
+          "sha": "7a697744da6767a86fdd6eb2a3b6e0d573386086",
+          "type": "commit"
+        },
+        {
+          "ref": "refs/heads/feat/agent-file-upload",
+          "sha": "3b1caa026e7cd74f381870fb8bb09bd6dd2a1f34",
+          "type": "commit"
+        },
+        {
+          "ref": "refs/heads/feat/ask-ocodejs-builder-ux-and-reliability",
+          "sha": "007d04b7bbd965527a571242f67dcb027dc66606",
+          "type": "commit"
+        },
+        {
+          "ref": "refs/heads/feat/hy4-conductor-orchestration",
+          "sha": "b0dfeb607f435d294675eb30c180f7ca3a26dc49",
+          "type": "commit"
+        },
+        {
+          "ref": "refs/heads/feat/ocodejs-auth-integration-mcp",
+          "sha": "bf1a55c8499bf9834424ef2e0f5f43227837b876",
+          "type": "commit"
+        },
+        {
+          "ref": "refs/heads/feat/sidebar-auth-modal-ux",
+          "sha": "5ed0e759fd7ec948178559d0ce33ad875536bd9f",
+          "type": "commit"
+        },
+        {
+          "ref": "refs/heads/feat/sidebar-oauth-ux",
+          "sha": "8bc0d0537ffed77c46b0ce85e7a6625d53c996ba",
+          "type": "commit"
+        },
+        {
+          "ref": "refs/heads/feat/velclaw-app-path-routing",
+          "sha": "295ae6869c1d4eb3ecb7c337cff7c7ba1da62bc9",
+          "type": "commit"
+        },
+        {
+          "ref": "refs/heads/feat/x-bo-agent-runtime",
+          "sha": "bad669456a0019a48868190a15dae301c902a404",
+          "type": "commit"
+        },
+        {
+          "ref": "refs/heads/feat/x-bo-panda-brand-assets",
+          "sha": "ddf0800dd50286d4782e53dc5d7bd2e3ac26334f",
+          "type": "commit"
+        },
+        {
+          "ref": "refs/heads/feat/xbo-build-planner",
+          "sha": "2dd752d063054896abce75424c585efb22189007",
+          "type": "commit"
+        },
+        {
+          "ref": "refs/heads/feat/xbo-chat-message-actions",
+          "sha": "e0aedbfe3faa1821046af01d9c4050bebb7a42cc",
+          "type": "commit"
+        },
+        {
+          "ref": "refs/heads/feat/xbo-chat-reliability-and-plan",
+          "sha": "c827f1b7332a436f4a0328e889cb98c815d07684",
+          "type": "commit"
+        },
+        {
+          "ref": "refs/heads/feat/xbo-local-plan-preview",
+          "sha": "f644002925116ce8195e7b3a1ef3702a1f17b3ed",
+          "type": "commit"
+        },
+        {
+          "ref": "refs/heads/feat/xbo-mobile-chat-redesign",
+          "sha": "de3763687da6ddb8adc1017a4bde26489ac600ca",
+          "type": "commit"
+        },
+        {
+          "ref": "refs/heads/feat/xbo-ocodejs-builder-workspace",
+          "sha": "5289f4b708828d68877a828c9149dd99c6cecde0",
+          "type": "commit"
+        },
+        {
+          "ref": "refs/heads/feat/xbo-safe-file-proposals",
+          "sha": "27456e0c5c4e36e1344b6e728ad00b1342d78c7f",
+          "type": "commit"
+        },
+        {
+          "ref": "refs/heads/feat/xbo-safe-file-proposals-main",
+          "sha": "583e3aedc1b7954f447defbde0630bffe4354daa",
+          "type": "commit"
+        },
+        {
+          "ref": "refs/heads/feat/xbo-structured-plan-checklist",
+          "sha": "82d0e80c45f34ed30414d8661c8f0f2abffeb7e3",
+          "type": "commit"
+        },
+        {
+          "ref": "refs/heads/fix/ai-chat-panel-literal-newline",
+          "sha": "0a69681bb3a34e31ef0e0f677bcb2729a3048fc6",
+          "type": "commit"
+        },
+        {
+          "ref": "refs/heads/fix/ask-ocodejs-pages-base-and-single-deploy",
+          "sha": "4cae65dd52087df83f4cdcbdbfebcbafb6d5c7dc",
+          "type": "commit"
+        },
+        {
+          "ref": "refs/heads/fix/chat-api-post-request",
+          "sha": "a3d3ac5b2544e527220629dd377ccae347ba5245",
+          "type": "commit"
+        },
+        {
+          "ref": "refs/heads/fix/chat-api-route-match",
+          "sha": "2201a8016c4835dcf49ac97109dff706bcc0b416",
+          "type": "commit"
+        },
+        {
+          "ref": "refs/heads/fix/container-glibc-and-syft-artifact",
+          "sha": "04dc3dae9b04baa4dec371a02a4bf2dcae0eec5e",
+          "type": "commit"
+        },
+        {
+          "ref": "refs/heads/fix/disable-competing-pages-workflows",
+          "sha": "dadc152e1b2d111339fbcb9ac1871ea46f80a188",
+          "type": "commit"
+        },
+        {
+          "ref": "refs/heads/fix/header-github-menu-layout",
+          "sha": "46b36227d87010c9e57a1d1857cf14811b5a350d",
+          "type": "commit"
+        },
+        {
+          "ref": "refs/heads/fix/httpx2-osv-and-grype-report",
+          "sha": "7291e772d552646daa37a84c4c11c63e1146d79c",
+          "type": "commit"
+        },
+        {
+          "ref": "refs/heads/fix/ipv6-sni-and-url-reader-regressions",
+          "sha": "9be9e7207c2ab6cb07998ee63365d800b1bb4851",
+          "type": "commit"
+        },
+        {
+          "ref": "refs/heads/fix/ipv6-tls-servername",
+          "sha": "365f8fc5e3bad865f3f68cfc22be96459241efa6",
+          "type": "commit"
+        },
+        {
+          "ref": "refs/heads/fix/matched-ipv6-bracket-normalization",
+          "sha": "ac02941b4bcd6d27f9a3e014f891cbb22aef0110",
+          "type": "commit"
+        },
+        {
+          "ref": "refs/heads/fix/osv-pin-patched-httpx2-20261117",
+          "sha": "1f84afd865a75792a6fba37be5763d47fc2270c9",
+          "type": "commit"
+        },
+        {
+          "ref": "refs/heads/fix/pages-build-package-json",
+          "sha": "56cd67e7e5cff10d269fd5e6c5a70efe6355920b",
+          "type": "commit"
+        },
+        {
+          "ref": "refs/heads/fix/pages-single-vite-deployment",
+          "sha": "6e3c0a5c5aee1bc15e17b21323e414ba4df165ce",
+          "type": "commit"
+        },
+        {
+          "ref": "refs/heads/fix/pages-white-screen-and-redesign",
+          "sha": "5f721f9aba87e13bb20932ac7937385e55fbf1db",
+          "type": "commit"
+        },
+        {
+          "ref": "refs/heads/fix/pages-white-screen-followup",
+          "sha": "00facf65c6eff5290d0c8bfaa4fb1788b58f3b25",
+          "type": "commit"
+        },
+        {
+          "ref": "refs/heads/fix/read-url-ssrf-and-body-limits",
+          "sha": "8764c1efc0d4c5a0429630d85a27ea93dc8929c0",
+          "type": "commit"
+        },
+        {
+          "ref": "refs/heads/fix/security-scans-and-gradio-vulnerabilities",
+          "sha": "e0f8fae148e6dad6e60e391d1868aa0619be3425",
+          "type": "commit"
+        },
+        {
+          "ref": "refs/heads/fix/tls-servername-bracket-normalization",
+          "sha": "a2caf82407d6b42b2ffcf5b4a9cc566a012cbef6",
+          "type": "commit"
+        },
+        {
+          "ref": "refs/heads/fix/vercel-chat-esm-runtime",
+          "sha": "5b41b8db6c6e93a05b9d245eb9709a07177f4019",
+          "type": "commit"
+        },
+        {
+          "ref": "refs/heads/fix/vercel-config-and-ci-pinning",
+          "sha": "79bad16104d8ef27a7bd5b42565e6d1298420934",
+          "type": "commit"
+        },
+        {
+          "ref": "refs/heads/fix/vercel-root-base-path",
+          "sha": "5302d05effcb8355f50170194a9cd09797037d49",
+          "type": "commit"
+        },
+        {
+          "ref": "refs/heads/fix/xbo-logo-pages-path",
+          "sha": "a02a7d463ae5635eb45fba21eb353996f53c132d",
+          "type": "commit"
+        },
+        {
+          "ref": "refs/heads/fix/xbo-mobile-redesign-jsx",
+          "sha": "8a644ba31d25e17079ad1974433dfd90eed20e4c",
+          "type": "commit"
+        },
+        {
+          "ref": "refs/heads/infra/api-hardening",
+          "sha": "7da5b9e1e11feca83f562d8983a006d9d60504c2",
+          "type": "commit"
+        },
+        {
+          "ref": "refs/heads/main",
+          "sha": "913f47289e066b6f395e65d44d7c13bbbf1f2680",
+          "type": "commit"
+        },
+        {
+          "ref": "refs/heads/security/block-ipv6-protocol-assignment-range",
+          "sha": "a0322619ff52649ee6fa17ea75b43f5aede59483",
+          "type": "commit"
+        },
+        {
+          "ref": "refs/heads/security/complete-ssrf-ip-ranges",
+          "sha": "e9543371e02cc60271e89c46d6f72aefb1bc930b",
+          "type": "commit"
+        },
+        {
+          "ref": "refs/heads/security/reject-special-ipv6-ranges",
+          "sha": "5aa7db91c4fa942d11d8071253ea793df6e04c18",
+          "type": "commit"
+        },
+        {
+          "ref": "refs/heads/security/remove-malformed-env-file",
+          "sha": "0c270b1095f939910e8c795caa0b0267b8e589e7",
+          "type": "commit"
+        },
+        {
+          "ref": "refs/heads/ui/hide-welcome-hero-branding",
+          "sha": "9df8da446ddc48bdd791297d342c1b9a7dffedd8",
+          "type": "commit"
+        },
+        {
+          "ref": "refs/heads/ui/hide-workspace-mode-toolbar",
+          "sha": "6d650d568d8b23fb47603168409a843dbd988468",
+          "type": "commit"
+        },
+        {
+          "ref": "refs/heads/vercel/install-and-configure-vercel-s-m7ebc1",
+          "sha": "c89c88879a3b54efd77c2cdd46bfc8788a3ad8e2",
+          "type": "commit"
+        },
+        {
+          "ref": "refs/heads/vercel/install-vercel-speed-insights-z8dluk",
+          "sha": "deff00045203bb6ea3410e2fd66881ffa100e117",
+          "type": "commit"
+        },
+        {
+          "ref": "refs/heads/vercel/install-vercel-web-analytics-w-rtu1ka",
+          "sha": "b5e801c2ba7e3cf9bda6fda34ea6c68b03eec0f4",
+          "type": "commit"
+        },
+        {
+          "ref": "refs/heads/vercel/vercel-web-analytics-integrati-mf2bqe",
+          "sha": "193da3a6c02f62044322d4c7cccbdcdecf9c7c16",
+          "type": "commit"
+        }
+      ],
+      "tags": [],
+      "branch_error": null,
+      "tag_error": null
+    },
+    {
+      "repository": "OCodejs/mcp.auth.ocodejs",
+      "metadata": {
+        "id": 1449767457,
+        "full_name": "OCodejs/mcp.auth.ocodejs",
+        "private": false,
+        "visibility": "public",
+        "archived": false,
+        "fork": false,
+        "default_branch": "main",
+        "pushed_at": "2026-11-17T15:41:10Z",
+        "updated_at": "2026-11-10T12:01:49Z",
+        "size": 399,
+        "language": "TypeScript"
+      },
+      "branches": [
+        {
+          "ref": "refs/heads/docs/record-account-auth-preview-main",
+          "sha": "0d544848c0bb0fc1fd7921b977413681c4eab46b",
+          "type": "commit"
+        },
+        {
+          "ref": "refs/heads/feat/account-auth-health-readiness",
+          "sha": "7f7a698c1b5bd52e6acf5ef35f3499012714dbed",
+          "type": "commit"
+        },
+        {
+          "ref": "refs/heads/feat/auth-account-preview",
+          "sha": "995141e7912c5b7bc12bf14167e32610334888b6",
+          "type": "commit"
+        },
+        {
+          "ref": "refs/heads/feat/auth-portal-ui-redesign",
+          "sha": "877424719da1fa89bafaba7c9049e3e1bd94a7cc",
+          "type": "commit"
+        },
+        {
+          "ref": "refs/heads/feat/auth-postgres-rate-limit",
+          "sha": "f8784e5f10219404dd43b7632059225b7f53e9e7",
+          "type": "commit"
+        },
+        {
+          "ref": "refs/heads/feat/cloudflare-workers-preview",
+          "sha": "de21810139db7e5adac027cc5cb4453fb0f11993",
+          "type": "commit"
+        },
+        {
+          "ref": "refs/heads/feat/learning-platform-authjs-preview",
+          "sha": "c9980dcb30b68cbaae5bf3ee00015f7acfccfc3f",
+          "type": "commit"
+        },
+        {
+          "ref": "refs/heads/feat/ocodejs-account-portal",
+          "sha": "58b2cca3a07db53b82c314c1d366c25bef9511fb",
+          "type": "commit"
+        },
+        {
+          "ref": "refs/heads/feat/ocodejs-multi-user-profile-backend",
+          "sha": "61f642b626dfce83044087f9f67b2879ddc0f043",
+          "type": "commit"
+        },
+        {
+          "ref": "refs/heads/feat/real-auth-foundation",
+          "sha": "51b06e48fff12b191b4ca75c998e212a221fecfa",
+          "type": "commit"
+        },
+        {
+          "ref": "refs/heads/feat/secure-byok-token-vault",
+          "sha": "41399a6f5c1db98c0f8971c67664b86c0d14c573",
+          "type": "commit"
+        },
+        {
+          "ref": "refs/heads/fix/auth-ci-account-flow",
+          "sha": "952d8c6e2108b67972c45d76e0d8a48dbcda9cc2",
+          "type": "commit"
+        },
+        {
+          "ref": "refs/heads/fix/auth-env-specific-prisma-schema",
+          "sha": "7385afccdcec0dc0c50a75e714b969e1b7e0d199",
+          "type": "commit"
+        },
+        {
+          "ref": "refs/heads/fix/auth-viewport-touch-zoom",
+          "sha": "9371ef2528ba5ce35736f4bd54ae99be52ec6387",
+          "type": "commit"
+        },
+        {
+          "ref": "refs/heads/fix/credentials-signin-ci",
+          "sha": "63cce1f68e9067d64eb045dea03f7c428e3a4a53",
+          "type": "commit"
+        },
+        {
+          "ref": "refs/heads/fix/deploy-build",
+          "sha": "a28d4ed75d1a5ee35fe42655e81a3c81fd22db8d",
+          "type": "commit"
+        },
+        {
+          "ref": "refs/heads/fix/jekyll-exclude-non-site-content",
+          "sha": "ab545721ad63669216c6e15137a9d85dcf62ec92",
+          "type": "commit"
+        },
+        {
+          "ref": "refs/heads/fix/pages-single-publisher-preview-20261117",
+          "sha": "21c0fb38a15aae527467ad3c50a8e61f7b8336c3",
+          "type": "commit"
+        },
+        {
+          "ref": "refs/heads/fix/prisma-neon-adapter-authjs",
+          "sha": "02b0b1b706287883cea1cef65dbd7f9728ebbaca",
+          "type": "commit"
+        },
+        {
+          "ref": "refs/heads/fix/prisma-postgres-adapter-vercel-preview",
+          "sha": "4bc2e395eafc76544c1c4bc1978d357f050ee66b",
+          "type": "commit"
+        },
+        {
+          "ref": "refs/heads/fix/profile-username-types-ci",
+          "sha": "3196d44c243ff942cc1b96483e19f3c01c73c82f",
+          "type": "commit"
+        },
+        {
+          "ref": "refs/heads/fix/vercel-nextjs-preview-config",
+          "sha": "ed558a374f9c26724fe52e2b49084e363b23ecf8",
+          "type": "commit"
+        },
+        {
+          "ref": "refs/heads/main",
+          "sha": "1fb874ced0e83734b5e5ded62f8adaa0eb1aa5a5",
+          "type": "commit"
+        },
+        {
+          "ref": "refs/heads/preview/cloudflare-next-build",
+          "sha": "2fe2a93c8b6244406cc102986260cc1a5b537f54",
+          "type": "commit"
+        },
+        {
+          "ref": "refs/heads/vercel/install-and-configure-vercel-w-vh3894",
+          "sha": "d06a045a423368cef600916f9c82ac511837a363",
+          "type": "commit"
+        },
+        {
+          "ref": "refs/heads/vercel/install-vercel-web-analytics-6gpgix",
+          "sha": "47485a01a23d07594f6b95f55c53bcaa973bd7c2",
+          "type": "commit"
+        }
+      ],
+      "tags": [],
+      "branch_error": null,
+      "tag_error": null
+    },
+    {
+      "repository": "OCodejs/THU365",
+      "metadata": {
+        "id": 1448703924,
+        "full_name": "OCodejs/THU365",
+        "private": false,
+        "visibility": "public",
+        "archived": false,
+        "fork": false,
+        "default_branch": "main",
+        "pushed_at": "2026-11-07T11:56:58Z",
+        "updated_at": "2026-11-07T11:57:03Z",
+        "size": 11014,
+        "language": "TypeScript"
+      },
+      "branches": [
+        {
+          "ref": "refs/heads/build/thu365-installable-android-apk",
+          "sha": "ab57c7e091c88af0a807646167074649ad05011f",
+          "type": "commit"
+        },
+        {
+          "ref": "refs/heads/docs/thu365-canonical-repository-links",
+          "sha": "b63cf7893664eef4cbbc1b8d7d082982ce681e20",
+          "type": "commit"
+        },
+        {
+          "ref": "refs/heads/docs/thu365-readme-brand-assets",
+          "sha": "8c0fe12cea24ac3edf03f16ec6411509b5192dcf",
+          "type": "commit"
+        },
+        {
+          "ref": "refs/heads/docs/thu365-readme-horizontal-logo",
+          "sha": "c10d8540aa719701215d99580b51dffd0fa08fd1",
+          "type": "commit"
+        },
+        {
+          "ref": "refs/heads/feat/anhthu-beauty-platform",
+          "sha": "67b33f62061f33c89cc06ce7e6165c6f9038ad9f",
+          "type": "commit"
+        },
+        {
+          "ref": "refs/heads/feat/github-binary-image-upload-skill",
+          "sha": "b582d4c0546a34f24c248582a111ae8fffadb9f7",
+          "type": "commit"
+        },
+        {
+          "ref": "refs/heads/feat/native-camera-permissions",
+          "sha": "1a99fced5ac6feec0addf9ff086842e286330306",
+          "type": "commit"
+        },
+        {
+          "ref": "refs/heads/feat/thu365-ai-beauty-reference-studio",
+          "sha": "0a01f1fafd8863df71a7526c1ce000508516d138",
+          "type": "commit"
+        },
+        {
+          "ref": "refs/heads/feat/thu365-ai-diagnostics",
+          "sha": "a651fee2c6b821d02961ce28a67a993b467f3d14",
+          "type": "commit"
+        },
+        {
+          "ref": "refs/heads/feat/thu365-ai-diagnostics-verified",
+          "sha": "a651fee2c6b821d02961ce28a67a993b467f3d14",
+          "type": "commit"
+        },
+        {
+          "ref": "refs/heads/feat/thu365-ai-face-ar-studio",
+          "sha": "3c87ea96aa912b7b9d191158189e26af21c4cb2d",
+          "type": "commit"
+        },
+        {
+          "ref": "refs/heads/feat/thu365-ai-model-center-six-skills",
+          "sha": "eb22af7a5e5ceb6805bbe5daf6906b3c7b8b83c3",
+          "type": "commit"
+        },
+        {
+          "ref": "refs/heads/feat/thu365-auto-manual-tiktok-beauty",
+          "sha": "c98ffd6271ec88bf8c670166ab14f59f3cee0de4",
+          "type": "commit"
+        },
+        {
+          "ref": "refs/heads/feat/thu365-beauty-skills-docs-experience",
+          "sha": "d503a43caed0dd9ce50eef51861466dcabe4ead3",
+          "type": "commit"
+        },
+        {
+          "ref": "refs/heads/feat/thu365-beauty-skills-docs-hub",
+          "sha": "69551de47bcba35506148da97805ab7cd0383ccb",
+          "type": "commit"
+        },
+        {
+          "ref": "refs/heads/feat/thu365-beauty-skills-suite-1-6",
+          "sha": "1445db0389825071a47ecc91b4dfa32d5f069407",
+          "type": "commit"
+        },
+        {
+          "ref": "refs/heads/feat/thu365-device-center",
+          "sha": "68a4701287d558f204c35ed722f510efc881cb51",
+          "type": "commit"
+        },
+        {
+          "ref": "refs/heads/feat/thu365-home-navigation-ai-robot",
+          "sha": "d4ea97cea357021c6a2847321d07ad615becfe21",
+          "type": "commit"
+        },
+        {
+          "ref": "refs/heads/feat/thu365-ios-pwa-native-install",
+          "sha": "ad83923960766974a45d95c0fd9203738afa62f4",
+          "type": "commit"
+        },
+        {
+          "ref": "refs/heads/feat/thu365-iphone-pwa",
+          "sha": "67c05d9f17af8009b890b32c7c934c709f05e16d",
+          "type": "commit"
+        },
+        {
+          "ref": "refs/heads/feat/thu365-photo-editing-studio",
+          "sha": "d135b4f1b4c15d870b9621d9424f754be70c2c8b",
+          "type": "commit"
+        },
+        {
+          "ref": "refs/heads/feat/thu365-required-app-ai-setup",
+          "sha": "123aaf5887e93fc5fcb666c7c614b2fd5256397b",
+          "type": "commit"
+        },
+        {
+          "ref": "refs/heads/feat/thu365-tiktok-style-beauty-controls",
+          "sha": "540297e76ed670b02ab32483c0e72d283964b5f1",
+          "type": "commit"
+        },
+        {
+          "ref": "refs/heads/feat/thu365-trending-beauty-effects",
+          "sha": "475bc2c360f50870f2b967c9e83f1b7bbcd7d9b8",
+          "type": "commit"
+        },
+        {
+          "ref": "refs/heads/feature/thu365-camera-studio-ui",
+          "sha": "8c6a07e4b27955d5a40c9057ecf76f5b2787a766",
+          "type": "commit"
+        },
+        {
+          "ref": "refs/heads/feature/thu365-save-beauty-settings",
+          "sha": "1bbe385e2f218105a95a73b7f3442d919680800a",
+          "type": "commit"
+        },
+        {
+          "ref": "refs/heads/fix/cloudflare-assets-only-worker",
+          "sha": "26651817709777bb50ce0753302fb9885b382bdc",
+          "type": "commit"
+        },
+        {
+          "ref": "refs/heads/fix/cloudflare-pnpm-lockfile",
+          "sha": "192bea0574acabdcdabb333aaaad491476284ba0",
+          "type": "commit"
+        },
+        {
+          "ref": "refs/heads/fix/cloudflare-vite-build-env",
+          "sha": "3d540f77b200ec60f08612be6649d963929d4917",
+          "type": "commit"
+        },
+        {
+          "ref": "refs/heads/fix/thu365-ai-model-center-css-template",
+          "sha": "be79acc6d8f895dd78fc3945cfd2e96f7ff0129a",
+          "type": "commit"
+        },
+        {
+          "ref": "refs/heads/fix/thu365-app-root-runtime",
+          "sha": "c6b186e37a4befe601afe5ed5518bdff71f6ca97",
+          "type": "commit"
+        },
+        {
+          "ref": "refs/heads/fix/thu365-camera-playback-recovery",
+          "sha": "09eb7fddc087c6167ca56e8071d95f9d4ba0446e",
+          "type": "commit"
+        },
+        {
+          "ref": "refs/heads/fix/thu365-full-audit-readme-ios-build",
+          "sha": "a329754d8d1c69d7130b90999dac33683f6b4fa9",
+          "type": "commit"
+        },
+        {
+          "ref": "refs/heads/fix/thu365-ios-swift-62-runner",
+          "sha": "1aee15df38f0066985025b652b16b771f67a1860",
+          "type": "commit"
+        },
+        {
+          "ref": "refs/heads/fix/thu365-live-beauty-render-fallback",
+          "sha": "d7d75ed1b910f18a4de71fdeb773e402eb7bacb3",
+          "type": "commit"
+        },
+        {
+          "ref": "refs/heads/fix/thu365-root-route",
+          "sha": "619505b720dc70470066006dd6df2b373560146a",
+          "type": "commit"
+        },
+        {
+          "ref": "refs/heads/fix/thu365-vercel-spa-routing",
+          "sha": "3e10c2bacfbcce38e272ef10325e1a41168cdc77",
+          "type": "commit"
+        },
+        {
+          "ref": "refs/heads/main",
+          "sha": "9378e567974fba90323284d7e29e87e7d9555ea4",
+          "type": "commit"
+        }
+      ],
+      "tags": [],
+      "branch_error": null,
+      "tag_error": null
+    },
+    {
+      "repository": "OCodejs/ocodejs.github.io",
+      "metadata": {
+        "id": 1449322239,
+        "full_name": "OCodejs/ocodejs.github.io",
+        "private": false,
+        "visibility": "public",
+        "archived": false,
+        "fork": false,
+        "default_branch": "main",
+        "pushed_at": "2026-11-16T22:11:22Z",
+        "updated_at": "2026-11-11T10:22:58Z",
+        "size": 604,
+        "language": "JavaScript"
+      },
+      "branches": [
+        {
+          "ref": "refs/heads/debug/control-api-staging-403-response",
+          "sha": "2269f8be3185a23e2ef780cbf32c2631ad0e2422",
+          "type": "commit"
+        },
+        {
+          "ref": "refs/heads/docs/mandatory-ocodejs-design-system-policy",
+          "sha": "2707c5e3712c57275f646fc21d134ba1c3aaba39",
+          "type": "commit"
+        },
+        {
+          "ref": "refs/heads/docs/ocodejs-full-sourcecode-audit-plan",
+          "sha": "4778cf34f0de9b6b5ac8d55861a09eab4bef07bb",
+          "type": "commit"
+        },
+        {
+          "ref": "refs/heads/docs/server-platform-foundation",
+          "sha": "09dbad57b51aecacd5a6afb5c47c745b9cb9e5a5",
+          "type": "commit"
+        },
+        {
+          "ref": "refs/heads/feat/agent-registry-v1",
+          "sha": "c289cd32969c3c5158f955d750f871dc814e4f5a",
+          "type": "commit"
+        },
+        {
+          "ref": "refs/heads/feat/agent-runtime-readiness",
+          "sha": "e28d2a88b5d0764f9853ec704af804020b842af9",
+          "type": "commit"
+        },
+        {
+          "ref": "refs/heads/feat/auth-service-health",
+          "sha": "1815b8344e0a4aa37d764a4e9afcc21212a7e9a5",
+          "type": "commit"
+        },
+        {
+          "ref": "refs/heads/feat/cli-auth-health-adapter",
+          "sha": "46b0a424d98b2eeab3008416d98adf01a59bcf6f",
+          "type": "commit"
+        },
+        {
+          "ref": "refs/heads/feat/control-api-analytics-engine",
+          "sha": "5b9ec77205a8b8ce6d51e40a2fbea35243912a69",
+          "type": "commit"
+        },
+        {
+          "ref": "refs/heads/feat/control-api-health-v1",
+          "sha": "b7085fdbc5a74d964fef422ba48ae17266345e0e",
+          "type": "commit"
+        },
+        {
+          "ref": "refs/heads/feat/control-api-structured-telemetry",
+          "sha": "ea69275e1645589bac1027dc8131d9f9065e5243",
+          "type": "commit"
+        },
+        {
+          "ref": "refs/heads/feat/control-auth-mcp-integration-main",
+          "sha": "9eac808974d991249ef300a68b36022c66341aa2",
+          "type": "commit"
+        },
+        {
+          "ref": "refs/heads/feat/dashboard-live-service-health",
+          "sha": "5f2d7f426c0216aece729959ab8e759d7a7dc306",
+          "type": "commit"
+        },
+        {
+          "ref": "refs/heads/feat/deployment-accessibility-runbook",
+          "sha": "89a3c6fcf3ab90461c25f6060cede544bbe98fb0",
+          "type": "commit"
+        },
+        {
+          "ref": "refs/heads/feat/docs-ecosystem-pages-links",
+          "sha": "0e1455d0a177e5bb6a4396b011a08af0fa66f796",
+          "type": "commit"
+        },
+        {
+          "ref": "refs/heads/feat/ecosystem-registry-sync-engine",
+          "sha": "d74f03526800e24da1b856f2e525427bd2792965",
+          "type": "commit"
+        },
+        {
+          "ref": "refs/heads/feat/live-platform-registry-pages",
+          "sha": "5a2fef9ec687b9cc6bd6093078205e17694533a3",
+          "type": "commit"
+        },
+        {
+          "ref": "refs/heads/feat/mcp-agent-readonly-tools",
+          "sha": "b01d9e9fa5d53da36204709f4420aa42b26fb0aa",
+          "type": "commit"
+        },
+        {
+          "ref": "refs/heads/feat/mcp-canonical-design-system",
+          "sha": "0c69ce653be8f0038bd42f03782b3942ddf9d168",
+          "type": "commit"
+        },
+        {
+          "ref": "refs/heads/feat/mcp-provider-runtime-readiness",
+          "sha": "b586d877f9a07613048cd3181172e90dcc9975d1",
+          "type": "commit"
+        },
+        {
+          "ref": "refs/heads/feat/mcp-server-staging-v1",
+          "sha": "fedbaf8bab664e712bce75cc4e841acc7e30db6f",
+          "type": "commit"
+        },
+        {
+          "ref": "refs/heads/feat/observability-operations-foundation",
+          "sha": "38555ce86a5931e1d84e8e4ad2befe64ce369d9b",
+          "type": "commit"
+        },
+        {
+          "ref": "refs/heads/feat/ocodejs-co-staging-api-freshness",
+          "sha": "66795cf8fdd07662a49d354d578cff93df778d0f",
+          "type": "commit"
+        },
+        {
+          "ref": "refs/heads/feat/ocodejs-multi-user-profile-foundation",
+          "sha": "501d731a718709a610c32ff055ee6cd43ab44745",
+          "type": "commit"
+        },
+        {
+          "ref": "refs/heads/feat/ocodejs-pages-shell-theme",
+          "sha": "4ad2a7585083081ca73c098271f01204d6d99a73",
+          "type": "commit"
+        },
+        {
+          "ref": "refs/heads/feat/ocodejs-server-landing",
+          "sha": "57c64a9ed6e5cc2813e1bef4feb5394b442167d3",
+          "type": "commit"
+        },
+        {
+          "ref": "refs/heads/feat/provider-registry-readonly",
+          "sha": "9e9ea9662c28a62e0139f117a5e709f2061c376f",
+          "type": "commit"
+        },
+        {
+          "ref": "refs/heads/feat/server-control-center",
+          "sha": "b182a0f224b531ba6ff7d62fa2f100b02400b0c4",
+          "type": "commit"
+        },
+        {
+          "ref": "refs/heads/feat/token-vault-access-staff",
+          "sha": "eb8ca3bd71a720f60baf0d96e0253727a2a21985",
+          "type": "commit"
+        },
+        {
+          "ref": "refs/heads/feat/token-vault-agent-scopes",
+          "sha": "00f33d228dc9ec9eb859cb2c6206969930f3008c",
+          "type": "commit"
+        },
+        {
+          "ref": "refs/heads/feat/token-vault-security-project",
+          "sha": "7942390ac4b2e3ac5d1b289a1115d0cecd80bbe9",
+          "type": "commit"
+        },
+        {
+          "ref": "refs/heads/fix/cli-auth-service-binding-redirect-follow",
+          "sha": "037508527268cdfd7a837389f146142f83c5a3f8",
+          "type": "commit"
+        },
+        {
+          "ref": "refs/heads/fix/control-api-mcp-probe-timeout",
+          "sha": "ee2c681bb9715aee3bebdb272327a5cacb760f8e",
+          "type": "commit"
+        },
+        {
+          "ref": "refs/heads/fix/control-api-staging-custom-domain-smoke-check",
+          "sha": "0f03f61d78ec4dc51cb920c976c8ac15e8138e26",
+          "type": "commit"
+        },
+        {
+          "ref": "refs/heads/fix/control-api-staging-workers-dev-host",
+          "sha": "1249d8fbdcbfd271f2ad4353c69ad99650abc562",
+          "type": "commit"
+        },
+        {
+          "ref": "refs/heads/fix/control-center-use-verified-staging-api",
+          "sha": "6f3fe314bfe0c4e5b5e4a09d10be30909a0a07d3",
+          "type": "commit"
+        },
+        {
+          "ref": "refs/heads/fix/docs-jekyll-rendered-guides",
+          "sha": "cdbccef8af4e92712687bc2e68d47ca330022630",
+          "type": "commit"
+        },
+        {
+          "ref": "refs/heads/fix/docs-links-and-telemetry-status",
+          "sha": "9da8e510161918919e3c01134abc7d5e637f528c",
+          "type": "commit"
+        },
+        {
+          "ref": "refs/heads/fix/jekyll-doc-link-check-regex",
+          "sha": "fd036271b2f89b297facf13b4f595709411d8e5a",
+          "type": "commit"
+        },
+        {
+          "ref": "refs/heads/fix/ocodejs-co-pages-routing-https",
+          "sha": "0e5029b686d67812343264d6916bcae296eebcd7",
+          "type": "commit"
+        },
+        {
+          "ref": "refs/heads/fix/pages-exclude-nested-vendored-content",
+          "sha": "9ed1093bbf1af8b657eaae690dbb500f5519da1a",
+          "type": "commit"
+        },
+        {
+          "ref": "refs/heads/fix/pages-exclude-upstream-liquid-content",
+          "sha": "ab02ce241132cec7faecbce51c78ff015adf7201",
+          "type": "commit"
+        },
+        {
+          "ref": "refs/heads/fix/remove-orphan-ruby-gemspec",
+          "sha": "acb72db11f09df12f073c66c0221f1fb3b57b3ba",
+          "type": "commit"
+        },
+        {
+          "ref": "refs/heads/fix/server-dashboard-stray-newline",
+          "sha": "313d654a8e54079eb6850b9998d1db99b4829629",
+          "type": "commit"
+        },
+        {
+          "ref": "refs/heads/fix/staging-api-ocodejs-workers-dev-url",
+          "sha": "036d92442f43d5aca737ff331a2669c2d9a8cabb",
+          "type": "commit"
+        },
+        {
+          "ref": "refs/heads/fix/staging-diagnostics-and-preview-isolation",
+          "sha": "4d20cbc1b28a73b7c567200eb44375112968eed0",
+          "type": "commit"
+        },
+        {
+          "ref": "refs/heads/fix/token-vault-security-and-dashboard",
+          "sha": "4b01542b409f310517be554c33929e086f550d94",
+          "type": "commit"
+        },
+        {
+          "ref": "refs/heads/fix/verify-ecosystem-pages-https",
+          "sha": "9e64d766dfb0405e19e12b760bf26b1f311348a5",
+          "type": "commit"
+        },
+        {
+          "ref": "refs/heads/main",
+          "sha": "618c3027fa73d43a5142c494dc06de2b6e8dacbe",
+          "type": "commit"
+        },
+        {
+          "ref": "refs/heads/security/remove-tracked-env-and-harden-dashboard",
+          "sha": "2625b14b38b79bd3c015740e9f38f6808d3ce4d6",
+          "type": "commit"
+        },
+        {
+          "ref": "refs/heads/test/ask-ocodejs-source-validation-20261117",
+          "sha": "676332ca760d4351f404bc4ed8382eac20c519d9",
+          "type": "commit"
+        },
+        {
+          "ref": "refs/heads/test/ecosystem-http-smoke-20261117",
+          "sha": "1bfc9b2582687d52a7abb67c0101cef2c799f740",
+          "type": "commit"
+        },
+        {
+          "ref": "refs/heads/vercel/install-and-configure-vercel-w-0f4nud",
+          "sha": "24b4ef4509c9dae35f90aaf54d6fa636f4eec425",
+          "type": "commit"
+        },
+        {
+          "ref": "refs/heads/vercel/install-vercel-web-analytics-wlpl6i",
+          "sha": "01ba8aa5b318c239b407a7b1a635ded5cfa443bf",
+          "type": "commit"
+        }
+      ],
+      "tags": [],
+      "branch_error": null,
+      "tag_error": null
+    },
+    {
+      "repository": "OCodejs/OCODEJS",
+      "metadata": {
+        "id": 1430148943,
+        "full_name": "OCodejs/OCODEJS",
+        "private": false,
+        "visibility": "public",
+        "archived": false,
+        "fork": false,
+        "default_branch": "main",
+        "pushed_at": "2026-11-19T10:21:31Z",
+        "updated_at": "2026-11-11T17:01:59Z",
+        "size": 5214,
+        "language": "TypeScript"
+      },
+      "branches": [
+        {
+          "ref": "refs/heads/5-run-with-vercel-deployment",
+          "sha": "96e87b1377edfdebf5fdf62b9fc84fb1c6e3535e",
+          "type": "commit"
+        },
+        {
+          "ref": "refs/heads/Pages-Ocodejs",
+          "sha": "e6c44149de2fd1274b5548c1e6a94ca9ecd50825",
+          "type": "commit"
+        },
+        {
+          "ref": "refs/heads/agent-build-command-in-netlifytoml-0a98",
+          "sha": "38e8ce90ca39388c7a7860f6127e9c22ebdedd7e",
+          "type": "commit"
+        },
+        {
+          "ref": "refs/heads/agent-command-and-publish-directory-f783",
+          "sha": "93f6e4088a11f40387dfe0cb2ecc7e64ae9767ad",
+          "type": "commit"
+        },
+        {
+          "ref": "refs/heads/chore/install-skills-sh-pack",
+          "sha": "482eef6ff7102b1c2bdc7874d6bd7e38be681681",
+          "type": "commit"
+        },
+        {
+          "ref": "refs/heads/chore/source-protection-guardrails",
+          "sha": "2ebcb7bbbb883f568d91d918113bc980ed5508d0",
+          "type": "commit"
+        },
+        {
+          "ref": "refs/heads/coderabbit/add-pull-request-tests/024ae1a4",
+          "sha": "eb3aa6cdb2245eb2c7ea255819d741d49fb76b42",
+          "type": "commit"
+        },
+        {
+          "ref": "refs/heads/coderabbit/add-pull-request-tests/12a860be",
+          "sha": "236756424129dd9282ccfe420633ba7cc311c989",
+          "type": "commit"
+        },
+        {
+          "ref": "refs/heads/coderabbit/add-pull-request-tests/1e8b4cc7",
+          "sha": "24fd07cca4f63d0943b6027c61310d5bd82d5590",
+          "type": "commit"
+        },
+        {
+          "ref": "refs/heads/coderabbit/add-pull-request-tests/8dc3c4a2",
+          "sha": "37c79a1cf4aae32c3876b3e6a432027080acabe7",
+          "type": "commit"
+        },
+        {
+          "ref": "refs/heads/coderabbit/add-pull-request-tests/e2dc4035",
+          "sha": "135ca8267d050375632cfa6e7105111c8eed7619",
+          "type": "commit"
+        },
+        {
+          "ref": "refs/heads/coderabbit/add-pull-request-tests/e9696076",
+          "sha": "4871031347c5c0c08b35cf4556c82454ff848ada",
+          "type": "commit"
+        },
+        {
+          "ref": "refs/heads/coderabbit/document-changed-functions/82f96f6d",
+          "sha": "71f40fe7d9a2f446ddfd514fb223a0cbe99750ac",
+          "type": "commit"
+        },
+        {
+          "ref": "refs/heads/coderabbit/pull-request-tests/3ab9b397",
+          "sha": "17a9baa9057cb074a8d92d1d086c982cb3e6c014",
+          "type": "commit"
+        },
+        {
+          "ref": "refs/heads/codex/ocodejs-framework-v0.2.0",
+          "sha": "96e87b1377edfdebf5fdf62b9fc84fb1c6e3535e",
+          "type": "commit"
+        },
+        {
+          "ref": "refs/heads/docs/cloud-agent-deployment-runbook",
+          "sha": "076ec807c4f231403afd77d53d3d023784f3c7bd",
+          "type": "commit"
+        },
+        {
+          "ref": "refs/heads/docs/manage-agent-sessions",
+          "sha": "bf6317eec06a254aeecb09838546f6d7c387f789",
+          "type": "commit"
+        },
+        {
+          "ref": "refs/heads/docs/redesign-readme",
+          "sha": "5576916eb18c1332dff2936ca2c0d6e33f93ab86",
+          "type": "commit"
+        },
+        {
+          "ref": "refs/heads/docs/refresh-staging-gates",
+          "sha": "61854acf5c8b639f88f865c18b4f7b6c0e411dbe",
+          "type": "commit"
+        },
+        {
+          "ref": "refs/heads/docs/terminal-quickstart-v0.1.0",
+          "sha": "b9c7dc22d542fa3509a8d2cb2a2cd10d42ab3d91",
+          "type": "commit"
+        },
+        {
+          "ref": "refs/heads/feat/cloud-agent-ai-provider-runtime",
+          "sha": "f01c305ef161c91c62264898cd7dcb80cc3d5e80",
+          "type": "commit"
+        },
+        {
+          "ref": "refs/heads/feat/cloud-agent-mobile-mvp",
+          "sha": "0633ccb942d8c7e0410b83f6369da5063ce81750",
+          "type": "commit"
+        },
+        {
+          "ref": "refs/heads/feat/control-center-live-observability",
+          "sha": "867082a393cabf4d113a12e0f6e9c6d4c220e793",
+          "type": "commit"
+        },
+        {
+          "ref": "refs/heads/feat/control-center-platform",
+          "sha": "b83f29f406299b9884c4a233902d03a74255ccb1",
+          "type": "commit"
+        },
+        {
+          "ref": "refs/heads/feat/custom-oauth2-authorization",
+          "sha": "fca4c47a6ce38f0545ba4b38c318aa7da69cf5ae",
+          "type": "commit"
+        },
+        {
+          "ref": "refs/heads/feat/deep-black-homepage",
+          "sha": "328e8737f3d88b9b4fe262cc91e279ffc391cb8d",
+          "type": "commit"
+        },
+        {
+          "ref": "refs/heads/feat/http-timeout",
+          "sha": "add45700c3fe12427cd83050731cf0217cdf14e3",
+          "type": "commit"
+        },
+        {
+          "ref": "refs/heads/feat/multi-provider-oauth-portal",
+          "sha": "86d42bb7f3acc8b4963a13f659eb92aec8d8945d",
+          "type": "commit"
+        },
+        {
+          "ref": "refs/heads/feat/ocodejs-brand-system-preview",
+          "sha": "53dfbb021e67284d577498412b5ec48adde1e479",
+          "type": "commit"
+        },
+        {
+          "ref": "refs/heads/feat/ocodejs-infrastructure-foundation",
+          "sha": "457b6ca7fe0ab2e2a525aa7de14e445df7ba35b0",
+          "type": "commit"
+        },
+        {
+          "ref": "refs/heads/feat/plugin-hub",
+          "sha": "6e5986fc4ffd978b6967614ea37dd7e890e646fc",
+          "type": "commit"
+        },
+        {
+          "ref": "refs/heads/fix/actions-sha-pinning-followup",
+          "sha": "2e19c2a9982f5e731ba1085cba1a89bf790eef23",
+          "type": "commit"
+        },
+        {
+          "ref": "refs/heads/fix/base-branch-workflow-errors",
+          "sha": "2d9cab9f2a2198c01e5fbb549a31c4f6c262bd65",
+          "type": "commit"
+        },
+        {
+          "ref": "refs/heads/fix/bound-login-rate-limit-memory",
+          "sha": "41424156c46daa5eebf758134159e654fc32a23a",
+          "type": "commit"
+        },
+        {
+          "ref": "refs/heads/fix/ci-and-metadata-20261105",
+          "sha": "ec1086d4769b98642ada7c0d3fe8fd16f99a381f",
+          "type": "commit"
+        },
+        {
+          "ref": "refs/heads/fix/ci-crda-labeler-only",
+          "sha": "a351b91aa94fac108bdafd40bd6e4a680977e368",
+          "type": "commit"
+        },
+        {
+          "ref": "refs/heads/fix/ci-deployment-green-20261105",
+          "sha": "20ecba9868fafd6939054b34144cd4efcb0e69bf",
+          "type": "commit"
+        },
+        {
+          "ref": "refs/heads/fix/ci-deployment-green-complete",
+          "sha": "66932157f4b530d9f7a84e95a9825c2be2da2d81",
+          "type": "commit"
+        },
+        {
+          "ref": "refs/heads/fix/ci-deployment-green-final",
+          "sha": "5bb863ad6a398277ada83d233e66efccfaef7c6a",
+          "type": "commit"
+        },
+        {
+          "ref": "refs/heads/fix/ci-deployment-green-final-check",
+          "sha": "059ab8db4852a832f60c0d713b6127883359fa5a",
+          "type": "commit"
+        },
+        {
+          "ref": "refs/heads/fix/ci-deployment-green-last",
+          "sha": "c2514221d93e9bfae2c144e1421b678c6814d152",
+          "type": "commit"
+        },
+        {
+          "ref": "refs/heads/fix/ci-deployment-green-release",
+          "sha": "e2992317141bb78e7d0cd6fd000a8fe00e2631df",
+          "type": "commit"
+        },
+        {
+          "ref": "refs/heads/fix/ci-deployment-green-reviewed",
+          "sha": "0ebae9d60e37095a1f9bc511e77ae1aebc10a3a2",
+          "type": "commit"
+        },
+        {
+          "ref": "refs/heads/fix/ci-deployment-green-validated",
+          "sha": "2ee65b681f80e37928147f554d568e893f0441cf",
+          "type": "commit"
+        },
+        {
+          "ref": "refs/heads/fix/ci-deployment-green-verified",
+          "sha": "5079bfa400fe08d6336a051f00228b8e8008821a",
+          "type": "commit"
+        },
+        {
+          "ref": "refs/heads/fix/cloud-agent-ci-pinned-actions",
+          "sha": "0d93b813d21fa1962dacd4b2e888275a4ad6dc2c",
+          "type": "commit"
+        },
+        {
+          "ref": "refs/heads/fix/cloud-agent-origin-security",
+          "sha": "1f2386b2dc4369e11a72e3ea47a1711b7381b6eb",
+          "type": "commit"
+        },
+        {
+          "ref": "refs/heads/fix/cloud-agent-remove-admin-login",
+          "sha": "6054cd4a78c13ed409754266b689c927a0ff5e1f",
+          "type": "commit"
+        },
+        {
+          "ref": "refs/heads/fix/control-center-freshness-followup",
+          "sha": "f8df4f671d5b97ac066f405dfc4e84d05db6a287",
+          "type": "commit"
+        },
+        {
+          "ref": "refs/heads/fix/control-center-navigation-freshness",
+          "sha": "2c5b82872858a782fdabfd01ca7d3390509c0853",
+          "type": "commit"
+        },
+        {
+          "ref": "refs/heads/fix/core-index-newlines",
+          "sha": "6c07b99230a10462670cef38339b25750b6c6f86",
+          "type": "commit"
+        },
+        {
+          "ref": "refs/heads/fix/homepage-seo-tests",
+          "sha": "6754685a518639bddd0bb70927ce887d3d39da7b",
+          "type": "commit"
+        },
+        {
+          "ref": "refs/heads/fix/jekyll-exclude-github-docs-content-20261117",
+          "sha": "2e0234782d117d69cc7463415a400b510d3333a6",
+          "type": "commit"
+        },
+        {
+          "ref": "refs/heads/fix/jekyll-liquid-pages-build-20261117",
+          "sha": "2e0234782d117d69cc7463415a400b510d3333a6",
+          "type": "commit"
+        },
+        {
+          "ref": "refs/heads/fix/login-origin-and-runbook",
+          "sha": "d0b60ef4acc22914278a0a87bd8aacdd3389b8f1",
+          "type": "commit"
+        },
+        {
+          "ref": "refs/heads/fix/npm-release-preflight-tests",
+          "sha": "aad0ada8312f651ddfb8a0d59bdebcde0d6c3ee7",
+          "type": "commit"
+        },
+        {
+          "ref": "refs/heads/fix/npm-release-workflow",
+          "sha": "4fb768d809dbe98d7b63c6a6c4ff2c62eb978b6f",
+          "type": "commit"
+        },
+        {
+          "ref": "refs/heads/fix/ocode-cloud-agent-brand-github-auth",
+          "sha": "2e836f2b8c378e9fb874cda05717e19c139ce643",
+          "type": "commit"
+        },
+        {
+          "ref": "refs/heads/fix/ocode-cloud-agent-brand-github-auth-v2",
+          "sha": "5326bc7a60fc2c052b481ef8f97b29dbd49fedcb",
+          "type": "commit"
+        },
+        {
+          "ref": "refs/heads/fix/rate-limit-cleanup-amortized",
+          "sha": "c5bea8882f9aa803bd1026288cf41705bb523031",
+          "type": "commit"
+        },
+        {
+          "ref": "refs/heads/fix/root-ci-pinned-actions",
+          "sha": "dd62a87e4f859aeb06e0a88c5c47cce49e2788aa",
+          "type": "commit"
+        },
+        {
+          "ref": "refs/heads/fix/router-param-prototype-safety",
+          "sha": "7cced71e2af5948a5ee2910f8d62f382d17dfa8d",
+          "type": "commit"
+        },
+        {
+          "ref": "refs/heads/main",
+          "sha": "7fb540bb9b8917322212dda1381de001a6afeb7e",
+          "type": "commit"
+        },
+        {
+          "ref": "refs/heads/release/0.1.0-api-coverage",
+          "sha": "39770434d15c544ea0463fae7aaafe5dbdd624a3",
+          "type": "commit"
+        },
+        {
+          "ref": "refs/heads/release/npm-first-publish-api-coverage",
+          "sha": "f7370faeee5503cd4944589ba1c9522b89c82592",
+          "type": "commit"
+        },
+        {
+          "ref": "refs/heads/test/cloud-agent-auth-store",
+          "sha": "c39a7c89a6d7c76745e342b9ffd911ac0ab8d666",
+          "type": "commit"
+        },
+        {
+          "ref": "refs/heads/v0/build-velclaw-identity-cae1d097",
+          "sha": "29c6c961bb21d86ca9388ecbfe2193caeceade99",
+          "type": "commit"
+        },
+        {
+          "ref": "refs/heads/v0/ocodejs-landing-sections",
+          "sha": "f03cb20322d225d838eae1e6133fc0d04de351af",
+          "type": "commit"
+        },
+        {
+          "ref": "refs/heads/vercel/install-and-configure-vercel-s-w76o0z",
+          "sha": "575621ee0295f1c6755159f8e87164eab1e5c431",
+          "type": "commit"
+        },
+        {
+          "ref": "refs/heads/vercel/install-vercel-speed-insights-oye4ou",
+          "sha": "4482ec13cb23ecf67afd746362068f487cf4f6c2",
+          "type": "commit"
+        },
+        {
+          "ref": "refs/heads/vercel/install-vercel-speed-insights-zqoilz",
+          "sha": "6b26ae605458527615a55508252054fe67f80c62",
+          "type": "commit"
+        },
+        {
+          "ref": "refs/heads/vercel/install-vercel-web-analytics-ddcmj5",
+          "sha": "c1e59681af127c5e03e8f982c592a4e1310d364b",
+          "type": "commit"
+        },
+        {
+          "ref": "refs/heads/vercel/install-vercel-web-analytics-eyffr0",
+          "sha": "fa5bc0657dbbda2e2f84e278fe5176108ac8f968",
+          "type": "commit"
+        },
+        {
+          "ref": "refs/heads/vercel/install-vercel-web-analytics-i-zpegfs",
+          "sha": "1fed043c080ca0ec180cafbb7b238c3bcfb93ce6",
+          "type": "commit"
+        },
+        {
+          "ref": "refs/heads/vercel/install-vercel-web-analytics-ikazvg",
+          "sha": "beb873dfb7e90c9d211419b22e5d4cb760dabe74",
+          "type": "commit"
+        },
+        {
+          "ref": "refs/heads/vercel/install-vercel-web-analytics-levhtu",
+          "sha": "5954aea2a55cca66d4771c45f9d73b5e4f38ea26",
+          "type": "commit"
+        },
+        {
+          "ref": "refs/heads/vercel/install-vercel-web-analytics-ydjuk3",
+          "sha": "0071c9b48e0e7ed9db027a55a889391270bae7e4",
+          "type": "commit"
+        }
+      ],
+      "tags": [
+        {
+          "ref": "refs/tags/v0.1.0",
+          "sha": "3b51fb57c725998eb4b04cb689efadca32d00e15",
+          "type": "commit"
+        }
+      ],
+      "branch_error": null,
+      "tag_error": null
+    }
+  ]
+}

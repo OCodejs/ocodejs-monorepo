@@ -1,0 +1,805 @@
+{
+  "snapshot": "2026-11-19",
+  "records": [
+    {
+      "repository": "Velclaw/OCodejs-docs",
+      "metadata": {
+        "id": 1427662614,
+        "private": false,
+        "visibility": "public",
+        "fork": false,
+        "default_branch": "main",
+        "archived": false,
+        "pushed_at": "2026-10-21T17:22:54Z",
+        "updated_at": "2026-10-21T17:23:01Z"
+      },
+      "branches": [
+        {
+          "ref": "refs/heads/chore/install-skills-sh-pack",
+          "sha": "70d2a00eb53b5a81d8bc1adae8885e6b0291a534",
+          "type": "commit"
+        },
+        {
+          "ref": "refs/heads/chore/source-protection-guardrails",
+          "sha": "94ff78052f11646b9398e3b9b661418c31e4e983",
+          "type": "commit"
+        },
+        {
+          "ref": "refs/heads/coderabbit/add-pull-request-tests/024ae1a4",
+          "sha": "2abb65823b954d2b355b74bdac54111e32051848",
+          "type": "commit"
+        },
+        {
+          "ref": "refs/heads/coderabbit/add-pull-request-tests/12a860be",
+          "sha": "506bbd30ac9d96d4dbe4bb149725599e918a514e",
+          "type": "commit"
+        },
+        {
+          "ref": "refs/heads/coderabbit/add-pull-request-tests/1e8b4cc7",
+          "sha": "44e7ebaa9b875485e653bc4c4d43de95b2cb34f2",
+          "type": "commit"
+        },
+        {
+          "ref": "refs/heads/coderabbit/add-pull-request-tests/8dc3c4a2",
+          "sha": "b093430dbb720a449815f886afdf4ee0ecac7801",
+          "type": "commit"
+        },
+        {
+          "ref": "refs/heads/coderabbit/add-pull-request-tests/e9696076",
+          "sha": "3bf92baa2d6b030e802dde84a9b26c9b6a8c1e7a",
+          "type": "commit"
+        },
+        {
+          "ref": "refs/heads/coderabbit/document-changed-functions/82f96f6d",
+          "sha": "0a0c6cbe5a09a9c7b8585965794ec68eb6881ee9",
+          "type": "commit"
+        },
+        {
+          "ref": "refs/heads/coderabbit/pull-request-tests/3ab9b397",
+          "sha": "17bcb5a0b4d07328048852b0dd8ca964f11084ad",
+          "type": "commit"
+        },
+        {
+          "ref": "refs/heads/codex/ocodejs-framework-v0.2.0",
+          "sha": "e93df5ed899a0efc027961b554ab0cbb7147780b",
+          "type": "commit"
+        },
+        {
+          "ref": "refs/heads/docs/cloud-agent-deployment-runbook",
+          "sha": "f160382eabe73ffca6818e65cc0adde889115a4c",
+          "type": "commit"
+        },
+        {
+          "ref": "refs/heads/docs/refresh-staging-gates",
+          "sha": "446ec6feddfa10eeaac6250e0725f493db912153",
+          "type": "commit"
+        },
+        {
+          "ref": "refs/heads/feat/cloud-agent-ai-provider-runtime",
+          "sha": "fcade35c857a0a19c31477801a411ec01abd1d4e",
+          "type": "commit"
+        },
+        {
+          "ref": "refs/heads/feat/cloud-agent-mobile-mvp",
+          "sha": "efd78fa23b8f1e832690fda013aedfbed256d7c6",
+          "type": "commit"
+        },
+        {
+          "ref": "refs/heads/feat/deep-black-homepage",
+          "sha": "b60e1c42832aec7069790d557fcde66f5ef67b52",
+          "type": "commit"
+        },
+        {
+          "ref": "refs/heads/fix/actions-sha-pinning-followup",
+          "sha": "823f787c8c426249e7eead91bce1a4cbad729983",
+          "type": "commit"
+        },
+        {
+          "ref": "refs/heads/fix/bound-login-rate-limit-memory",
+          "sha": "0431d3504629f32a8cdeeb96b5a9f088f60626d0",
+          "type": "commit"
+        },
+        {
+          "ref": "refs/heads/fix/cloud-agent-ci-pinned-actions",
+          "sha": "6bbc4c66063632e4c83950dd43c95b0dcc6c31ff",
+          "type": "commit"
+        },
+        {
+          "ref": "refs/heads/fix/cloud-agent-origin-security",
+          "sha": "bc44b3ecb8ef893ad675ac15227824f9d4f8ba25",
+          "type": "commit"
+        },
+        {
+          "ref": "refs/heads/fix/cloud-agent-remove-admin-login",
+          "sha": "f9eec257ee1a8b71f9ffcf9c71a842cf87a88624",
+          "type": "commit"
+        },
+        {
+          "ref": "refs/heads/fix/login-origin-and-runbook",
+          "sha": "aae6a1affbafc2b77f66938ad0f7bb025c63227e",
+          "type": "commit"
+        },
+        {
+          "ref": "refs/heads/fix/npm-release-workflow",
+          "sha": "3b9c17fe1a02f5806d6dd55949e8e4668d8cf917",
+          "type": "commit"
+        },
+        {
+          "ref": "refs/heads/fix/ocode-cloud-agent-brand-github-auth",
+          "sha": "18f576e08194913464e0865da83b211fa811101f",
+          "type": "commit"
+        },
+        {
+          "ref": "refs/heads/fix/ocode-cloud-agent-brand-github-auth-v2",
+          "sha": "4c92381dd9c9a11842572f5433a61fac869b0f87",
+          "type": "commit"
+        },
+        {
+          "ref": "refs/heads/fix/rate-limit-cleanup-amortized",
+          "sha": "3024e0ca7f3e05b12f879c139c5d402a96a271ef",
+          "type": "commit"
+        },
+        {
+          "ref": "refs/heads/fix/root-ci-pinned-actions",
+          "sha": "652cc67f16d638d01b8273c353c5ecc14e7c9ca3",
+          "type": "commit"
+        },
+        {
+          "ref": "refs/heads/main",
+          "sha": "1f8580543ff03bc678516d38cd1273325dd0b6cc",
+          "type": "commit"
+        },
+        {
+          "ref": "refs/heads/release/0.1.0-api-coverage",
+          "sha": "ea5456a0c49469fee36563d78d9b6a12cfe20590",
+          "type": "commit"
+        },
+        {
+          "ref": "refs/heads/test/cloud-agent-auth-store",
+          "sha": "78611a60741f7e943ce9dc8b917c8747ee6fba25",
+          "type": "commit"
+        },
+        {
+          "ref": "refs/heads/vercel/install-vercel-web-analytics-levhtu",
+          "sha": "dadabf37cc370f8085a7969e1addca72bc233b8e",
+          "type": "commit"
+        },
+        {
+          "ref": "refs/heads/vercel/install-vercel-web-analytics-ydjuk3",
+          "sha": "eaf0e5ca9d45160c1899c14f171b0905165d16cd",
+          "type": "commit"
+        },
+        {
+          "ref": "refs/heads/vercel/vercel-web-analytics-integrati-7piule",
+          "sha": "f9dff08029efe8c3cfe030700b8a598cbc8c84e1",
+          "type": "commit"
+        }
+      ],
+      "tags": [],
+      "branch_error": null,
+      "tag_error": null
+    },
+    {
+      "repository": "zskbot/ocodejs-api",
+      "metadata": {
+        "id": 1434628912,
+        "private": false,
+        "visibility": "public",
+        "fork": false,
+        "default_branch": "main",
+        "archived": false,
+        "pushed_at": "2026-10-29T14:49:03Z",
+        "updated_at": "2026-10-29T14:49:07Z"
+      },
+      "branches": [
+        {
+          "ref": "refs/heads/chore/extract-velclaw-identity",
+          "sha": "1b1e190f7cab9f55729a0dcc36073805ed8127d9",
+          "type": "commit"
+        },
+        {
+          "ref": "refs/heads/chore/valtown-deploy-workflow",
+          "sha": "937c9c8711f2ecd77613dd434bdeb81c0f01f53f",
+          "type": "commit"
+        },
+        {
+          "ref": "refs/heads/fix/deno-lint-unused-context",
+          "sha": "9d5538f90528b8b1774b534f8b0d4a6b4413fabf",
+          "type": "commit"
+        },
+        {
+          "ref": "refs/heads/fix/identity-deno-ci",
+          "sha": "9f4606fd7de5d1d13f627f75713ebaab68575135",
+          "type": "commit"
+        },
+        {
+          "ref": "refs/heads/main",
+          "sha": "9d485e4cc32693f80ad68e6f742fd4b065abe9cd",
+          "type": "commit"
+        }
+      ],
+      "tags": [],
+      "branch_error": null,
+      "tag_error": null
+    },
+    {
+      "repository": "Velclaw/OCodejs-VelClaw",
+      "metadata": {
+        "id": 1430326913,
+        "private": false,
+        "visibility": "public",
+        "fork": false,
+        "default_branch": "main",
+        "archived": false,
+        "pushed_at": "2026-10-22T22:17:31Z",
+        "updated_at": "2026-10-22T22:16:56Z"
+      },
+      "branches": [
+        {
+          "ref": "refs/heads/Pages-Ocodejs",
+          "sha": "816f458aaf2ab7308f6cb4ac426823b726fa1bf6",
+          "type": "commit"
+        },
+        {
+          "ref": "refs/heads/chore/install-skills-sh-pack",
+          "sha": "c25e681edbf586dc2ec4bdde0ca34f538ea89bca",
+          "type": "commit"
+        },
+        {
+          "ref": "refs/heads/chore/source-protection-guardrails",
+          "sha": "f008599c305409966e8ee09321eacab0cb166d9a",
+          "type": "commit"
+        },
+        {
+          "ref": "refs/heads/coderabbit/add-pull-request-tests/024ae1a4",
+          "sha": "aa3114c9660fe1d462f66e01c076e80d7329c5ca",
+          "type": "commit"
+        },
+        {
+          "ref": "refs/heads/coderabbit/add-pull-request-tests/12a860be",
+          "sha": "61f49214a1d89a0621a44002d5375508b9a168d6",
+          "type": "commit"
+        },
+        {
+          "ref": "refs/heads/coderabbit/add-pull-request-tests/1e8b4cc7",
+          "sha": "a118bd4a50540aa7ea31ff7313c89f792079b7e7",
+          "type": "commit"
+        },
+        {
+          "ref": "refs/heads/coderabbit/add-pull-request-tests/8dc3c4a2",
+          "sha": "3f6e2a3d6cc00042925e7bf5d569edef7ea1beb4",
+          "type": "commit"
+        },
+        {
+          "ref": "refs/heads/coderabbit/add-pull-request-tests/e2dc4035",
+          "sha": "38b4a04ceba45567b0c43064f266723142e0392e",
+          "type": "commit"
+        },
+        {
+          "ref": "refs/heads/coderabbit/add-pull-request-tests/e9696076",
+          "sha": "08194119883317a3cd75f514570c55c8b9da7714",
+          "type": "commit"
+        },
+        {
+          "ref": "refs/heads/coderabbit/document-changed-functions/82f96f6d",
+          "sha": "6466085fb6bcedc5ac12f7e34f379d2d6ed7e1fe",
+          "type": "commit"
+        },
+        {
+          "ref": "refs/heads/coderabbit/pull-request-tests/3ab9b397",
+          "sha": "bede6c82a3cbcf36756faff908dc841d25213dcf",
+          "type": "commit"
+        },
+        {
+          "ref": "refs/heads/codex/ocodejs-framework-v0.2.0",
+          "sha": "b431a5fdb6c3d70f4d98df9c6f965b336716c48f",
+          "type": "commit"
+        },
+        {
+          "ref": "refs/heads/docs/cloud-agent-deployment-runbook",
+          "sha": "807161bf781dd2b86107fe82ae23b0caafa6d35b",
+          "type": "commit"
+        },
+        {
+          "ref": "refs/heads/docs/redesign-readme",
+          "sha": "f55f11cae5fe5aa62a02602f5179a1868e2a5bac",
+          "type": "commit"
+        },
+        {
+          "ref": "refs/heads/docs/refresh-staging-gates",
+          "sha": "65e9a39e36a0801ccb136b2cbc0020590f268249",
+          "type": "commit"
+        },
+        {
+          "ref": "refs/heads/feat/cloud-agent-ai-provider-runtime",
+          "sha": "f2a32b17a884ee55c6da4e2935d8a8c6108672fd",
+          "type": "commit"
+        },
+        {
+          "ref": "refs/heads/feat/cloud-agent-mobile-mvp",
+          "sha": "4944dd2703e079e04a01a993c51a542bdf5b1b52",
+          "type": "commit"
+        },
+        {
+          "ref": "refs/heads/feat/deep-black-homepage",
+          "sha": "ffd004ea47c28fa4d4672af82e004eb758805b1b",
+          "type": "commit"
+        },
+        {
+          "ref": "refs/heads/feat/http-timeout",
+          "sha": "261c57ee4af647b4389924d75c653afee4c96ad1",
+          "type": "commit"
+        },
+        {
+          "ref": "refs/heads/fix/actions-sha-pinning-followup",
+          "sha": "27fbb32996bfa561d00572eacc4249d56761020f",
+          "type": "commit"
+        },
+        {
+          "ref": "refs/heads/fix/bound-login-rate-limit-memory",
+          "sha": "41cee2fcf5c19e5c1653fc2d2d737533010fff81",
+          "type": "commit"
+        },
+        {
+          "ref": "refs/heads/fix/cloud-agent-ci-pinned-actions",
+          "sha": "81713622be2d37ffc575a439c82f3c68edb006ef",
+          "type": "commit"
+        },
+        {
+          "ref": "refs/heads/fix/cloud-agent-origin-security",
+          "sha": "cebbc89ac4da6a44212b7a2479766063e63a9adb",
+          "type": "commit"
+        },
+        {
+          "ref": "refs/heads/fix/cloud-agent-remove-admin-login",
+          "sha": "d99919f209dd339e73efeee7feb0c64a5168dbf0",
+          "type": "commit"
+        },
+        {
+          "ref": "refs/heads/fix/core-index-newlines",
+          "sha": "d32a9a2ab9776c940480f57970f4e485c5a4354d",
+          "type": "commit"
+        },
+        {
+          "ref": "refs/heads/fix/login-origin-and-runbook",
+          "sha": "fe3f4727aec992c9e0a97e42d15f5799120562c6",
+          "type": "commit"
+        },
+        {
+          "ref": "refs/heads/fix/npm-release-workflow",
+          "sha": "b9a8f943c31c4fdeac1350cff31c31e33cda89df",
+          "type": "commit"
+        },
+        {
+          "ref": "refs/heads/fix/ocode-cloud-agent-brand-github-auth",
+          "sha": "957e86c7de243e41d54d290b2e9ad982ba88ebbc",
+          "type": "commit"
+        },
+        {
+          "ref": "refs/heads/fix/ocode-cloud-agent-brand-github-auth-v2",
+          "sha": "8e63abbffdc321a532f939d24fd98428a03c2881",
+          "type": "commit"
+        },
+        {
+          "ref": "refs/heads/fix/rate-limit-cleanup-amortized",
+          "sha": "41b4ba6140b7a7c28b75928d12e5dab19dc32f88",
+          "type": "commit"
+        },
+        {
+          "ref": "refs/heads/fix/root-ci-pinned-actions",
+          "sha": "022facf9f08e0afe7b70e94e0883e5dd81a932b5",
+          "type": "commit"
+        },
+        {
+          "ref": "refs/heads/fix/router-param-prototype-safety",
+          "sha": "b3c5a4f2c82fa816e2ef44a93db066f3ee3ae7d2",
+          "type": "commit"
+        },
+        {
+          "ref": "refs/heads/main",
+          "sha": "457e78153a612ea8168a8062f4e437c4981f8f67",
+          "type": "commit"
+        },
+        {
+          "ref": "refs/heads/release/0.1.0-api-coverage",
+          "sha": "019e118f7e73486c4770a01c1f0ab48d2a96e6e7",
+          "type": "commit"
+        },
+        {
+          "ref": "refs/heads/test/cloud-agent-auth-store",
+          "sha": "9a42065745ecb33412189dd6c5507098baf3dd2d",
+          "type": "commit"
+        },
+        {
+          "ref": "refs/heads/vercel/install-vercel-web-analytics-ddcmj5",
+          "sha": "c1551bb06946e1c6db5add4ac0c36cf97c622412",
+          "type": "commit"
+        },
+        {
+          "ref": "refs/heads/vercel/install-vercel-web-analytics-levhtu",
+          "sha": "44c68546b75966acb60259501c9935a8020e9c59",
+          "type": "commit"
+        },
+        {
+          "ref": "refs/heads/vercel/install-vercel-web-analytics-ydjuk3",
+          "sha": "532bc595049ed1001fb8cf71ee0aa0110265bf54",
+          "type": "commit"
+        }
+      ],
+      "tags": [],
+      "branch_error": null,
+      "tag_error": null
+    },
+    {
+      "repository": "zskbot/ocodejs-web4s-bridge",
+      "metadata": {
+        "id": 1462833183,
+        "private": false,
+        "visibility": "public",
+        "fork": false,
+        "default_branch": "main",
+        "archived": false,
+        "pushed_at": "2026-11-18T14:17:46Z",
+        "updated_at": "2026-11-18T13:43:20Z"
+      },
+      "branches": [
+        {
+          "ref": "refs/heads/chore/ignore-local-secrets-and-node-artifacts",
+          "sha": "d967dd94c08baeb3330e0c5611ecabe557b9bda6",
+          "type": "commit"
+        },
+        {
+          "ref": "refs/heads/feat/initial-web4s-bridge",
+          "sha": "0ee56ad655cc67ab7ddca7c91b65bf344127e01f",
+          "type": "commit"
+        },
+        {
+          "ref": "refs/heads/feat/read-only-web4s-client-foundation",
+          "sha": "46a212567ea5ed7b8dc3fe2adc4b6b5625b30df6",
+          "type": "commit"
+        },
+        {
+          "ref": "refs/heads/feat/web4s-v5-readiness-and-config-hardening",
+          "sha": "8ca63332db3e852eabe8459550ef33e453aab617",
+          "type": "commit"
+        },
+        {
+          "ref": "refs/heads/fix/base-path-boundary-validation",
+          "sha": "b96ab691ff6e83a1b420f490ac232b7220d95bc9",
+          "type": "commit"
+        },
+        {
+          "ref": "refs/heads/fix/bridge-ci-npm-lockfile",
+          "sha": "97694506aeacc9ef948fb31c5f429ab9b4e548e6",
+          "type": "commit"
+        },
+        {
+          "ref": "refs/heads/fix/ci-and-client-input-validation",
+          "sha": "a2ec3094d1c98f4a7e813177f01d5aca13157d76",
+          "type": "commit"
+        },
+        {
+          "ref": "refs/heads/main",
+          "sha": "842432ab1384541f437e3dfae1edb0f0961795fd",
+          "type": "commit"
+        },
+        {
+          "ref": "refs/heads/test/server-config-security-coverage",
+          "sha": "f58d605b7812a751f41452175e9b98358908489c",
+          "type": "commit"
+        }
+      ],
+      "tags": [],
+      "branch_error": null,
+      "tag_error": null
+    },
+    {
+      "repository": "zskbot/docs-ocodejs",
+      "metadata": {
+        "id": 1430328803,
+        "private": false,
+        "visibility": "public",
+        "fork": false,
+        "default_branch": "main",
+        "archived": false,
+        "pushed_at": "2026-11-12T16:44:45Z",
+        "updated_at": "2026-11-12T14:34:51Z"
+      },
+      "branches": [
+        {
+          "ref": "refs/heads/automation/daily-health-monitor-2026-11-01",
+          "sha": "d53d490188f5a9d8d2bacdd37440d20349ab35b2",
+          "type": "commit"
+        },
+        {
+          "ref": "refs/heads/automation/health-alert-issues",
+          "sha": "482515216ee6dce8dfa5aeaef7f5965e507d37f8",
+          "type": "commit"
+        },
+        {
+          "ref": "refs/heads/automation/mcp-smoke-every-main-push",
+          "sha": "2ba6beb0ccb457b3877afc97af6743598b0c5d53",
+          "type": "commit"
+        },
+        {
+          "ref": "refs/heads/chore/ocodejs-brand-standardization-inventory-2026-11-12",
+          "sha": "f96c2566eb9f900347542a4c25ac4270b181bbb5",
+          "type": "commit"
+        },
+        {
+          "ref": "refs/heads/chore/ocodejs-ecosystem-sync",
+          "sha": "965f9b819dea876e04fa967ac2e4cd5fc366cfc4",
+          "type": "commit"
+        },
+        {
+          "ref": "refs/heads/design/ocodejs-rebrand-documentation-site",
+          "sha": "51914d332be962a4d9d6a92f243f7a6640d67d08",
+          "type": "commit"
+        },
+        {
+          "ref": "refs/heads/docs/accurate-library-positioning",
+          "sha": "55b477db52f3d2c60c9f9ca0d95336fce1c9e4fe",
+          "type": "commit"
+        },
+        {
+          "ref": "refs/heads/docs/aggregate-velclaw-ecosystem",
+          "sha": "b4fa9f902c2528cdc401aa2ebad044bace89a0eb",
+          "type": "commit"
+        },
+        {
+          "ref": "refs/heads/docs/align-ecosystem-contracts",
+          "sha": "1f205e1ca85746c80c20aa0adf95d3c5a16ab3f3",
+          "type": "commit"
+        },
+        {
+          "ref": "refs/heads/docs/audit-on-current-main",
+          "sha": "1a620506b7996af14d41f7e48ea32664a2cf86ca",
+          "type": "commit"
+        },
+        {
+          "ref": "refs/heads/docs/content-level-review",
+          "sha": "75b498f7d8b4d34b699d408128154b46f88c744a",
+          "type": "commit"
+        },
+        {
+          "ref": "refs/heads/docs/ecosystem-operations-release-gates",
+          "sha": "cb213687d6d7b4a3c7485c5414a6b7798fb9c416",
+          "type": "commit"
+        },
+        {
+          "ref": "refs/heads/docs/ecosystem-roadmap-2026-10",
+          "sha": "5b878c19de9142c4ecbbab5517ed647c0c233029",
+          "type": "commit"
+        },
+        {
+          "ref": "refs/heads/docs/focus-docs-hub-disable-sync",
+          "sha": "a9b229583c4f3936183c152f4f63bd8263d767c0",
+          "type": "commit"
+        },
+        {
+          "ref": "refs/heads/docs/manage-agent-sessions",
+          "sha": "4bdecbdeec9b424fc1470e63bc22aa6c3fc9d061",
+          "type": "commit"
+        },
+        {
+          "ref": "refs/heads/docs/rebase-safe-ecosystem-audit",
+          "sha": "62773d50b04ac80fdba1eb4e2cfdcd5c6cb7586a",
+          "type": "commit"
+        },
+        {
+          "ref": "refs/heads/docs/refresh-mcp-access-verification-2026-11-01",
+          "sha": "1a1caa44e1bc7c674560229e66391f9157c5b7a1",
+          "type": "commit"
+        },
+        {
+          "ref": "refs/heads/docs/refresh-mcp-runtime-evidence",
+          "sha": "1e8bb4b6778d6a13b7834116e50659e135163da7",
+          "type": "commit"
+        },
+        {
+          "ref": "refs/heads/docs/replace-xbo-section-with-ask-ocodejs",
+          "sha": "678c7a41936915cbebbe67354be6d2bdcff4895e",
+          "type": "commit"
+        },
+        {
+          "ref": "refs/heads/docs/sync-permission-troubleshooting",
+          "sha": "4f8ec466f8aefc6b3c21064c74092db118d064db",
+          "type": "commit"
+        },
+        {
+          "ref": "refs/heads/feat/add-ocodejs-org-sync-target",
+          "sha": "b62baf29631907063e05f184ed72b2e52677f8f2",
+          "type": "commit"
+        },
+        {
+          "ref": "refs/heads/feat/agent-skills-directory",
+          "sha": "de00af2b0eb011c91ec88aaab21fa729f37c4bb6",
+          "type": "commit"
+        },
+        {
+          "ref": "refs/heads/feat/docs-left-sidebar-navigation",
+          "sha": "6739ba11d35dce0d8416726f6f0de475d4ad46c8",
+          "type": "commit"
+        },
+        {
+          "ref": "refs/heads/feat/expand-ecosystem-sync-targets",
+          "sha": "b452b3311c0c048f0a9bbd7da8e806d53df4f5bf",
+          "type": "commit"
+        },
+        {
+          "ref": "refs/heads/feat/ocodejs-chatbot-integration",
+          "sha": "d7fc2b834f5f4735eb16fb2d0279cb084b5efdab",
+          "type": "commit"
+        },
+        {
+          "ref": "refs/heads/feat/ocodejs-docs-mcp",
+          "sha": "ccf09bda940b5783ddffad64be02bbcb11a51e15",
+          "type": "commit"
+        },
+        {
+          "ref": "refs/heads/feat/ocodejs-mcp-oauth-docs-gateway",
+          "sha": "84a1c1207e97ff969fc3af493225311786fe0ef1",
+          "type": "commit"
+        },
+        {
+          "ref": "refs/heads/feat/openai-plugin-development-guide",
+          "sha": "13df9121a720b31128d3244c8f6581663c840751",
+          "type": "commit"
+        },
+        {
+          "ref": "refs/heads/feat/transparent-ocode-logo",
+          "sha": "715a6144b8d91135582bd11842d300d6f2088922",
+          "type": "commit"
+        },
+        {
+          "ref": "refs/heads/feat/x-bo-by-ocodejs-blueprint",
+          "sha": "65f3b2874e7ede9ce98d7eec2a3036e0a4c8c949",
+          "type": "commit"
+        },
+        {
+          "ref": "refs/heads/fix/avoid-competing-pages-deploy",
+          "sha": "d50bce3024fdd73650c3dc60ac5a3df9c1ae8254",
+          "type": "commit"
+        },
+        {
+          "ref": "refs/heads/fix/ecosystem-sync-heredoc",
+          "sha": "d9710e5dc4c7d1f4401a5eff073c24e889a6c99c",
+          "type": "commit"
+        },
+        {
+          "ref": "refs/heads/fix/jekyll-liquid-upstream-content",
+          "sha": "1cbc0425cace240b936fe9d11bc40581b55c2314",
+          "type": "commit"
+        },
+        {
+          "ref": "refs/heads/fix/mcp-access-service-token-ci",
+          "sha": "cc8a43533aff5aed4372d4c2818d901ff477050c",
+          "type": "commit"
+        },
+        {
+          "ref": "refs/heads/fix/ocodejs-oauth-redirect-validation",
+          "sha": "771df3ff299ceee726222417d0aa438c0446491e",
+          "type": "commit"
+        },
+        {
+          "ref": "refs/heads/fix/sync-continue-on-target-errors",
+          "sha": "8b1bf5ac57d3bf45f0aa6a4c82568f77310faecb",
+          "type": "commit"
+        },
+        {
+          "ref": "refs/heads/fix/sync-git-push-auth",
+          "sha": "8386647d31c86f816e816c9e34fcf2baccef0b75",
+          "type": "commit"
+        },
+        {
+          "ref": "refs/heads/fix/sync-pr-body-and-target-errors",
+          "sha": "0b5a30df9ebb4b24d1ef6e49ee214bfa52e0fe83",
+          "type": "commit"
+        },
+        {
+          "ref": "refs/heads/fix/sync-preflight-and-exclude-artifact",
+          "sha": "d0e7adefa4518f47167842b908af612dccaa18d2",
+          "type": "commit"
+        },
+        {
+          "ref": "refs/heads/fix/sync-stop-on-target-errors",
+          "sha": "1567ec5b2ac91b19ac787fc0149a104d0fa8ba95",
+          "type": "commit"
+        },
+        {
+          "ref": "refs/heads/fix/sync-token-diagnostics-and-pages-workflows",
+          "sha": "dbe740c92ba74658254afca9c5eca20240f8b345",
+          "type": "commit"
+        },
+        {
+          "ref": "refs/heads/fix/sync-token-header",
+          "sha": "4c02a7607309d3ec7750ab1c6edc13ea5c753b43",
+          "type": "commit"
+        },
+        {
+          "ref": "refs/heads/fix/sync-token-preflight",
+          "sha": "3c30919d3fd14177a1ab7a908e8e4f3a3292b41d",
+          "type": "commit"
+        },
+        {
+          "ref": "refs/heads/infra/control-center-phase-2",
+          "sha": "1b9effd186d0ee950cafee8da6161a038b1f1a0b",
+          "type": "commit"
+        },
+        {
+          "ref": "refs/heads/infra/ecosystem-validation",
+          "sha": "17b6545be533e6dbd8d4a5d248e8c27669afe939",
+          "type": "commit"
+        },
+        {
+          "ref": "refs/heads/infra/expand-docs-platform-foundation",
+          "sha": "86329d05aa8e81dfca7573f0e9a477ef84b1e433",
+          "type": "commit"
+        },
+        {
+          "ref": "refs/heads/infra/pages-post-deploy-smoke-test",
+          "sha": "6b53ffd8201f632886f3f54dfd8226ca46f6e194",
+          "type": "commit"
+        },
+        {
+          "ref": "refs/heads/infra/post-merge-evidence-correction",
+          "sha": "f6145f502c2388829dab9e7cdf0c7f567bc0b9e7",
+          "type": "commit"
+        },
+        {
+          "ref": "refs/heads/infra/verified-pages-mcp-runtime-and-node24",
+          "sha": "b4a49abecf3fd4be8989b1f789944373c1d92f89",
+          "type": "commit"
+        },
+        {
+          "ref": "refs/heads/main",
+          "sha": "98eadbfaecab2042f514b380b86d9544b60f2add",
+          "type": "commit"
+        },
+        {
+          "ref": "refs/heads/ops/run-safe-ecosystem-audit",
+          "sha": "6bc03f3eaf110a25ea1437d69617edaf04e8f656",
+          "type": "commit"
+        },
+        {
+          "ref": "refs/heads/security/pin-pages-actions-sha",
+          "sha": "99995472fcd8014021b34e390fb52c0fe419a7bb",
+          "type": "commit"
+        },
+        {
+          "ref": "refs/heads/test/mobile-navigation-quality-gates",
+          "sha": "18fb328d4598d12f3bcf937a6e10c9a8f6030036",
+          "type": "commit"
+        },
+        {
+          "ref": "refs/heads/ui/align-sidebar-menu-with-pages-logo",
+          "sha": "a427e7ace42cde7137d68bf867dc0df0b9e0f70a",
+          "type": "commit"
+        },
+        {
+          "ref": "refs/heads/ui/mobile-hero-reference-design",
+          "sha": "45b4ab9bae8f39fb0d36978b4c02895755d2a0c2",
+          "type": "commit"
+        },
+        {
+          "ref": "refs/heads/ui/polished-professional-sidebar-icons",
+          "sha": "6cd9d4f19bebd7198d9f0f31e31d06dcdacb3ef9",
+          "type": "commit"
+        },
+        {
+          "ref": "refs/heads/ui/refresh-ocode-branding-from-reference",
+          "sha": "fbde0b6ec2d0cc7bf531cdb39be493bb46e629ab",
+          "type": "commit"
+        },
+        {
+          "ref": "refs/heads/ui/svg-icons-match-pages-logo",
+          "sha": "583cdfe926a8bda4f4344efc96c536fbbebbb8ca",
+          "type": "commit"
+        }
+      ],
+      "tags": [],
+      "branch_error": null,
+      "tag_error": null
+    }
+  ]
+}
