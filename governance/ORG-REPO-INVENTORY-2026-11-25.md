@@ -15,7 +15,6 @@
 | `OCodejs/.github` | main | public |
 | `OCodejs/.agents-skills-prisma-cli-SKILL.md` | main | public |
 | `OCodejs/0codejs` | main | private |
-| `OCodejs/AI` | main | public |
 | `OCodejs/Autorun` | main | public |
 | `OCodejs/Authentication` | main | public |
 | `OCodejs/Cloudxx` | main | public |
